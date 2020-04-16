@@ -12,5 +12,10 @@ class DataType {
 		double d = 3.1415926;
 		System.out.println(f);
 		System.out.println(d);
+
+		int[] arrayA = new int[10];
+		System.out.println(arrayA);
+        int[] arrayB = {12,22,32,42,52};
+		System.out.println(arrayB);
 	}
 }
