@@ -1,3 +1,4 @@
+package demo01;
 class Demo05Function {
   public static void main(String[] args){
     int s = sum(10,20); 
