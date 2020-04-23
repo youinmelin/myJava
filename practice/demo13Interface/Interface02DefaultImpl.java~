@@ -5,7 +5,7 @@ public class Interface02DefaultImpl implements Interface02Default {
 	}
 
 	@Override
-	public void methodDefault() {
+	public default void methodDefault() {
 		System.out.println("override.");
 	}
 }
