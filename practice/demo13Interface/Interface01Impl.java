@@ -1,3 +1,4 @@
+package demo13Interface;
 public class Interface01Impl implements Interface01 {
 	@Override
 	public void methodAbs() {
