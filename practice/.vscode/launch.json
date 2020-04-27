@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - PracticePorker",
+            "request": "launch",
+            "mainClass": "demo21Collection.PracticePorker",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Iterator02For",
+            "request": "launch",
+            "mainClass": "demo21Collection.Iterator02For",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Iterator01",
+            "request": "launch",
+            "mainClass": "demo21Collection.Iterator01",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Collection01",
+            "request": "launch",
+            "mainClass": "demo21Collection.Collection01",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SimpleDateFormat01",
+            "request": "launch",
+            "mainClass": "demo18DateTime.SimpleDateFormat01",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Date01",
+            "request": "launch",
+            "mainClass": "demo18DateTime.Date01",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Equals",
+            "request": "launch",
+            "mainClass": "demo17Object.Equals",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - HelloWorld",
             "request": "launch",
             "mainClass": "src.demo01.HelloWorld"

@@ -6,13 +6,16 @@ public class Student {
 
     @Override
     public boolean equals(Object obj) {
-        Student stu = (Student) obj;
-        if (this.name == stu.name) {
-            return true;
+        if (obj instanceof Student) {
+            Student stu = (Student) obj;
+            boolean same = this.name.equals(stu.name); 
+            return same;
         }else{
             return false;
         }
     }
+
+        
 
     public Student(String name, int age) {
         this.name = name;
