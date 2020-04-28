@@ -10,7 +10,6 @@ public class PracticePoker {
         listAll = BuildPorker.build();
         // random the order of the poker, use shuffle method 
         Collections.shuffle(listAll);
-		// distribute cards to 3 players, each of them have 17 cards, the last 3 left are put into an other list
         ArrayList<String> list1= new ArrayList<>();
         ArrayList<String> list2= new ArrayList<>();
         ArrayList<String> list3= new ArrayList<>();
