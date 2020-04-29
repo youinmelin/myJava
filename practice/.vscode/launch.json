@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Map07Poker",
+            "request": "launch",
+            "mainClass": "demo25Map.Map07Poker",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Collection03Sort02",
+            "request": "launch",
+            "mainClass": "demo24Collections.Collection03Sort02",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Collections02",
+            "request": "launch",
+            "mainClass": "demo24Collections.Collections02",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Collections01",
+            "request": "launch",
+            "mainClass": "demo24Collections.Collections01",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HashCode02Add",
+            "request": "launch",
+            "mainClass": "demo23Set.HashCode02Add",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - PracticePorker",
             "request": "launch",
             "mainClass": "demo21Collection.PracticePorker",
