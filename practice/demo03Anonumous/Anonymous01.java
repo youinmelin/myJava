@@ -1,4 +1,4 @@
-package demo3Anonymous;
+package demo03Anonumous;
 
 import java.util.Scanner;
 

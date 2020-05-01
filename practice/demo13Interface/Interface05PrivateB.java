@@ -1,6 +1,6 @@
 package demo13Interface;
 
-public interface Interface06PrivateB {
+public interface Interface05PrivateB {
     public static void methodStatic1() {
         System.out.println("static method 1.");
         commonMethod();

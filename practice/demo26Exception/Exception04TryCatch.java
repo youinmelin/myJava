@@ -8,6 +8,11 @@ public class Exception04TryCatch {
 			readFile(fileName);
 		}catch ( IOException e) {
 			System.out.println(e);
+			System.out.println(e.getMessage());
+			System.out.println(e.toString());
+			e.printStackTrace();
+		}finally {
+			System.out.println("Resource released.");
 		}
 
 	}

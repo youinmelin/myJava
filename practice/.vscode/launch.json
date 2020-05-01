@@ -6,6 +6,90 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - WaitAndNotifyAll",
+            "request": "launch",
+            "mainClass": "demo28Waiting.WaitAndNotifyAll",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - WaitAndNotify",
+            "request": "launch",
+            "mainClass": "demo28Waiting.WaitAndNotify",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Thread07Lock",
+            "request": "launch",
+            "mainClass": "demo27Thread.Thread07Lock",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Thread06SynFunc",
+            "request": "launch",
+            "mainClass": "demo27Thread.Thread06SynFunc",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Thread05Synchornized",
+            "request": "launch",
+            "mainClass": "demo27Thread.Thread05Synchornized",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Thread04Safe",
+            "request": "launch",
+            "mainClass": "demo27Thread.Thread04Safe",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Thread03Runnable",
+            "request": "launch",
+            "mainClass": "demo27Thread.Thread03Runnable",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Thread02",
+            "request": "launch",
+            "mainClass": "demo27Thread.Thread02",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Thread01",
+            "request": "launch",
+            "mainClass": "demo27Thread.Thread01",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Anonymous01",
+            "request": "launch",
+            "mainClass": "demo03Anonumous.Anonymous01",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Exception04TryCatch",
+            "request": "launch",
+            "mainClass": "demo26Exception.Exception04TryCatch",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Map06CountLetters",
+            "request": "launch",
+            "mainClass": "demo25Map.Map06CountLetters",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Map07Poker",
             "request": "launch",
             "mainClass": "demo25Map.Map07Poker",
