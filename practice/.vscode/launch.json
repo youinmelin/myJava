@@ -6,6 +6,188 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Writer01",
+            "request": "launch",
+            "mainClass": "demo33ReaderWriter.Writer01",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Reader01",
+            "request": "launch",
+            "mainClass": "demo33ReaderWriter.Reader01",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CopyFile03",
+            "request": "launch",
+            "mainClass": "demo32Stream.CopyFile03",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CopyFile02",
+            "request": "launch",
+            "mainClass": "demo32Stream.CopyFile02",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CopyFile",
+            "request": "launch",
+            "mainClass": "demo32Stream.CopyFile",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - InputStream02",
+            "request": "launch",
+            "mainClass": "demo32Stream.InputStream02",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - InputStream01",
+            "request": "launch",
+            "mainClass": "demo32Stream.InputStream01",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - OutputStream02",
+            "request": "launch",
+            "mainClass": "demo32Stream.OutputStream02",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - OutputStream01",
+            "request": "launch",
+            "mainClass": "demo32Stream.OutputStream01",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Recurrence05FilenameFilter",
+            "request": "launch",
+            "mainClass": "demo31Recurrence.Recurrence05FilenameFilter",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Recurrence05FileFilter",
+            "request": "launch",
+            "mainClass": "demo31Recurrence.Recurrence05FileFilter",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Recurrence04FindFiles",
+            "request": "launch",
+            "mainClass": "demo31Recurrence.Recurrence04FindFiles",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Recurrence01Accumulate",
+            "request": "launch",
+            "mainClass": "demo31Recurrence.Recurrence01Accumulate",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Recurrence03Mutipath",
+            "request": "launch",
+            "mainClass": "demo31Recurrence.Recurrence03Mutipath",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Recurrence02Factorial",
+            "request": "launch",
+            "mainClass": "demo31Recurrence.Recurrence02Factorial",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Recurrence01",
+            "request": "launch",
+            "mainClass": "demo31Recurrence.Recurrence01",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - File04CreateDelete",
+            "request": "launch",
+            "mainClass": "demo30File.File04CreateDelete",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - File03Iterate",
+            "request": "launch",
+            "mainClass": "demo30File.File03Iterate",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Demo03Recurrence",
+            "request": "launch",
+            "mainClass": "demo02Scanner.Demo03Recurrence",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - demo03Recurrence",
+            "request": "launch",
+            "mainClass": "demo02Scanner.demo03Recurrence",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - File02Get",
+            "request": "launch",
+            "mainClass": "demo30File.File02Get",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - File01",
+            "request": "launch",
+            "mainClass": "demo30File.File01",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Lambda02",
+            "request": "launch",
+            "mainClass": "demoLambda.Lambda02",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Lambda",
+            "request": "launch",
+            "mainClass": "demoLambda.Lambda",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ThreadPool",
+            "request": "launch",
+            "mainClass": "demo28Waiting.ThreadPool",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MakeAndEat",
+            "request": "launch",
+            "mainClass": "demo28Waiting.MakeAndEat",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - WaitAndNotifyAll",
             "request": "launch",
             "mainClass": "demo28Waiting.WaitAndNotifyAll",
