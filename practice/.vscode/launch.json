@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - BufferedReader01",
+            "request": "launch",
+            "mainClass": "demo35Buffered.BufferedReader01",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BufferedWriter01",
+            "request": "launch",
+            "mainClass": "demo35Buffered.BufferedWriter01",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BufferedInputStream01",
+            "request": "launch",
+            "mainClass": "demo35Buffered.BufferedInputStream01",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BufferedOutputStream01",
+            "request": "launch",
+            "mainClass": "demo35Buffered.BufferedOutputStream01",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Properties03Load",
+            "request": "launch",
+            "mainClass": "demo34Properties.Properties03Load",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Properties02Store",
+            "request": "launch",
+            "mainClass": "demo34Properties.Properties02Store",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Properties01",
+            "request": "launch",
+            "mainClass": "demo34Properties.Properties01",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Writer01",
             "request": "launch",
             "mainClass": "demo33ReaderWriter.Writer01",

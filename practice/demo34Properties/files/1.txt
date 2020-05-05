@@ -1,0 +1,9 @@
+#comments
+#Tue May 05 09:36:06 CST 2020
+name=age
+Nancy=19
+key=value
+abc fdjaskl
+faf, fdasf
+fjkdsalfjsdk
+name=nnn
