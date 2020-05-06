@@ -5,8 +5,9 @@ import java.util.Scanner;
 
 public class Recurrence04FindFiles {
     public static void main(String[] args) {
-        String path = ".\\";
+        String path = ".";
         File file = new File(path);
+		System.out.println(file);
         System.out.println("Please input filename to search: ");
         Scanner sc = new Scanner(System.in);
         String filename = sc.next();

@@ -1,0 +1,11 @@
+# ages of people
+HarryPotter 11
+Hermione 11
+Ronald 11
+Dumbledore 70
+Snape 55
+Hargrid 32
+Lupin 35
+Dobby 101
+Sirius 35
+Chang 10
