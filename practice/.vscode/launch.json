@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Properties04Sort",
+            "request": "launch",
+            "mainClass": "demo34Properties.Properties04Sort",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BufferedSortLine",
+            "request": "launch",
+            "mainClass": "demo35Buffered.BufferedSortLine",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - BufferedReader01",
             "request": "launch",
             "mainClass": "demo35Buffered.BufferedReader01",
