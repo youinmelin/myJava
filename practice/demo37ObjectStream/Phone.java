@@ -1,6 +1,8 @@
-package demo25Map;
+package demo37ObjectStream;
 
-public class Phone {
+import java.io.Serializable;
+
+public class Phone implements Serializable {
 	private String type;
 	private int price;
 
