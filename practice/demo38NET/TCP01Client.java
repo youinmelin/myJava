@@ -4,14 +4,13 @@ import java.net.Socket;
 import java.io.OutputStream;
 import java.io.IOException;
 
-public class TCPClient {
+public class TCP01Client {
 	public static void main(String[] args) throws IOException {
-		String serverIP = "192.168.0.104";
-		int serverPort = 6000;
+		String serverIP = "192.168.0.111";
+		int serverPort = 2222;
 		Socket socket = new Socket(serverIP,serverPort);
 		OutputStream ops = socket.getOutputStream();
-		ops.write(97);
-
+		ops.write("hello".getBytes());
 		socket.close();
 	}
 }

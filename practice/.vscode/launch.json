@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - TCP03FileClient",
+            "request": "launch",
+            "mainClass": "demo38NET.TCP03FileClient",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TCPServer",
+            "request": "launch",
+            "mainClass": "demo38NET.TCPServer",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TCPClient",
+            "request": "launch",
+            "mainClass": "demo38NET.TCPClient",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Properties04Sort",
             "request": "launch",
             "mainClass": "demo34Properties.Properties04Sort",
