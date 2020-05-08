@@ -43,7 +43,9 @@ public class TCP05FileServer02Thread implements Runnable {
 						String path = "demo38NET/files/";
 						if ( filename.startsWith("GET")) {
 							System.out.println("client is a browser");
-							os.write("HTTP/1.1 200 OK\n".getBytes());
+							os.write("HTTP/1.1 200 OK\r\n".getBytes());
+							os.write("Content-Type:text/html\r\n".getBytes());
+							os.write("\r\n".getBytes());
 							os.write("<body><h1> Hello!Browser!</h1></body><".getBytes());
 						}else{
 							System.out.println("client is a terminal");
