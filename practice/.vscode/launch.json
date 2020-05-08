@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ThreadRun",
+            "request": "launch",
+            "mainClass": "demo38NET.ThreadRun",
+            "projectName": "practice_eabcc68b"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TCP03FileClient",
+            "request": "launch",
+            "mainClass": "demo38NET.TCP03FileClient",
+            "projectName": "practice_eabcc68b"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TCP01Client",
+            "request": "launch",
+            "mainClass": "demo38NET.TCP01Client",
+            "projectName": "practice_eabcc68b"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - TCP03FileClient",
             "request": "launch",
             "mainClass": "demo38NET.TCP03FileClient",
