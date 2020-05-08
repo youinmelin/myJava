@@ -3,6 +3,8 @@ package demo38NET;
 // to implement two feature : 
 // 1, tcp client can upload file,the first message will be the filename;
 // 2, if require information is http require, then it will be a http serves;
+// How to use: run "ThreadRun" to build server, input port of the server.
+// then open the UTP client input filename first or use browser. 
 
 import java.net.ServerSocket;
 import java.net.Socket;
@@ -24,7 +26,6 @@ public class TCP05FileServer02Thread implements Runnable {
 		@Override
 		public void run() {
 			try {
-				
 				while (true) {
 					System.out.println("Server started. Waiting for clients...");
 					Socket client = server.accept();
@@ -46,7 +47,7 @@ public class TCP05FileServer02Thread implements Runnable {
 							os.write("HTTP/1.1 200 OK\r\n".getBytes());
 							os.write("Content-Type:text/html\r\n".getBytes());
 							os.write("\r\n".getBytes());
-							os.write("<body><h1> Hello!Browser!</h1></body><".getBytes());
+							os.write("<body><h1> Hello!Browser!</h1></body>".getBytes());
 						}else{
 							System.out.println("client is a terminal");
 							FileOutputStream fos = new FileOutputStream(path+filename, true);
@@ -55,7 +56,13 @@ public class TCP05FileServer02Thread implements Runnable {
 							// then receive the content of the file
 							while (true) {
 								len = is.read(b);
-								fos.write(b, 0, len);
+								// in case of client disconneting
+								try{
+									fos.write(b, 0, len);
+								}catch(Exception e){
+									e.printStackTrace();
+									break;
+								}
 								String bStr = new String(b, 0, len);
 								if (len == -1 || "bye".equals(bStr)) {
 									break;
@@ -73,6 +80,13 @@ public class TCP05FileServer02Thread implements Runnable {
 			}
 			catch(IOException e) {
 				System.out.println(e);
+			}finally{
+				try {
+					server.close();
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
 			}
 
 		}

@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Runnable02",
+            "request": "launch",
+            "mainClass": "demo39FunctionalInterface.Runnable02",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Runnable01",
+            "request": "launch",
+            "mainClass": "demo39FunctionalInterface.Runnable01",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Logger",
+            "request": "launch",
+            "mainClass": "demo39FunctionalInterface.Logger",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - UseFI",
+            "request": "launch",
+            "mainClass": "demo39FunctionalInterface.UseFI",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ThreadRun",
+            "request": "launch",
+            "mainClass": "demo38NET.ThreadRun",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ThreadRun",
             "request": "launch",
             "mainClass": "demo38NET.ThreadRun",

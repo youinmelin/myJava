@@ -7,7 +7,7 @@ public class PracticePoker {
     public static void main(String[] args) {
         ArrayList<String> listAll = new ArrayList<>();
 		// bulid a set of poker save it into a List
-        listAll = BuildPorker.build();
+        listAll = BuildPoker.build();
         // random the order of the poker, use shuffle method 
         Collections.shuffle(listAll);
         ArrayList<String> list1= new ArrayList<>();

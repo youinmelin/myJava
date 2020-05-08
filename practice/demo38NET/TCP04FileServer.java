@@ -44,6 +44,6 @@ public class TCP04FileServer {
 			client.close();
 		}
 
-		server.close();
+		// server.close();
 	}
 }
