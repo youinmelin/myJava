@@ -8,5 +8,8 @@ public class Runnable02 {
 
     public static void main(String[] args) {
         startThread(() -> System.out.println(Thread.currentThread()));
+        startThread(() -> System.out.println(Thread.currentThread()));
+        startThread(() -> System.out.println(Thread.currentThread()));
+        startThread(() -> System.out.println(Thread.currentThread()));
     }
 }
