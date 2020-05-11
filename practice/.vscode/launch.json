@@ -6,6 +6,90 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Stream06Concat",
+            "request": "launch",
+            "mainClass": "demo40Stream.Stream06Concat",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Stream05Skip",
+            "request": "launch",
+            "mainClass": "demo40Stream.Stream05Skip",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Stream04Map",
+            "request": "launch",
+            "mainClass": "demo40Dream.Stream04Map",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Stream03Filter",
+            "request": "launch",
+            "mainClass": "demo40Dream.Stream03Filter",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Stream02ForEach",
+            "request": "launch",
+            "mainClass": "demo40Dream.Stream02ForEach",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Stream02",
+            "request": "launch",
+            "mainClass": "demo40Dream.Stream02",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Stream01",
+            "request": "launch",
+            "mainClass": "demo40Dream.Stream01",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Function01",
+            "request": "launch",
+            "mainClass": "demo39FunctionalInterface.Function01",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Predicate02And",
+            "request": "launch",
+            "mainClass": "demo39FunctionalInterface.Predicate02And",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Predicate01",
+            "request": "launch",
+            "mainClass": "demo39FunctionalInterface.Predicate01",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Consumer02",
+            "request": "launch",
+            "mainClass": "demo39FunctionalInterface.Consumer02",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Comparator02",
+            "request": "launch",
+            "mainClass": "demo39FunctionalInterface.Comparator02",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Runnable02",
             "request": "launch",
             "mainClass": "demo39FunctionalInterface.Runnable02",
