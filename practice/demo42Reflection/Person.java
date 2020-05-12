@@ -27,6 +27,14 @@ public class Person {
 		this.age = age;
 	}
 
+	public void eat() {
+		System.out.println("eating...");
+	}
+
+	public void eat(String str) {
+		System.out.println(str + " is eating...");
+	}
+
 	@Override
 	public String toString() {
 		return "Person [age=" + age + ", justName=" + justName + ", name=" + name + ", protectedName=" + protectedName
