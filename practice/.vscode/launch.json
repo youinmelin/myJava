@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - JDBC02",
+            "request": "launch",
+            "mainClass": "demo44JDBC.JDBC02",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Reflect02",
             "request": "launch",
             "mainClass": "demo42Reflection.Reflect02",

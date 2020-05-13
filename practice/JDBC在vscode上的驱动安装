@@ -1,0 +1,9 @@
+1.java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
+VSCode Java手动导入jar和源码包
+https://blog.ixk.me/vscode-java-manually-imports-jar-and-source-package.html
+
+2.java.lang.NoClassDefFoundError: org/aspectj/lang/Signature
+用jdbc连mysql时，遇到这个问题，将从mysql网站下载来的包里的aspectjrt.jar加到classpath里面就搞定了
+
+3.java.sql.SQLException: No database selected
+属性中少配置了URL ：jdbc:mysql://localhost:3306/databasename
