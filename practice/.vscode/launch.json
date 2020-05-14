@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - JDBC03Insert",
+            "request": "launch",
+            "mainClass": "demo44JDBC.JDBC03Insert",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - JDBC04Update",
+            "request": "launch",
+            "mainClass": "demo44JDBC.JDBC04Update",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - JDBC07Practice",
+            "request": "launch",
+            "mainClass": "demo44JDBC.JDBC07Practice",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - String01",
+            "request": "launch",
+            "mainClass": "demo06String.String01",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - JDBC07Practice",
             "request": "launch",
             "mainClass": "demo44JDBC.JDBC07Practice",

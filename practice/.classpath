@@ -7,6 +7,8 @@
   <classpathentry kind="src" path="src"/>
   <classpathentry kind="output" path="bin"/>
   <!--多出的一行-->
-  <classpathentry kind="lib" path="lib/mysql-connector-java-8.0.20.jar" sourcepath="lib/sources/mysql-connector-java-8,0,20.tar.gz" />
+  <classpathentry kind="lib" path="lib/mysql-connector-java-8.0.20.jar"  />
+  <classpathentry kind="lib" path="lib/mysql-connector-java-5.0.8-bin-g.jar" />
+  <classpathentry kind="lib" path="lib/mysql-connector-java-8.0.16.jar" />
   <classpathentry kind="lib" path="lib/aspectjrt.jar"  />
 </classpath>

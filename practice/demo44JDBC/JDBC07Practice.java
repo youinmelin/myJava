@@ -8,7 +8,8 @@ import java.util.List;
 
 public class JDBC07Practice {
     public static void main(String[] args) throws Exception {
-        Connection conn = DriverManager.getConnection("jdbc:mysql:///test", "root", "aaaaaa");
+        Class.forName("com.mysql.jdbc.Driver");
+        Connection conn = DriverManager.getConnection("jdbc:mysql:///test", "root", "");
         Statement stat = conn.createStatement();
         String sql = "select * from stu";
         ResultSet ret = stat.executeQuery(sql);

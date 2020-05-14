@@ -3,11 +3,12 @@ package demo44JDBC;
 import java.sql.*;
 
 public class JDBC04Update {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ClassNotFoundException {
         Connection conn = null;
         Statement stat = null;
 
         try {
+            Class.forName("com.mysql.jdbc.Driver");
             conn = DriverManager.getConnection("jdbc:mysql:///test", "root", "aaaaaa");
             stat = conn.createStatement();
             String sql = "update stu set id = 3 where name = 'Nasa'";
