@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - JDBC07Practice",
+            "request": "launch",
+            "mainClass": "demo44JDBC.JDBC07Practice",
+            "projectName": "practice_eabcc68b"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - JDBC06ResultSet",
+            "request": "launch",
+            "mainClass": "demo44JDBC.JDBC06ResultSet",
+            "projectName": "practice_eabcc68b"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - JDBC05Delete",
+            "request": "launch",
+            "mainClass": "demo44JDBC.JDBC05Delete",
+            "projectName": "practice_eabcc68b"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - JDBC04Update",
+            "request": "launch",
+            "mainClass": "demo44JDBC.JDBC04Update",
+            "projectName": "practice_eabcc68b"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - JDBC03Insert",
+            "request": "launch",
+            "mainClass": "demo44JDBC.JDBC03Insert",
+            "projectName": "practice_eabcc68b"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - JDBC02",
+            "request": "launch",
+            "mainClass": "demo44JDBC.JDBC02",
+            "projectName": "practice_eabcc68b"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - JDBC02",
             "request": "launch",
             "mainClass": "demo44JDBC.JDBC02",

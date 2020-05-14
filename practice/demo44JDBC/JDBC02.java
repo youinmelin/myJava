@@ -6,12 +6,12 @@ import java.sql.Statement;
 
 public class JDBC02 {
     public static void main(String[] args) throws Exception {
-        Class.forName("com.mysql.jdbc.Driver");
+        // Class.forName("com.mysql.jdbc.Driver");
         String url = "jdbc:mysql:///test";
         String user = "root";
-        String password = "";
+        String password = "aaaaaa";
         Connection conn = DriverManager.getConnection(url, user, password);
-        String sql = "update stu set age =30 where id = 1";
+        String sql = "update stu set age =40 where id = 1";
         Statement stmt = conn.createStatement();
         int count = stmt.executeUpdate(sql);
         System.out.println("--------" + count);
