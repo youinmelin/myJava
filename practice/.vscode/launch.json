@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - JDBC08PrepareStatement",
+            "request": "launch",
+            "mainClass": "demo44JDBC.JDBC08PrepareStatement",
+            "projectName": "practice_eabcc68b"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - JDBC03Insert",
             "request": "launch",
             "mainClass": "demo44JDBC.JDBC03Insert",
