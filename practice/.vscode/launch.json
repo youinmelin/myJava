@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Hello",
+            "request": "launch",
+            "mainClass": "demo48Maven.src.main.java.Hello",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MyInterface02",
+            "request": "launch",
+            "mainClass": "demo13Interface.MyInterface02",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MyInterface01",
+            "request": "launch",
+            "mainClass": "demo13Interface.MyInterface01",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - JdbcTemplate01",
+            "request": "launch",
+            "mainClass": "demo47JDBCTemplate.JdbcTemplate01",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Druid01",
+            "request": "launch",
+            "mainClass": "demo46Druid.Druid01",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - C3P001",
+            "request": "launch",
+            "mainClass": "demo45C3P0.C3P001",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - JDBC08PrepareStatement",
+            "request": "launch",
+            "mainClass": "demo44JDBC.JDBC08PrepareStatement",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - JDBC08PrepareStatement",
             "request": "launch",
             "mainClass": "demo44JDBC.JDBC08PrepareStatement",

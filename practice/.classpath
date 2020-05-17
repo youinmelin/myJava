@@ -9,6 +9,14 @@
   <!--多出的一行-->
   <classpathentry kind="lib" path="lib/mysql-connector-java-8.0.20.jar"  />
   <classpathentry kind="lib" path="lib/mysql-connector-java-5.0.8-bin-g.jar" />
-  <classpathentry kind="lib" path="lib/mysql-connector-java-8.0.16.jar" />
+  <classpathentry kind="lib" path="lib/c3p0-0.9.5.2.jar" />
+  <classpathentry kind="lib" path="lib/mchange-commons-java-0.2.12.jar" />
   <classpathentry kind="lib" path="lib/aspectjrt.jar"  />
+  <classpathentry kind="lib" path="lib/druid-1.0.9.jar"  />
+  
+  <classpathentry kind="lib" path="lib/commons-logging-1.2.jar"  />
+  <classpathentry kind="lib" path="lib/spring-beans-5.0.0.RELEASE.jar"  />
+  <classpathentry kind="lib" path="lib/spring-core-5.0.0.RELEASE.jar"  />
+  <classpathentry kind="lib" path="lib/spring-jdbc-5.0.0.RELEASE.jar"  />
+  <classpathentry kind="lib" path="lib/spring-tx-5.0.0.RELEASE.jar"  />
 </classpath>

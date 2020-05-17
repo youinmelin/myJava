@@ -11,7 +11,7 @@ public class JDBC02 {
         String user = "root";
         String password = "";
         Connection conn = DriverManager.getConnection(url, user, password);
-        String sql = "update stu set age =30 where id = 1";
+        String sql = "update stu set age =40 where id = 1";
         Statement stmt = conn.createStatement();
         int count = stmt.executeUpdate(sql);
         System.out.println("--------" + count);

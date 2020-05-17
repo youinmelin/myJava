@@ -11,7 +11,7 @@ public class JDBC03Insert {
         Connection conn = null;
         Statement stat = null;
         try {
-            conn = DriverManager.getConnection("jdbc:mysql:///test", "root", "aaaaaa");
+            conn = DriverManager.getConnection("jdbc:mysql:///test", "root", "");
             String sql = "insert into stu value(2, 'Nasa', 8)";
             stat = conn.createStatement();
             int ret = stat.executeUpdate(sql);
