@@ -1,3 +1,12 @@
 {
-    "maven.view": "hierarchical"
+    "maven.view": "hierarchical",
+    "maven.executable.preferMavenWrapper": false,
+    "java.configuration.maven.userSettings": "/usr/java/apache-maven-3.6.3/conf",
+    "java.home": "/usr/java/jdk-11.0.2",
+    "maven.executable.path": "/usr/java/apache-maven-3.6.3/bin/mvn",
+    "files.associations": {
+    
+    },
+    "java.configuration.updateBuildConfiguration": "automatic"
+
 }
