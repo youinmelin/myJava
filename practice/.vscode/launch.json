@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - jsoup01",
+            "request": "launch",
+            "mainClass": "com.xml.jsoup01",
+            "projectName": "javase"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - JDBC02",
+            "request": "launch",
+            "mainClass": "com.wber.JDBC02",
+            "projectName": "javase"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - App",
+            "request": "launch",
+            "mainClass": "com.wber.App",
+            "projectName": "javase"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - App",
             "request": "launch",
             "mainClass": "sort.App",
