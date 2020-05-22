@@ -6,6 +6,40 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - App",
+            "request": "launch",
+            "mainClass": "lin.App"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Jsoup05Xpath",
+            "request": "launch",
+            "mainClass": "com.xml.Jsoup05Xpath",
+            "projectName": "javase"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Jsoup04Selector",
+            "request": "launch",
+            "mainClass": "com.xml.Jsoup04Selector",
+            "projectName": "javase"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Jsoup03Html",
+            "request": "launch",
+            "mainClass": "com.xml.Jsoup03Html",
+            "projectName": "javase"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Jsoup02Element",
+            "request": "launch",
+            "mainClass": "com.xml.Jsoup02Element",
+            "projectName": "javase"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - jsoup01",
             "request": "launch",
             "mainClass": "com.xml.jsoup01",

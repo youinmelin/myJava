@@ -1,5 +1,5 @@
 {
-    "maven.view": "hierarchical",
+    "maven.view": "flat",
     "maven.executable.preferMavenWrapper": false,
     "java.configuration.maven.userSettings": "/usr/java/apache-maven-3.6.3/conf",
     "maven.executable.path": "/usr/java/apache-maven-3.6.3/bin/mvn",
