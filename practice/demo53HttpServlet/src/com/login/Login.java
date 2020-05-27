@@ -14,7 +14,7 @@ import java.io.IOException;
         4.登录成功跳转到SuccessServlet展示：登录成功！用户名,欢迎您
         5.登录失败跳转到FailServlet展示：登录失败，用户名或密码错误*/
 
-@WebServlet("/newlogin")
+@WebServlet("/newlogin2")
 public class Login extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String username = request.getParameter("username");
