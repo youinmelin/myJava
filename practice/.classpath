@@ -19,4 +19,6 @@
   <classpathentry kind="lib" path="lib/spring-core-5.0.0.RELEASE.jar"  />
   <classpathentry kind="lib" path="lib/spring-jdbc-5.0.0.RELEASE.jar"  />
   <classpathentry kind="lib" path="lib/spring-tx-5.0.0.RELEASE.jar"  />
+  <classpathentry kind="lib" path="lib/servlet-api.jar"  />
+
 </classpath>

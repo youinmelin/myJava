@@ -6,6 +6,7 @@
     "configurations": [
         {
             "type": "java",
+<<<<<<< HEAD
             "name": "CodeLens (Launch) - App",
             "request": "launch",
             "mainClass": "lin.App"
@@ -37,6 +38,40 @@
             "request": "launch",
             "mainClass": "com.xml.Jsoup02Element",
             "projectName": "javase"
+=======
+            "name": "CodeLens (Launch) - demo",
+            "request": "launch",
+            "mainClass": "demo52Servlet.demo",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - demo",
+            "request": "launch",
+            "mainClass": "demo",
+            "projectName": "MyServlet"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - App",
+            "request": "launch",
+            "mainClass": "demo52Servlet.MyServlet.src.main.java.App",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - demo",
+            "request": "launch",
+            "mainClass": "demo",
+            "projectName": "web"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - App",
+            "request": "launch",
+            "mainClass": "lin.App",
+            "projectName": "jsoup"
+>>>>>>> af301fd7c4dd6ac1b3069275ad9cb517be43e247
         },
         {
             "type": "java",
