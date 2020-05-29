@@ -1,11 +1,11 @@
 {
     "maven.view": "flat",
     "maven.executable.preferMavenWrapper": false,
-    "java.configuration.maven.userSettings": "/usr/java/apache-maven-3.6.3/conf",
-    "maven.executable.path": "/usr/java/apache-maven-3.6.3/bin/mvn",
-    // "java.configuration.maven.userSettings": "D:\\test\\apache-maven-3.6.3\\conf",
-    // "maven.executable.path": "D:\\test\\apache-maven-3.6.3\\bin\\mvn.cmd",
-    // "java.home": "D:\\test\\jdk-12.0.2",
+   "java.configuration.maven.userSettings": "/usr/java/apache-maven-3.6.3/conf",
+   "maven.executable.path": "/usr/java/apache-maven-3.6.3/bin/mvn",
+    //  "java.configuration.maven.userSettings": "D:\\test\\apache-maven-3.6.3\\conf",
+    //  "maven.executable.path": "D:\\test\\apache-maven-3.6.3\\bin\\mvn.cmd",
+    //  "java.home": "D:\\test\\jdk-12.0.2",
     "files.associations": {
     
     },
