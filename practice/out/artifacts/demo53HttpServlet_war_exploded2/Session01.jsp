@@ -18,16 +18,17 @@
             out.write(c.getValue());
             out.write("<br>");
         }
-        String lastTime = cookies[0].getValue();
 //        if (!Objects.equals(lastTime, "no")) {
-        if (lastTime.equals("first")) {
+        <!-- if (lastTime.equals("first")) { -->
+        if (cookies.length == 0) {
             out.write("This is the first view.");
         }else {
+            String lastTime = cookies[0].getValue();
             out.write("lastTime:" + lastTime);
         }
         Date date = new Date();
         Cookie newC = new Cookie("lastTime", date.toString());
-        
+
         out.write("current time: " + date.toString());
     %>
 </body>
