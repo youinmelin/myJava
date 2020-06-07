@@ -7,71 +7,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df45d5b5-f279-4a9e-92f0-ef6c0a39ec2f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/demo53HttpServlet_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo46JDBC_Druid/src/jdbc01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo53HttpServlet/src/com/domain/UserTel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo53HttpServlet/src/com/tel/adduserServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo53HttpServlet/src/com/tel/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo53HttpServlet/src/com/tel/dao/impl/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo53HttpServlet/src/com/tel/delTel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo53HttpServlet/src/com/tel/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo53HttpServlet/src/com/tel/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo53HttpServlet/web/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo53HttpServlet/web/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo53HttpServlet/web/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo53HttpServlet/web/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo53HttpServlet/web/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo53HttpServlet/web/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo53HttpServlet/web/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo53HttpServlet/web/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo53HttpServlet/web/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo53HttpServlet/web/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo53HttpServlet/web/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo53HttpServlet/web/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo53HttpServlet/web/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo53HttpServlet/web/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo53HttpServlet/web/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo53HttpServlet/web/js/jquery-1.11.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo53HttpServlet/web/js/npm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo54MybatisCRUD/demo54MybatisCRUD.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo54MybatisCRUD/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo54MybatisCRUD/src/main/java/lin/dao/IUserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo54MybatisCRUD/src/main/java/lin/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo54MybatisCRUD/src/main/resources/SqlMapConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo54MybatisCRUD/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo54MybatisCRUD/src/test/java/lin/test/MybatisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo54mybatis/demo54mybatis.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/demo53HttpServlet_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/demo53HttpServlet_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo54MybatisCRUD/src/main/resources/lin/dao/IUserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo54MybatisDataSource/demo54MybatisDataSource.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo54MybatisDataSource/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo54MybatisDataSource/src/main/java/com/itheima/dao/IUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo54MybatisDataSource/src/main/java/com/itheima/domain/QueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo54MybatisDataSource/src/main/java/com/itheima/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo54MybatisDataSource/src/main/resources/SqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo54MybatisDataSource/src/main/resources/com/itheima/dao/IUserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo54MybatisDataSource/src/main/resources/jdbcConfig.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo54MybatisDataSource/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo54MybatisDataSource/src/test/java/com/itheima/test/MybatisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo46JDBC_Druid/demo46JDBC_Druid.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo46JDBC_Druid/demo46JDBC_Druid.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo46JDBC_Druid/src/Druid01.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo46JDBC_Druid/src/Druid01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo46JDBC_Druid/src/druid.properties" beforeDir="false" afterPath="$PROJECT_DIR$/demo46JDBC_Druid/src/druid.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo53HttpServlet/demo53HttpServlet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo53HttpServlet/demo53HttpServlet.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo53HttpServlet/web/Session01.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/demo53HttpServlet/web/Session01.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo53HttpServlet/web/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo53HttpServlet/web/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/demo53HttpServlet_war_exploded2/Session01.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/demo53HttpServlet_war_exploded2/WEB-INF/classes/druid.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/demo53HttpServlet_war_exploded2/bootstrap/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/demo53HttpServlet_war_exploded2/bootstrap/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/demo53HttpServlet_war_exploded2/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/demo53HttpServlet_war_exploded2/jstl01.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/demo53HttpServlet_war_exploded2/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/demo53HttpServlet_war_exploded2/newlogin.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/demo53HttpServlet_war_exploded2/register.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo46JDBC_Druid/druid.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demo46JDBC_Druid/druid.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo53HttpServlet/druid.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo54MybatisCRUD/src/test/java/lin/test/MybatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo54MybatisCRUD/src/test/java/lin/test/MybatisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo54mybatis/demo54mybatis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo54mybatis/demo54mybatis.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +87,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/demo53HttpServlet/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/demo54MybatisDataSource/src/test/java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.34620506" />
@@ -143,6 +95,16 @@
     <property name="settings.editor.splitter.proportion" value="0.24803922" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\knowledge\IT\my_git\myJava\practice\demo54MybatisDataSource\src\test\java" />
+      <recent name="E:\knowledge\IT\my_git\myJava\practice\demo54MybatisDataSource\src\main\resources" />
+      <recent name="E:\knowledge\IT\my_git\myJava\practice\demo54MybatisDataSource\src" />
+      <recent name="E:\knowledge\IT\my_git\myJava\practice\demo53HttpServlet" />
+      <recent name="E:\knowledge\IT\my_git\myJava\practice\demo53HttpServlet\web\js" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="test" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\knowledge\IT\my_git\myJava\practice\demo54mybatis\src\main\resources\com\lin\dao" />
       <recent name="F:\knowledge\IT\my_git\myJava\practice\demo53HttpServlet\src\com\domain" />
@@ -150,18 +112,8 @@
       <recent name="F:\knowledge\IT\my_git\myJava\practice\demo53HttpServlet\web\WEB_INF\lib" />
       <recent name="F:\knowledge\IT\my_git\myJava\practice\demo46JDBC_Druid" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="test" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\knowledge\IT\my_git\myJava\practice\demo53HttpServlet" />
-      <recent name="E:\knowledge\IT\my_git\myJava\practice\demo53HttpServlet\web\js" />
-      <recent name="E:\knowledge\IT\my_git\myJava\practice\demo54MybatisCRUD\src\main\resources" />
-      <recent name="E:\knowledge\IT\my_git\myJava\practice\demo54MybatisAnnotation\src" />
-      <recent name="E:\knowledge\IT\my_git\myJava\practice\demo54MybatisAnnotation" />
-    </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.31">
+  <component name="RunManager" selected="JUnit.MybatisTest.testFindByVo">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -192,7 +144,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisTest.testDel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MybatisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo54MybatisCRUD" />
       <extension name="coverage">
         <pattern>
@@ -202,14 +154,30 @@
       </extension>
       <option name="PACKAGE_NAME" value="lin.test" />
       <option name="MAIN_CLASS_NAME" value="lin.test.MybatisTest" />
-      <option name="METHOD_NAME" value="testDel" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest.testFindAll (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo54MybatisDataSource" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.test" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.test.MybatisTest" />
+      <option name="METHOD_NAME" value="testFindAll" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisTest.testFindById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MybatisTest.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo54MybatisCRUD" />
       <extension name="coverage">
         <pattern>
@@ -219,7 +187,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="lin.test" />
       <option name="MAIN_CLASS_NAME" value="lin.test.MybatisTest" />
-      <option name="METHOD_NAME" value="testFindById" />
+      <option name="METHOD_NAME" value="testFindAll" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -243,34 +211,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisTest.testFindBySex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="demo54MybatisCRUD" />
+    <configuration name="MybatisTest.testFindByVo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo54MybatisDataSource" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lin.test.*" />
+          <option name="PATTERN" value="com.itheima.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lin.test" />
-      <option name="MAIN_CLASS_NAME" value="lin.test.MybatisTest" />
-      <option name="METHOD_NAME" value="testFindBySex" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MybatisTest.testSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="demo54MybatisCRUD" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lin.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lin.test" />
-      <option name="MAIN_CLASS_NAME" value="lin.test.MybatisTest" />
-      <option name="METHOD_NAME" value="testSave" />
+      <option name="PACKAGE_NAME" value="com.itheima.test" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.test.MybatisTest" />
+      <option name="METHOD_NAME" value="testFindByVo" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -426,20 +377,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.MybatisTest.testDel" />
-      <item itemvalue="JUnit.MybatisTest.testFindById" />
-      <item itemvalue="JUnit.MybatisTest.testFindBySex" />
       <item itemvalue="JUnit.MybatisTest.testFindByName" />
-      <item itemvalue="JUnit.MybatisTest.testSave" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.31" />
+      <item itemvalue="JUnit.MybatisTest.testFindAll" />
+      <item itemvalue="JUnit.MybatisTest" />
+      <item itemvalue="JUnit.MybatisTest.testFindAll (1)" />
+      <item itemvalue="JUnit.MybatisTest.testFindByVo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MybatisTest.testSave" />
+        <item itemvalue="JUnit.MybatisTest.testFindByVo" />
+        <item itemvalue="JUnit.MybatisTest.testFindAll (1)" />
+        <item itemvalue="JUnit.MybatisTest" />
+        <item itemvalue="JUnit.MybatisTest.testFindAll" />
         <item itemvalue="JUnit.MybatisTest.testFindByName" />
-        <item itemvalue="JUnit.MybatisTest.testFindBySex" />
-        <item itemvalue="JUnit.MybatisTest.testFindById" />
-        <item itemvalue="JUnit.MybatisTest.testDel" />
       </list>
     </recent_temporary>
   </component>
@@ -486,7 +437,8 @@
       <workItem from="1591426273465" duration="7842000" />
       <workItem from="1591435174454" duration="14955000" />
       <workItem from="1591487087349" duration="18474000" />
-      <workItem from="1591514689743" duration="1134000" />
+      <workItem from="1591514689743" duration="1584000" />
+      <workItem from="1591522746551" duration="9397000" />
     </task>
     <servers />
   </component>
@@ -530,31 +482,40 @@
     <state x="-816" y="147" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/-900.0.900.1400/0.0.1440.860@-900.0.900.1400" timestamp="1591442655486" />
     <state x="312" y="90" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/-900.0.900.1400/0.0.1440.860@0.0.1440.860" timestamp="1591412754983" />
     <state x="-816" y="164" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/-900.0.900.1560/0.0.1920.1040@-900.0.900.1560" timestamp="1591518498687" />
-    <state x="-559" y="308" key="FileChooserDialogImpl" timestamp="1591513137985">
-      <screen x="-900" y="0" width="900" height="1400" />
+    <state x="-559" y="341" key="FileChooserDialogImpl" timestamp="1591533759117">
+      <screen x="-900" y="0" width="900" height="1552" />
     </state>
     <state x="-559" y="308" key="FileChooserDialogImpl/-900.0.900.1400/0.0.1440.860@-900.0.900.1400" timestamp="1591513137985" />
     <state x="545" y="189" key="FileChooserDialogImpl/-900.0.900.1400/0.0.1440.860@0.0.1440.860" timestamp="1591411137015" />
-    <state width="542" height="291" key="GridCell.Tab.0.bottom" timestamp="1591512973002">
-      <screen x="-900" y="0" width="900" height="1400" />
+    <state x="-559" y="341" key="FileChooserDialogImpl/-900.0.900.1552/0.0.1920.1032@-900.0.900.1552" timestamp="1591533759117" />
+    <state width="844" height="403" key="GridCell.Tab.0.bottom" timestamp="1591539650589">
+      <screen x="-900" y="0" width="900" height="1552" />
     </state>
     <state width="542" height="291" key="GridCell.Tab.0.bottom/-900.0.900.1400/0.0.1440.860@-900.0.900.1400" timestamp="1591512973002" />
     <state width="1396" height="277" key="GridCell.Tab.0.bottom/-900.0.900.1400/0.0.1440.860@0.0.1440.860" timestamp="1591455088696" />
-    <state width="542" height="291" key="GridCell.Tab.0.center" timestamp="1591512973001">
-      <screen x="-900" y="0" width="900" height="1400" />
+    <state width="844" height="403" key="GridCell.Tab.0.bottom/-900.0.900.1552/0.0.1920.1032@-900.0.900.1552" timestamp="1591539650589" />
+    <state width="1864" height="231" key="GridCell.Tab.0.bottom/-900.0.900.1552/0.0.1920.1032@0.0.1920.1032" timestamp="1591534983500" />
+    <state width="844" height="403" key="GridCell.Tab.0.center" timestamp="1591539650589">
+      <screen x="-900" y="0" width="900" height="1552" />
     </state>
     <state width="542" height="291" key="GridCell.Tab.0.center/-900.0.900.1400/0.0.1440.860@-900.0.900.1400" timestamp="1591512973001" />
     <state width="1396" height="277" key="GridCell.Tab.0.center/-900.0.900.1400/0.0.1440.860@0.0.1440.860" timestamp="1591455088695" />
-    <state width="542" height="291" key="GridCell.Tab.0.left" timestamp="1591512973001">
-      <screen x="-900" y="0" width="900" height="1400" />
+    <state width="844" height="403" key="GridCell.Tab.0.center/-900.0.900.1552/0.0.1920.1032@-900.0.900.1552" timestamp="1591539650589" />
+    <state width="1864" height="231" key="GridCell.Tab.0.center/-900.0.900.1552/0.0.1920.1032@0.0.1920.1032" timestamp="1591534983500" />
+    <state width="844" height="403" key="GridCell.Tab.0.left" timestamp="1591539650589">
+      <screen x="-900" y="0" width="900" height="1552" />
     </state>
     <state width="542" height="291" key="GridCell.Tab.0.left/-900.0.900.1400/0.0.1440.860@-900.0.900.1400" timestamp="1591512973001" />
     <state width="1396" height="277" key="GridCell.Tab.0.left/-900.0.900.1400/0.0.1440.860@0.0.1440.860" timestamp="1591455088695" />
-    <state width="542" height="291" key="GridCell.Tab.0.right" timestamp="1591512973001">
-      <screen x="-900" y="0" width="900" height="1400" />
+    <state width="844" height="403" key="GridCell.Tab.0.left/-900.0.900.1552/0.0.1920.1032@-900.0.900.1552" timestamp="1591539650589" />
+    <state width="1864" height="231" key="GridCell.Tab.0.left/-900.0.900.1552/0.0.1920.1032@0.0.1920.1032" timestamp="1591534983499" />
+    <state width="844" height="403" key="GridCell.Tab.0.right" timestamp="1591539650589">
+      <screen x="-900" y="0" width="900" height="1552" />
     </state>
     <state width="542" height="291" key="GridCell.Tab.0.right/-900.0.900.1400/0.0.1440.860@-900.0.900.1400" timestamp="1591512973001" />
     <state width="1396" height="277" key="GridCell.Tab.0.right/-900.0.900.1400/0.0.1440.860@0.0.1440.860" timestamp="1591455088696" />
+    <state width="844" height="403" key="GridCell.Tab.0.right/-900.0.900.1552/0.0.1920.1032@-900.0.900.1552" timestamp="1591539650589" />
+    <state width="1864" height="231" key="GridCell.Tab.0.right/-900.0.900.1552/0.0.1920.1032@0.0.1920.1032" timestamp="1591534983500" />
     <state width="542" height="291" key="GridCell.Tab.1.bottom" timestamp="1591512973002">
       <screen x="-900" y="0" width="900" height="1400" />
     </state>
@@ -595,26 +556,34 @@
     </state>
     <state width="542" height="291" key="GridCell.Tab.2.right/-900.0.900.1400/0.0.1440.860@-900.0.900.1400" timestamp="1591512973003" />
     <state width="769" height="317" key="GridCell.Tab.2.right/-900.0.900.1400/0.0.1440.860@0.0.1440.860" timestamp="1591418914331" />
-    <state x="-900" y="235" width="900" height="738" key="SettingsEditor" timestamp="1591518460245">
-      <screen x="-900" y="0" width="900" height="1560" />
+    <state x="373" y="0" width="1208" height="920" key="SettingsEditor" timestamp="1591534825216">
+      <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="-900" y="211" width="900" height="738" key="SettingsEditor/-900.0.900.1400/0.0.1440.860@-900.0.900.1400" timestamp="1591513199172" />
     <state x="268" y="13" key="SettingsEditor/-900.0.900.1400/0.0.1440.860@0.0.1440.860" timestamp="1591451252475" />
+    <state x="373" y="112" width="1208" height="920" key="SettingsEditor/-900.0.900.1552/0.0.1920.1032@-900.0.900.1552" timestamp="1591523256390" />
+    <state x="373" y="0" key="SettingsEditor/-900.0.900.1552/0.0.1920.1032@0.0.1920.1032" timestamp="1591534825216" />
     <state x="-900" y="235" key="SettingsEditor/-900.0.900.1560/0.0.1920.1040@-900.0.900.1560" timestamp="1591518460245" />
-    <state x="-642" y="417" key="com.intellij.ide.util.TipDialog" timestamp="1591514688736">
-      <screen x="-900" y="0" width="900" height="1400" />
+    <state x="-900" y="469" key="Vcs.Push.Dialog.v2" timestamp="1591539644250">
+      <screen x="-900" y="0" width="900" height="1552" />
+    </state>
+    <state x="-900" y="469" key="Vcs.Push.Dialog.v2/-900.0.900.1552/0.0.1920.1032@-900.0.900.1552" timestamp="1591539644250" />
+    <state x="-771" y="462" key="com.intellij.ide.util.TipDialog" timestamp="1591522776775">
+      <screen x="-900" y="0" width="900" height="1552" />
     </state>
     <state x="-642" y="417" key="com.intellij.ide.util.TipDialog/-900.0.900.1400/0.0.1440.860@-900.0.900.1400" timestamp="1591514688736" />
     <state x="412" y="256" key="com.intellij.ide.util.TipDialog/-900.0.900.1400/0.0.1440.860@0.0.1440.860" timestamp="1591426280531" />
+    <state x="-771" y="462" key="com.intellij.ide.util.TipDialog/-900.0.900.1552/0.0.1920.1032@-900.0.900.1552" timestamp="1591522776775" />
     <state x="0" y="0" width="872" height="949" maximized="true" key="dock-window-1" timestamp="1591511542068">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="0" y="0" width="872" height="949" maximized="true" key="dock-window-1/-900.0.900.1400/0.0.1440.860@-900.0.900.1400" timestamp="1591511542068" />
-    <state x="-900" y="335" key="new project wizard" timestamp="1591513061591">
-      <screen x="-900" y="0" width="900" height="1400" />
+    <state x="-900" y="406" width="900" height="885" key="new project wizard" timestamp="1591533782343">
+      <screen x="-900" y="0" width="900" height="1552" />
     </state>
     <state x="-900" y="335" key="new project wizard/-900.0.900.1400/0.0.1440.860@-900.0.900.1400" timestamp="1591513061591" />
     <state x="0" y="206" key="new project wizard/-900.0.900.1400/0.0.1440.860@0.0.1440.860" timestamp="1591426880832" />
+    <state x="-900" y="406" width="900" height="885" key="new project wizard/-900.0.900.1552/0.0.1920.1032@-900.0.900.1552" timestamp="1591533782343" />
     <state x="-787" y="325" key="search.everywhere.popup" timestamp="1591444652425">
       <screen x="-900" y="0" width="900" height="1400" />
     </state>

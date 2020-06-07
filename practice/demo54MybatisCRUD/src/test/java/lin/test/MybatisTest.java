@@ -62,7 +62,7 @@ public class MybatisTest {
 
     @Test
     public void testDel() throws Exception {
-        userDao.delUser(42);
+        userDao.delUser(43);
     }
 
     @Test

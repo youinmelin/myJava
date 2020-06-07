@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/demo54mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/demo54MybatisCRUD/pom.xml" />
         <option value="$PROJECT_DIR$/demo53HttpServlet/pom.xml" />
+        <option value="$PROJECT_DIR$/demo54MybatisDataSource/pom.xml" />
       </list>
     </option>
   </component>
