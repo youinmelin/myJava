@@ -19,7 +19,6 @@
             out.write("<br>");
         }
 //        if (!Objects.equals(lastTime, "no")) {
-        <!-- if (lastTime.equals("first")) { -->
         if (cookies.length == 0) {
             out.write("This is the first view.");
         }else {

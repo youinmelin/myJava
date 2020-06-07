@@ -1,7 +1,6 @@
 import com.alibaba.druid.pool.DruidDataSourceFactory;
 
 import javax.sql.DataSource;
-import java.io.IOException;
 import java.io.InputStream;
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -15,7 +14,7 @@ public class Druid01 {
         prop.load(is);
         DataSource ds = DruidDataSourceFactory.createDataSource(prop);
         Connection conn = ds.getConnection();
-        String sql = "select * from users";
+        String sql = "select * from usertable";
         Statement st = conn.createStatement();
         ResultSet rs = st.executeQuery(sql);
         System.out.println(rs.next());
