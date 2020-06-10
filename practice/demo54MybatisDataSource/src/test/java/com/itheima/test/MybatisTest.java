@@ -1,8 +1,11 @@
 package com.itheima.test;
 
+import com.itheima.dao.IAccountDao;
 import com.itheima.dao.IUserDao;
+import com.itheima.domain.Account;
 import com.itheima.domain.QueryVo;
 import com.itheima.domain.User;
+import com.itheima.domain.UserTest;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
@@ -25,6 +28,7 @@ public class MybatisTest {
     private InputStream in;
     private SqlSession sqlSession;
     private IUserDao userDao;
+    private IAccountDao accountDao;
 
     @Before//用于在测试方法执行之前执行
     public void init()throws Exception{
@@ -36,6 +40,7 @@ public class MybatisTest {
         sqlSession = factory.openSession();
         //4.获取dao的代理对象
         userDao = sqlSession.getMapper(IUserDao.class);
+        accountDao = sqlSession.getMapper(IAccountDao.class);
     }
 
     @After//用于在测试方法执行之后执行
@@ -82,9 +87,9 @@ public class MybatisTest {
     @Test
     public void testUpdate(){
         User user = new User();
-        user.setUserId(50);
+        user.setUserId(51);
         user.setUserName("mybastis update user");
-        user.setUserSex("女");
+        user.setUserSex("F");
         user.setUserBrithday("2000-12-04");
 
         //5.执行保存方法
@@ -149,4 +154,31 @@ public class MybatisTest {
             System.out.println(u);
         }
     }
+
+    /**
+     * test one table to mutiple tables
+     */
+    @Test
+    public void testFindAllAccount() {
+        List<Account> accounts = accountDao.findAllAccount();
+        for (Account account : accounts) {
+            System.out.println(account);
+        }
+    }
+
+    @Test
+    public void testFindAccountByUsername() {
+        Account account = new Account();
+        UserTest user = new UserTest();
+        user.setUsername("老王");
+        account.setMoney((double) 500);
+        account.setUserTest(user);
+        System.out.println(account);
+        List<Account> accounts = accountDao.findAccountByUsername(account);
+        for (Account a : accounts) {
+            System.out.println(a);
+        }
+
+    }
+
 }
