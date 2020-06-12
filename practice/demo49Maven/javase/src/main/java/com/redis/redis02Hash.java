@@ -8,6 +8,6 @@ public class redis02Hash {
         jedis.hset("users", "name", "Nancy");
         jedis.hset("users", "age", "28");
         jedis.hset("users", "gender", "female");
-
+        jedis.close();
     }
 }
