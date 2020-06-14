@@ -6,6 +6,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - App",
+            "request": "launch",
+            "mainClass": "src.lin.App"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - jsoup01",
             "request": "launch",
             "mainClass": "com.xml.jsoup01",
