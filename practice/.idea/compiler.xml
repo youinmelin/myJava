@@ -6,16 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="demo54MybatisDataSource" />
-        <module name="demo53HttpServlet" />
-        <module name="demo54MybatisCRUD" />
-        <module name="demo54mybatis" />
+        <module name="demo55spring_aoptx_xml" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="12">
-      <module name="demo54mybatis" target="12" />
-      <module name="demo54MybatisCRUD" target="12" />
-      <module name="demo54MybatisDataSource" target="12" />
-    </bytecodeTargetLevel>
+    <bytecodeTargetLevel target="12" />
   </component>
 </project>
