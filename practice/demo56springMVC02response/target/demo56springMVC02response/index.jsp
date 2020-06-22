@@ -10,7 +10,22 @@
 <head>
     <title>index</title>
 </head>
-<body>
+<body><br>
 <a href="response.jsp">response data</a>
+<br>
+Use commons-upload component:<br>
+<form action="user/testUpload1" id="upload" method="post" enctype="multipart/form-data">
+    file upload<input type="file" name="upload">
+    <input type="submit" value="submit">
+</form>
+
+    Use SpringMVC upload:<br>
+    <form action="user/testUpload2" id="uploadMVC" method="post" enctype="multipart/form-data">
+        file upload<input type="file" name="upload">
+        <input type="submit" value="submit">
+
+</form>
+
 </body>
+
 </html>
