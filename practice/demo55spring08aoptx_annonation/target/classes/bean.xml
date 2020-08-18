@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+
+<!--    <context:component-scan base-package="lin"/>-->
+
+<!--    <bean id="JdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">-->
+<!--        <property name="dataSource" ref="JdbcDataSource"></property>-->
+<!--    </bean>-->
+<!--    <bean id="JdbcDataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">-->
+<!--        <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"/>-->
+<!--        <property name="url" value="jdbc:mysql:///spring?serverTimezone=UTC"/>-->
+<!--        <property name="username" value="root"/>-->
+<!--        <property name="password" value="aaaaaa"/>-->
+<!--    </bean>-->
+
+<!--    <bean id="accountDao" class="lin.dao.impl.AccountDaoImpl">-->
+<!--        <property name="jdbcTemplate" ref="JdbcTemplate"/>-->
+<!--    </bean>-->
+<!--    <bean id="accountService" class="lin.service.impl.AccountServiceImpl">-->
+<!--        <property name="accountDaoImpl" ref="accountDao"/>-->
+<!--    </bean>-->
+
+    <!--  注解  事物控制步骤-->
+<!--    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">-->
+<!--        <property name="dataSource" ref="JdbcDataSource"></property>-->
+<!--    </bean>-->
+
+<!--    <tx:annotation-driven transaction-manager="transactionManager"/>-->
+
+<!--    <tx:advice id="txAdvice" transaction-manager="transactionManager">-->
+<!--        <tx:attributes>-->
+<!--            <tx:method name="transfer" propagation="REQUIRED" />-->
+<!--            <tx:method name="find*" propagation="SUPPORTS" read-only="true"></tx:method>-->
+<!--        </tx:attributes>-->
+<!--    </tx:advice>-->
+
+<!--    <aop:config>-->
+<!--        <aop:pointcut id="pt1" expression="execution(* lin.service.impl.*.*(..))"/>-->
+<!--        <aop:advisor advice-ref="txAdvice" pointcut-ref="pt1"></aop:advisor>-->
+<!--    </aop:config>-->
+
+
+</beans>
+

@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e46ff809-9f08-420a-acad-0c749655da75" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../demo54MybatisOneToMany/mybatisDemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring01Bean/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring01Bean/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring01Bean/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring01Bean/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring01Bean/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring01Bean/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring01Bean/.idea/libraries/Maven__org_springframework_spring_aop_5_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring01Bean/.idea/libraries/Maven__org_springframework_spring_beans_5_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring01Bean/.idea/libraries/Maven__org_springframework_spring_context_5_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring01Bean/.idea/libraries/Maven__org_springframework_spring_core_5_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring01Bean/.idea/libraries/Maven__org_springframework_spring_expression_5_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring01Bean/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring01Bean/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring01Bean/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring01Bean/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring01Bean/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring01Bean/demo55Spring01Bean.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring01Bean/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring01Bean/src/main/java/lin/dao/IAccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring01Bean/src/main/java/lin/dao/impl/IAccountDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring01Bean/src/main/java/lin/domain/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring01Bean/src/main/java/lin/factory/InstanceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring01Bean/src/main/java/lin/factory/StaticFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring01Bean/src/main/java/lin/service/IAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring01Bean/src/main/java/lin/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring01Bean/src/main/java/lin/service/impl/AccountServiceImplOtherType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring01Bean/src/main/java/lin/service/impl/AccountServiceImplSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring01Bean/src/main/java/lin/ui/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring01Bean/src/main/resources/SqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring01Bean/src/main/resources/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring01Bean/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring01Bean/src/test/java/lin/test/SpringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring01Bean/target/classes/SqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring01Bean/target/classes/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring01Bean/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring02Annonation/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring02Annonation/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring02Annonation/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring02Annonation/.idea/libraries/Maven__org_springframework_spring_aop_5_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring02Annonation/.idea/libraries/Maven__org_springframework_spring_beans_5_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring02Annonation/.idea/libraries/Maven__org_springframework_spring_context_5_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring02Annonation/.idea/libraries/Maven__org_springframework_spring_core_5_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring02Annonation/.idea/libraries/Maven__org_springframework_spring_expression_5_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring02Annonation/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring02Annonation/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring02Annonation/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring02Annonation/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring02Annonation/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring02Annonation/demo55Spring02Annonation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring02Annonation/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring02Annonation/src/main/java/lin/dao/IAccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring02Annonation/src/main/java/lin/dao/impl/accountDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring02Annonation/src/main/java/lin/domain/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring02Annonation/src/main/java/lin/service/IAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring02Annonation/src/main/java/lin/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring02Annonation/src/main/java/lin/ui/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring02Annonation/src/main/resources/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring02Annonation/target/classes/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring02XML/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring02XML/src/main/java/lin/dao/IUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring02XML/src/main/java/lin/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring02XML/src/main/java/lin/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring02XML/src/main/java/lin/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring02XML/src/main/java/lin/utils/log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring02XML/src/main/resources/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring02XML/src/test/java/lin/test/testUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring03AnnonationWithoutXML/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring03AnnonationWithoutXML/.idea/libraries/Maven__c3p0_c3p0_0_9_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring03AnnonationWithoutXML/.idea/libraries/Maven__commons_dbutils_commons_dbutils_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring03AnnonationWithoutXML/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring03AnnonationWithoutXML/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring03AnnonationWithoutXML/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring03AnnonationWithoutXML/.idea/libraries/Maven__org_springframework_spring_aop_5_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring03AnnonationWithoutXML/.idea/libraries/Maven__org_springframework_spring_beans_5_0_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring03AnnonationWithoutXML/.idea/libraries/Maven__org_springframework_spring_context_5_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring03AnnonationWithoutXML/.idea/libraries/Maven__org_springframework_spring_core_5_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring03AnnonationWithoutXML/.idea/libraries/Maven__org_springframework_spring_expression_5_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring03AnnonationWithoutXML/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring03AnnonationWithoutXML/.idea/libraries/Maven__org_springframework_spring_test_4_3_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring03AnnonationWithoutXML/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring03AnnonationWithoutXML/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring03AnnonationWithoutXML/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring03AnnonationWithoutXML/demo55Spring03AnnonationWithoutXML.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring03AnnonationWithoutXML/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring03AnnonationWithoutXML/src/main/java/lin/config/SpringConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring03AnnonationWithoutXML/src/main/java/lin/dao/IAccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring03AnnonationWithoutXML/src/main/java/lin/dao/impl/AccountDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring03AnnonationWithoutXML/src/main/java/lin/domain/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring03AnnonationWithoutXML/src/main/java/lin/service/IAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring03AnnonationWithoutXML/src/main/java/lin/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring03AnnonationWithoutXML/src/main/resources/jdbcConfig.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring03AnnonationWithoutXML/src/test/java/lin/test/AccountServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring03AnnonationWithoutXML/src/test/java/lin/test/QueryRunnerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring03AnnonationWithoutXML/target/classes/jdbcConfig.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring04AOP/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring04AOP/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring04AOP/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring04AOP/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring04AOP/.idea/libraries/Maven__org_springframework_spring_aop_5_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring04AOP/.idea/libraries/Maven__org_springframework_spring_beans_5_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring04AOP/.idea/libraries/Maven__org_springframework_spring_context_5_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring04AOP/.idea/libraries/Maven__org_springframework_spring_core_5_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring04AOP/.idea/libraries/Maven__org_springframework_spring_expression_5_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring04AOP/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring04AOP/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring04AOP/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring04AOP/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring04AOP/demo55Spring04AOP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring04AOP/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring04AOP/src/main/java/lin/service/IAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring04AOP/src/main/java/lin/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring04AOP/src/main/java/lin/utiles/logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring04AOP/src/main/resources/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring04AOP/src/test/java/lin/test/AOPTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring04AOP/target/classes/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring05AOPAnnotation/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring05AOPAnnotation/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring05AOPAnnotation/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring05AOPAnnotation/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring05AOPAnnotation/.idea/libraries/Maven__org_springframework_spring_aop_5_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring05AOPAnnotation/.idea/libraries/Maven__org_springframework_spring_beans_5_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring05AOPAnnotation/.idea/libraries/Maven__org_springframework_spring_context_5_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring05AOPAnnotation/.idea/libraries/Maven__org_springframework_spring_core_5_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring05AOPAnnotation/.idea/libraries/Maven__org_springframework_spring_expression_5_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring05AOPAnnotation/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring05AOPAnnotation/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring05AOPAnnotation/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring05AOPAnnotation/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring05AOPAnnotation/demo55Spring05AOPAnnotation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring05AOPAnnotation/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring05AOPAnnotation/src/main/java/lin/dao/IAccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring05AOPAnnotation/src/main/java/lin/dao/impl/AccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring05AOPAnnotation/src/main/java/lin/service/IAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring05AOPAnnotation/src/main/java/lin/service/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring05AOPAnnotation/src/main/java/lin/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring05AOPAnnotation/src/main/java/lin/utiles/logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring05AOPAnnotation/src/main/java/lin/utiles/transterUtiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring05AOPAnnotation/src/main/resources/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring05AOPAnnotation/src/test/java/lin/test/AOPTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55Spring05AOPAnnotation/target/classes/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_annotations_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo55Spring06JdbcTemplate.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lin/dao/IAccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lin/dao/impl/AccountDaoImplDaoSupport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lin/domain/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lin/jdbctemplate/JdbcTemplateDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lin/jdbctemplate/JdbcTemplateDemo2Ioc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lin/jdbctemplate/JdbcTemplateDemo3CRUD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lin/service/IAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lin/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lin/TestJdbcTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55proxy/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55proxy/.idea/libraries/Maven__asm_asm_3_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55proxy/.idea/libraries/Maven__cglib_cglib_2_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55proxy/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55proxy/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55proxy/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55proxy/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55proxy/demo55proxy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55proxy/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55proxy/src/main/java/lin/cglib/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55proxy/src/main/java/lin/cglib/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55proxy/src/main/java/lin/proxy/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55proxy/src/main/java/lin/proxy/IProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo55proxy/src/main/java/lin/proxy/Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/artifacts/demo52Tomcat_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/artifacts/demo53HttpServlet_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/artifacts/demo53HttpServlet_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/artifacts/demo53HttpServlet_war_exploded2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__log4j_log4j_1_2_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__mysql_mysql_connector_java_8_0_20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/lib.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/practice.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JDBC在vscode上的驱动安装" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo54MybatisOneToMany/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo54MybatisOneToMany/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo54MybatisOneToMany/src/main/java/lin/servlet/Servlet01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../demo54MybatisOneToMany/src/main/java/lin/servlet/Servlet01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/druid.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/demo52Tomcat_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/demo52Tomcat_war_exploded/hehe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/demo52Tomcat_war_exploded/html.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/demo52Tomcat_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/demo53HttpServlet_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/demo46JDBC_Druid/druid.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/demo53HttpServlet/META-INF/demo53HttpServlet.kotlin_module" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:/test/apache-maven-3.5.2\repository" />
+        <option name="mavenHome" value="D:/test/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="D:\test\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="#JAVA_HOME" />
+  </component>
+  <component name="ProjectId" id="1dXZ2ZNHEseofGrG2X0XEA2O0LE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lin.dao.impl" />
+      <recent name="lin.jdbctemplate" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TestJdbcTemplate">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration name="JdbcTemplateDemo3CRUD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lin.jdbctemplate.JdbcTemplateDemo3CRUD" />
+      <module name="demo55Spring06JdbcTemplate" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lin.jdbctemplate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestJdbcTemplate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo55Spring06JdbcTemplate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lin" />
+      <option name="MAIN_CLASS_NAME" value="lin.TestJdbcTemplate" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestJdbcTemplate.testFindAccountById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo55Spring06JdbcTemplate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lin" />
+      <option name="MAIN_CLASS_NAME" value="lin.TestJdbcTemplate" />
+      <option name="METHOD_NAME" value="testFindAccountById" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestJdbcTemplate.testFindAccountByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo55Spring06JdbcTemplate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lin" />
+      <option name="MAIN_CLASS_NAME" value="lin.TestJdbcTemplate" />
+      <option name="METHOD_NAME" value="testFindAccountByName" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestJdbcTemplate.testUpdateAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo55Spring06JdbcTemplate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lin" />
+      <option name="MAIN_CLASS_NAME" value="lin.TestJdbcTemplate" />
+      <option name="METHOD_NAME" value="testUpdateAccount" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.JdbcTemplateDemo3CRUD" />
+      <item itemvalue="JUnit.TestJdbcTemplate.testFindAccountById" />
+      <item itemvalue="JUnit.TestJdbcTemplate.testFindAccountByName" />
+      <item itemvalue="JUnit.TestJdbcTemplate.testUpdateAccount" />
+      <item itemvalue="JUnit.TestJdbcTemplate" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestJdbcTemplate" />
+        <item itemvalue="JUnit.TestJdbcTemplate.testUpdateAccount" />
+        <item itemvalue="JUnit.TestJdbcTemplate.testFindAccountByName" />
+        <item itemvalue="JUnit.TestJdbcTemplate.testFindAccountById" />
+        <item itemvalue="Application.JdbcTemplateDemo3CRUD" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e46ff809-9f08-420a-acad-0c749655da75" name="Default" comment="" />
+      <created>1592548124061</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592548124061</updated>
+      <workItem from="1592548125406" duration="5794000" />
+      <workItem from="1592573194102" duration="3856000" />
+      <workItem from="1592605730595" duration="10316000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="544" y="337" key="#com.intellij.ide.util.MemberChooser" timestamp="1592615372521">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-645" y="238" key="#com.intellij.ide.util.MemberChooser/-900.-268.900.1560/0.0.1920.1040@-900.-268.900.1560" timestamp="1592610378091" />
+    <state x="544" y="337" key="#com.intellij.ide.util.MemberChooser/-900.-268.900.1560/0.0.1920.1040@0.0.1920.1040" timestamp="1592615372521" />
+    <state x="810" y="411" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1592573328699">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="810" y="411" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/-900.-268.900.1560/0.0.1920.1040@0.0.1920.1040" timestamp="1592573328699" />
+    <state x="-900" y="457" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1592606903828">
+      <screen x="-900" y="-268" width="900" height="1560" />
+    </state>
+    <state x="-900" y="457" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/-900.-268.900.1560/0.0.1920.1040@-900.-268.900.1560" timestamp="1592606903828" />
+    <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1592615991431">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-900.-268.900.1560/0.0.1920.1040@0.0.1920.1040" timestamp="1592615991431" />
+    <state x="739" y="277" key="FileChooserDialogImpl" timestamp="1592573411878">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="277" key="FileChooserDialogImpl/-900.-268.900.1560/0.0.1920.1040@0.0.1920.1040" timestamp="1592573411878" />
+    <state width="856" height="331" key="GridCell.Tab.0.bottom" timestamp="1592617292919">
+      <screen x="-900" y="-268" width="900" height="1560" />
+    </state>
+    <state width="856" height="331" key="GridCell.Tab.0.bottom/-900.-268.900.1560/0.0.1920.1040@-900.-268.900.1560" timestamp="1592617292919" />
+    <state width="1876" height="331" key="GridCell.Tab.0.bottom/-900.-268.900.1560/0.0.1920.1040@0.0.1920.1040" timestamp="1592616045932" />
+    <state width="856" height="331" key="GridCell.Tab.0.center" timestamp="1592617292919">
+      <screen x="-900" y="-268" width="900" height="1560" />
+    </state>
+    <state width="856" height="331" key="GridCell.Tab.0.center/-900.-268.900.1560/0.0.1920.1040@-900.-268.900.1560" timestamp="1592617292919" />
+    <state width="1876" height="331" key="GridCell.Tab.0.center/-900.-268.900.1560/0.0.1920.1040@0.0.1920.1040" timestamp="1592616045932" />
+    <state width="856" height="331" key="GridCell.Tab.0.left" timestamp="1592617292918">
+      <screen x="-900" y="-268" width="900" height="1560" />
+    </state>
+    <state width="856" height="331" key="GridCell.Tab.0.left/-900.-268.900.1560/0.0.1920.1040@-900.-268.900.1560" timestamp="1592617292918" />
+    <state width="1876" height="331" key="GridCell.Tab.0.left/-900.-268.900.1560/0.0.1920.1040@0.0.1920.1040" timestamp="1592616045932" />
+    <state width="856" height="331" key="GridCell.Tab.0.right" timestamp="1592617292919">
+      <screen x="-900" y="-268" width="900" height="1560" />
+    </state>
+    <state width="856" height="331" key="GridCell.Tab.0.right/-900.-268.900.1560/0.0.1920.1040@-900.-268.900.1560" timestamp="1592617292919" />
+    <state width="1876" height="331" key="GridCell.Tab.0.right/-900.-268.900.1560/0.0.1920.1040@0.0.1920.1040" timestamp="1592616045932" />
+    <state width="856" height="331" key="GridCell.Tab.1.bottom" timestamp="1592617292920">
+      <screen x="-900" y="-268" width="900" height="1560" />
+    </state>
+    <state width="856" height="331" key="GridCell.Tab.1.bottom/-900.-268.900.1560/0.0.1920.1040@-900.-268.900.1560" timestamp="1592617292920" />
+    <state width="856" height="331" key="GridCell.Tab.1.center" timestamp="1592617292919">
+      <screen x="-900" y="-268" width="900" height="1560" />
+    </state>
+    <state width="856" height="331" key="GridCell.Tab.1.center/-900.-268.900.1560/0.0.1920.1040@-900.-268.900.1560" timestamp="1592617292919" />
+    <state width="856" height="331" key="GridCell.Tab.1.left" timestamp="1592617292919">
+      <screen x="-900" y="-268" width="900" height="1560" />
+    </state>
+    <state width="856" height="331" key="GridCell.Tab.1.left/-900.-268.900.1560/0.0.1920.1040@-900.-268.900.1560" timestamp="1592617292919" />
+    <state width="856" height="331" key="GridCell.Tab.1.right" timestamp="1592617292920">
+      <screen x="-900" y="-268" width="900" height="1560" />
+    </state>
+    <state width="856" height="331" key="GridCell.Tab.1.right/-900.-268.900.1560/0.0.1920.1040@-900.-268.900.1560" timestamp="1592617292920" />
+    <state x="-900" y="-41" key="SettingsEditor" timestamp="1592578108636">
+      <screen x="-900" y="-268" width="900" height="1560" />
+    </state>
+    <state x="-900" y="-41" key="SettingsEditor/-900.-268.900.1560/0.0.1920.1040@-900.-268.900.1560" timestamp="1592578108636" />
+    <state x="455" y="151" key="SettingsEditor/-900.-268.900.1560/0.0.1920.1040@0.0.1920.1040" timestamp="1592576987526" />
+    <state x="-767" y="358" key="com.intellij.ide.util.TipDialog" timestamp="1592605724227">
+      <screen x="-900" y="-268" width="900" height="1560" />
+    </state>
+    <state x="-767" y="358" key="com.intellij.ide.util.TipDialog/-900.-268.900.1560/0.0.1920.1040@-900.-268.900.1560" timestamp="1592605724227" />
+  </component>
+</project>
