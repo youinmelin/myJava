@@ -1,0 +1,11 @@
+# config log level, different class output different level
+logging:
+  level:
+    com.lin: debug
+    org.springframework: info
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///test
+    username: root
+    password: aaaaaa

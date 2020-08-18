@@ -6,9 +6,78 @@
     "configurations": [
         {
             "type": "java",
+<<<<<<< HEAD
             "name": "CodeLens (Launch) - App",
             "request": "launch",
             "mainClass": "src.lin.App"
+=======
+<<<<<<< HEAD
+            "name": "CodeLens (Launch) - App",
+            "request": "launch",
+            "mainClass": "lin.App"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Jsoup05Xpath",
+            "request": "launch",
+            "mainClass": "com.xml.Jsoup05Xpath",
+            "projectName": "javase"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Jsoup04Selector",
+            "request": "launch",
+            "mainClass": "com.xml.Jsoup04Selector",
+            "projectName": "javase"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Jsoup03Html",
+            "request": "launch",
+            "mainClass": "com.xml.Jsoup03Html",
+            "projectName": "javase"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Jsoup02Element",
+            "request": "launch",
+            "mainClass": "com.xml.Jsoup02Element",
+            "projectName": "javase"
+=======
+            "name": "CodeLens (Launch) - demo",
+            "request": "launch",
+            "mainClass": "demo52Servlet.demo",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - demo",
+            "request": "launch",
+            "mainClass": "demo",
+            "projectName": "MyServlet"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - App",
+            "request": "launch",
+            "mainClass": "demo52Servlet.MyServlet.src.main.java.App",
+            "projectName": "practice_173ea824"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - demo",
+            "request": "launch",
+            "mainClass": "demo",
+            "projectName": "web"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - App",
+            "request": "launch",
+            "mainClass": "lin.App",
+            "projectName": "jsoup"
+>>>>>>> af301fd7c4dd6ac1b3069275ad9cb517be43e247
+>>>>>>> 5cfdc45e0479074fe2442847e694bae71f284612
         },
         {
             "type": "java",

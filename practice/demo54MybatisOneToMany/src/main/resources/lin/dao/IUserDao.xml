@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="lin.dao.IUserDao">
+    <resultMap id="userAccountMap" type="lin.domain.User">
+        <id property="id" column="id"/>
+        <result property="name" column="name" />
+        <result property="tel" column="tel" />
+        <result property="ingroup" column="ingroup" />
+        <collection property="accounts" ofType="lin.domain.Account" >
+            <id property="id" column="aid"/>
+            <result property="uid" column="uid"/>
+            <result property="money" column="money"/>
+        </collection>
+    </resultMap>
+    <resultMap id="userRoleMap" type="lin.domain.User">
+        <id property="id" column="id"/>
+        <result property="name" column="name" />
+        <result property="tel" column="tel" />
+        <result property="ingroup" column="ingroup" />
+        <collection property="roles" ofType="lin.domain.Role">
+            <id property="roleId" column="rid"/>
+            <result property="roleName" column="role_name"/>
+            <result property="roleDesc" column="role_desc"/>
+        </collection>
+    </resultMap>
+    <select id="findAll" resultType="lin.domain.User">
+        select * from usertable
+    </select>
+
+    <select id="findByUser" parameterType="lin.domain.User" resultType="lin.domain.User">
+        select * from usertable
+        <where>
+            <if test="name!=null">
+                and name like #{name}
+            </if>
+            <if test="tel!=null">
+                and tel = #{tel}
+            </if>
+        </where>
+    </select>
+
+    <select id="findByVo" parameterType="lin.domain.queryVo" resultType="lin.domain.User">
+        select * from usertable where name = #{user.name}
+    </select>
+
+    <select id="findAllUserAccount" resultMap="userAccountMap" resultType="lin.domain.User">
+         SELECT us.id id, us.name, us.tel, us.ingroup, ac.id aid, ac.uid uid, ac.MONEY money
+                FROM usertable us left JOIN account ac ON us.id = ac.UID
+    </select>
+
+    <select id="findAllUserRole" resultMap="userRoleMap" resultType="lin.domain.User">
+select `user`.id id,name,tel,
+ingroup,
+role.id rid,
+role_name,
+role_desc
+from usertable user
+LEFT JOIN user_role ur
+on user.id = ur.UID
+left join role
+on ur.rid = role.id
+
+    </select>
+
+</mapper>
