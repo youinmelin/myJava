@@ -2,16 +2,17 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
-      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="demo57spring_boot" />
+        <module name="rabbitmq-consumer" />
+        <module name="rabbitmq-productor" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="9">
-      <module name="demo57spring_boot" target="1.9" />
+      <module name="rabbitmq-consumer" target="1.9" />
+      <module name="rabbitmq-productor" target="1.9" />
     </bytecodeTargetLevel>
   </component>
 </project>
