@@ -1,0 +1,10 @@
+server:
+  port: 8081
+#  当前web应用名称
+  servlet:
+    context-path: /lin
+name: lin
+person:
+  name: lin
+  age: 40
+  addr: beijing

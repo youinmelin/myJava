@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test?serverTimezone=GMT
+    username: root
+    password: aaaaaa
+    # Spring DataJPA
+  jpa:
+    database: MySQL
+    show-sql: true
+#     是否显示sql
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+      naming_strategy: org.hibernate.cfg.ImprovedNamingStrategy
+# Redis
+  redis:
+    host: localhost
+    port: 6379
