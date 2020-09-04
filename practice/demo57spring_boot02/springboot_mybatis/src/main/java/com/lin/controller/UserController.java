@@ -19,6 +19,7 @@ public class UserController {
     @ResponseBody  // 返回的是字符串或json，所以要加上ResponseBody
     public List<User> queryAllUser() {
         List users = userService.findAllUser();
+        System.out.println("a new request");
         return users;
     }
 }
