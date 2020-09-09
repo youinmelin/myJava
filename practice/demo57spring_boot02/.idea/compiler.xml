@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springboot_jdbc" />
         <module name="springboot_jpa" />
         <module name="springboot_mybatis" />
         <module name="springboot_quickstart" />
@@ -13,6 +14,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="9">
+      <module name="springboot_jdbc" target="1.8" />
       <module name="springboot_jpa" target="1.9" />
       <module name="springboot_mybatis" target="1.9" />
       <module name="springboot_quickstart" target="1.8" />
