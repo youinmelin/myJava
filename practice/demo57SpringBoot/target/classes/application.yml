@@ -1,0 +1,19 @@
+server:
+  port: 80
+  servlet:
+#    path: "*.do"
+    path: /
+logging:
+  level:
+    lin: debug  # 为不同的包设置日志级别
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///test?serverTimezone=UTC
+    username: root
+    password: aaaaaa
+mybatis:
+  #configuration:
+   # map-underscore-to-camel-case: true # 通用mapper 已经把驼峰开启了，这两行可以不写
+  # mapper-locations: mapper/*.xml
+  type-aliases-package: lin.pojo

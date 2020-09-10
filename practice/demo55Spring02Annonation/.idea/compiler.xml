@@ -9,8 +9,8 @@
         <module name="demo55Spring02Annonation" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="demo55Spring02Annonation" target="1.5" />
+    <bytecodeTargetLevel target="12">
+      <module name="demo55Spring02Annonation" target="12" />
     </bytecodeTargetLevel>
   </component>
 </project>

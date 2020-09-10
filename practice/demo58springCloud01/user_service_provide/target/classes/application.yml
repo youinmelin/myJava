@@ -1,0 +1,22 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///test
+    username: root
+    password: aaaaaa
+  application:
+    name: user-service
+mybatis:
+  type-aliases-package: lin.pojo
+logging:
+  level:
+    lin: debug
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10086/eureka, http://127.0.0.1:10087/eureka
+  instance:
+    prefer-ip-address: true
+    ip-address: 127.0.0.1
