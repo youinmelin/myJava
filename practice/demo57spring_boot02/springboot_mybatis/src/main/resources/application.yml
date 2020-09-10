@@ -6,3 +6,8 @@ spring:
     password: aaaaaa
 mybatis:
   type-aliases-package: com.lin.domain
+# 日志记录级别
+logging:
+  level:
+    com.lin: debug
+    org.springframework: info

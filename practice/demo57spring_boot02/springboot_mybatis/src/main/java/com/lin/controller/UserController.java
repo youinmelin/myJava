@@ -4,22 +4,34 @@ import com.lin.domain.User;
 import com.lin.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@Controller
+@RestController
 public class UserController {
 
     @Autowired
     UserService userService;
 
     @RequestMapping("/users")
-    @ResponseBody  // 返回的是字符串或json，所以要加上ResponseBody
     public List<User> queryAllUser() {
         List users = userService.findAllUser();
         System.out.println("a new request");
         return users;
+    }
+
+
+    @GetMapping("/userid")
+    public User queryUserByUserId(@RequestParam("id") Integer id) {
+        System.out.println("id:" + id);
+        User user = userService.queryUserById(id);
+        return user;
+    }
+    @GetMapping("/userid/{id}")
+    public User queryUserByUserId2(@PathVariable("id") Integer id) {
+        System.out.println("id:" + id);
+        User user = userService.queryUserById(id);
+        return user;
     }
 }
