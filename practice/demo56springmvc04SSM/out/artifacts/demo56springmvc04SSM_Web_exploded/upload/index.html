@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SSM</title>
+</head>
+<body>
+<h1>SSM project</h1>
+
+
+<a href="/account/findAll">findAllAccount</a><br>
+
+save account:<br>
+<form action="/account/saveAccount" method="post">
+    name:<input type="text" name="name"><br>
+    money:<input type="text" name="money"><br>
+    <input type="submit" value="submit">
+</form>
+
+<form action="/upload/uploadFile"  method="post" enctype="multipart/form-data">
+    <input type="file" name="upload">
+    <input type="submit"  value="upload file">
+</form>
+
+<form action="/upload/uploadFileMsg"  method="post" enctype="multipart/form-data">
+    <select >
+        <option value = "1">刘进军</option>
+        <option value = "2" selected= "selected">郑林</option>
+    </select>
+    <input type="range" name="a" id="">
+    <input type="text" name="username" value="input name" id="username">
+    <input type="text" name="msg" value="input message" id="msg">
+    <input type="file" name="upload">
+    <input type="submit"  value="upload file and msg">
+</form>
+
+findAllFileAndMsg<br>
+<a href="/upload/findAllFileMsg">findAllFileAndMsg</a>
+<a href="file://localhost/E:\knowledge\IT\my_git\myJava\practice\demo56springmvc04SSM\target\demo56springmvc04SSM-1.0-SNAPSHOT\upload20140321_021631.jpg" >file</a>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd
+        http://www.springframework.org/schema/tx
+        http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+<!--    开启注解扫描,only for service and dao, not include controller-->
+    <context:component-scan base-package="lin">
+        <!--        Controller 注解不扫描-->
+        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
+    </context:component-scan>
+
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql:///spring_test"/>
+        <property name="username" value="root"/>
+        <property name="password" value="aaaaaa"/>
+    </bean>
+<!--    <bean class="com.mchange.v2.c3p0.ComboPooledDataSource" id="dataSource">-->
+<!--        <property name="driverClass" value="com.mysql.jdbc.Driver"/>-->
+<!--        <property name="jdbcUrl" value="jdbc:mysql:///spring"/>-->
+<!--        <property name="user" value="root"/>-->
+<!--        <property name="password" value="aaaaaa"/>-->
+<!--    </bean>-->
+
+    <bean class="org.mybatis.spring.SqlSessionFactoryBean" id="sqlSessionFactory">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer" id="mapperScanner">
+<!--        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>-->
+        <property name="basePackage" value="lin.dao"/>
+    </bean>
+<!--    配置spring框架的声明式事务管理-->
+    <!--配置事务管理器-->
+    <bean class="org.springframework.jdbc.datasource.DataSourceTransactionManager" id="transactionManager">
+        <property name="dataSource" ref="dataSource"></property>
+    </bean>
+    <!--配置事物通知-->
+    <tx:advice transaction-manager="transactionManager" id="interceptor">
+        <tx:attributes>
+            <tx:method name="find*" read-only="true"/>
+        </tx:attributes>
+    </tx:advice>
+    <!--配置AOP增强-->
+    <aop:config>
+        <aop:advisor advice-ref="interceptor" pointcut="execution(* lin.service.impl.*.*(..))"/>
+    </aop:config>
+</beans>
