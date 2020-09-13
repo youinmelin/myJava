@@ -4,6 +4,10 @@ spring:
     url: jdbc:mysql://localhost:3306/test?serverTimezone=GMT
     username: root
     password: aaaaaa
+  freemarker:
+    cache: false
+    settings:
+      template_update_delay: 0
 mybatis:
   type-aliases-package: com.lin.domain
 # 日志记录级别

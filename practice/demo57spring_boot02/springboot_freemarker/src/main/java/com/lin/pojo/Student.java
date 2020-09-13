@@ -1,0 +1,20 @@
+package com.lin.pojo;
+
+import lombok.Data;
+import lombok.ToString;
+
+import java.util.Date;
+import java.util.List;
+
+@Data
+@ToString
+public class Student {
+
+    private String name;
+    private Integer age;
+    private Date birthday;
+    private Float money;
+    private List<Student> friends;
+    private Student bestFriend;
+
+}
