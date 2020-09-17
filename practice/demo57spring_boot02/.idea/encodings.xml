@@ -4,16 +4,9 @@
     <file url="file://$PROJECT_DIR$/springboot_freemarker" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_jdbc" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_jpa" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springboot_jpa/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_mybatis" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springboot_mybatis/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_quickstart" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springboot_quickstart/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_quickstart2" charset="UTF-8" />
-<<<<<<< HEAD
-    <file url="file://$PROJECT_DIR$/springboot_quickstart2/src/main/java" charset="UTF-8" />
-=======
     <file url="file://$PROJECT_DIR$/springboot_quickstart2/src/main/resources/application.yml" charset="GBK" />
->>>>>>> 86ea33645a617dc5f5004308270e6405b247f811
   </component>
 </project>
