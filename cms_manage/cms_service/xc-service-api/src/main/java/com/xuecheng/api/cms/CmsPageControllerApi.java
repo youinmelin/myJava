@@ -8,4 +8,6 @@ import javax.management.Query;
 public interface CmsPageControllerApi {
     // search pages
     public QueryResponseResult findList(Integer page, Integer size, QueryPageRequest queryPageRequest);
+
+    public QueryResponseResult findListByExample(Integer page, Integer size, QueryPageRequest queryPageRequest);
 }

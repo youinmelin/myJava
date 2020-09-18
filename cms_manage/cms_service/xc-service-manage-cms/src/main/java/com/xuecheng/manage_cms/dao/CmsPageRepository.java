@@ -23,4 +23,10 @@ public interface CmsPageRepository extends MongoRepository<CmsPage, String>{
     int countBySiteIdAndPageType(String siteId,String pageType);
     //根据站点和页面类型分页查询
     Page<CmsPage> findBySiteIdAndPageType(String siteId, String pageType, Pageable pageable);
+    // 站点ID 精确匹配
+    Page<CmsPage> findBySiteId(String siteId, Pageable pageable);
+    // 模板ID精确匹配
+    Page<CmsPage> findByTemplateId(String tempateId, Pageable pageable);
+    // 页面别名 模糊匹配
+
 }
