@@ -57,7 +57,7 @@ public class PageService {
 
         CmsPage cmsPage = new CmsPage();
 //        cmsPage.setPageWebPath("/course/");
-        // set 查询条件
+        // set 查询条件  通过queryPageRequest获取输入值
         if (StringUtils.isNotEmpty(queryPageRequest.getSiteId())) {
             System.out.println("set siteId");
             cmsPage.setSiteId(queryPageRequest.getSiteId()); }
