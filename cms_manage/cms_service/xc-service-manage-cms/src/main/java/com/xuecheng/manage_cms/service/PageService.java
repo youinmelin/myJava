@@ -76,8 +76,11 @@ public class PageService {
         queryResult.setTotal(cmsPages.getTotalElements());
         QueryResponseResult queryResponseResult = new QueryResponseResult(CommonCode.SUCCESS, queryResult);
         return queryResponseResult;
+    }
 
+    public void insertPage (CmsPage cmsPage) {
 
+        cmsPageRepository.save(cmsPage);
     }
 
 }

@@ -56,6 +56,7 @@ public class CmsPageRepositoryTest {
         cmsPageParams.add(cmsPageParam);
         cmsPage.setPageParams(cmsPageParams);
         cmsPageRepository.save(cmsPage);
+//        cmsPageRepository.insert(cmsPage);
         System.out.println(cmsPage);
     }
 
