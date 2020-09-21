@@ -78,8 +78,15 @@ public class PageService {
         return queryResponseResult;
     }
 
-    public void insertPage (CmsPage cmsPage) {
-
+    public void savePage(QueryPageRequest queryPageRequest) {
+        if (queryPageRequest == null) {
+            queryPageRequest = new QueryPageRequest();
+        }
+        CmsPage cmsPage = new CmsPage();
+        if (StringUtils.isNotEmpty(queryPageRequest.getSiteId())) {
+            cmsPage.setSiteId(queryPageRequest.getSiteId()); }
+        if (StringUtils.isNotEmpty(queryPageRequest.getPageAliase())) {
+            cmsPage.setSiteId(queryPageRequest.getPageAliase()); }
         cmsPageRepository.save(cmsPage);
     }
 

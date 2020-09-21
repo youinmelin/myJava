@@ -18,4 +18,6 @@ public interface CmsPageControllerApi {
     public QueryResponseResult findList(Integer page, Integer size, QueryPageRequest queryPageRequest);
 
     public QueryResponseResult findListByExample(Integer page, Integer size, QueryPageRequest queryPageRequest);
+
+    public void saveCmsPage (QueryPageRequest queryPageRequest);
 }
