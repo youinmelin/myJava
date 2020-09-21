@@ -6,6 +6,8 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 
+import java.util.List;
+
 // extends MongoRepository<实体类，主键类型> 已经定义好了很多方法，类似于通用mapper
 public interface CmsPageRepository extends MongoRepository<CmsPage, String>{
 
@@ -27,6 +29,9 @@ public interface CmsPageRepository extends MongoRepository<CmsPage, String>{
     Page<CmsPage> findBySiteId(String siteId, Pageable pageable);
     // 模板ID精确匹配
     Page<CmsPage> findByTemplateId(String tempateId, Pageable pageable);
-    // 页面别名 模糊匹配
+    // 根据页面名称、站点id、页面访问路径查询
+    CmsPage findByPageNameAndSiteIdAndPageWebPath(String pageName,String siteId,String pageWebPath);
+
+
 
 }

@@ -1,6 +1,8 @@
 package com.xuecheng.api.cms;
 
+import com.xuecheng.framework.domain.cms.CmsPage;
 import com.xuecheng.framework.domain.cms.request.QueryPageRequest;
+import com.xuecheng.framework.domain.cms.response.CmsPageResult;
 import com.xuecheng.framework.model.response.QueryResponseResult;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
@@ -19,5 +21,7 @@ public interface CmsPageControllerApi {
 
     public QueryResponseResult findListByExample(Integer page, Integer size, QueryPageRequest queryPageRequest);
 
-    public void saveCmsPage (QueryPageRequest queryPageRequest);
+    // add a new page data
+    @ApiOperation("新增页面")
+    public CmsPageResult addCmsPage(CmsPage cmsPage);
 }

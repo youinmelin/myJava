@@ -2,6 +2,7 @@ package com.xuecheng.manage_cms.service;
 
 import com.xuecheng.framework.domain.cms.CmsPage;
 import com.xuecheng.framework.domain.cms.request.QueryPageRequest;
+import com.xuecheng.framework.domain.cms.response.CmsPageResult;
 import com.xuecheng.framework.model.response.CommonCode;
 import com.xuecheng.framework.model.response.QueryResponseResult;
 import com.xuecheng.framework.model.response.QueryResult;
@@ -78,16 +79,29 @@ public class PageService {
         return queryResponseResult;
     }
 
-    public void savePage(QueryPageRequest queryPageRequest) {
-        if (queryPageRequest == null) {
-            queryPageRequest = new QueryPageRequest();
+    /**
+     * 新增页面数据
+     * @param cmsPage 数据对象
+     * @return cmsPageResult 是一个包含数据对象和操作结果信息的对象
+     */
+    public CmsPageResult addCmsPage( CmsPage cmsPage) {
+        //校验页面是否存在，根据页面名称、站点Id、页面webpath查询
+        CmsPage byPageNameAndSiteIdAndPageWebPath = cmsPageRepository.findByPageNameAndSiteIdAndPageWebPath(cmsPage.getPageName(), cmsPage.getSiteId(), cmsPage.getPageWebPath());
+        if (byPageNameAndSiteIdAndPageWebPath == null){
+            cmsPage.setPageId(null);  // 数据库会自动创建pageId
+            cmsPageRepository.save(cmsPage);
+            CmsPageResult cmsPageResult = new CmsPageResult(CommonCode.SUCCESS, cmsPage);
+            return cmsPageResult;
+        }else {
+            // 如果有重复索引，则返回失败code
+            CmsPageResult cmsPageResult = new CmsPageResult(CommonCode.FAIL, null);
+            return cmsPageResult;
         }
-        CmsPage cmsPage = new CmsPage();
-        if (StringUtils.isNotEmpty(queryPageRequest.getSiteId())) {
-            cmsPage.setSiteId(queryPageRequest.getSiteId()); }
-        if (StringUtils.isNotEmpty(queryPageRequest.getPageAliase())) {
-            cmsPage.setSiteId(queryPageRequest.getPageAliase()); }
-        cmsPageRepository.save(cmsPage);
+
+//        if (StringUtils.isNotEmpty(cmsPage.getSiteId())) {
+//            cmsPage.setSiteId(cmsPage.getSiteId()); }
+//        if (StringUtils.isNotEmpty(cmsPage.getPageAliase())) {
+//            cmsPage.setSiteId(cmsPage.getPageAliase()); }
     }
 
 }
