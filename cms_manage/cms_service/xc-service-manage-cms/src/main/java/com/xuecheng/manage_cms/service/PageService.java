@@ -6,6 +6,7 @@ import com.xuecheng.framework.domain.cms.response.CmsPageResult;
 import com.xuecheng.framework.model.response.CommonCode;
 import com.xuecheng.framework.model.response.QueryResponseResult;
 import com.xuecheng.framework.model.response.QueryResult;
+import com.xuecheng.framework.model.response.ResponseResult;
 import com.xuecheng.manage_cms.dao.CmsPageRepository;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,6 +16,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class PageService {
@@ -86,22 +88,77 @@ public class PageService {
      */
     public CmsPageResult addCmsPage( CmsPage cmsPage) {
         //校验页面是否存在，根据页面名称、站点Id、页面webpath查询
-        CmsPage byPageNameAndSiteIdAndPageWebPath = cmsPageRepository.findByPageNameAndSiteIdAndPageWebPath(cmsPage.getPageName(), cmsPage.getSiteId(), cmsPage.getPageWebPath());
-        if (byPageNameAndSiteIdAndPageWebPath == null){
-            cmsPage.setPageId(null);  // 数据库会自动创建pageId
-            cmsPageRepository.save(cmsPage);
-            CmsPageResult cmsPageResult = new CmsPageResult(CommonCode.SUCCESS, cmsPage);
-            return cmsPageResult;
-        }else {
-            // 如果有重复索引，则返回失败code
-            CmsPageResult cmsPageResult = new CmsPageResult(CommonCode.FAIL, null);
-            return cmsPageResult;
-        }
+        if (cmsPage == null) {
+            // 抛出非法参数异常
 
-//        if (StringUtils.isNotEmpty(cmsPage.getSiteId())) {
-//            cmsPage.setSiteId(cmsPage.getSiteId()); }
-//        if (StringUtils.isNotEmpty(cmsPage.getPageAliase())) {
-//            cmsPage.setSiteId(cmsPage.getPageAliase()); }
+        }
+        CmsPage byPageNameAndSiteIdAndPageWebPath = cmsPageRepository.findByPageNameAndSiteIdAndPageWebPath(cmsPage.getPageName(), cmsPage.getSiteId(), cmsPage.getPageWebPath());
+        if(byPageNameAndSiteIdAndPageWebPath != null) {
+            // 页面已经存在 抛出异常,异常的内容是页面已经存在
+
+        }
+        cmsPage.setPageId(null);  // 数据库会自动创建pageId
+        cmsPageRepository.save(cmsPage);
+        CmsPageResult cmsPageResult = new CmsPageResult(CommonCode.SUCCESS, cmsPage);
+        return cmsPageResult;
+    }
+//    public CmsPageResult addCmsPage( CmsPage cmsPage) {
+//        //校验页面是否存在，根据页面名称、站点Id、页面webpath查询
+//        CmsPage byPageNameAndSiteIdAndPageWebPath = cmsPageRepository.findByPageNameAndSiteIdAndPageWebPath(cmsPage.getPageName(), cmsPage.getSiteId(), cmsPage.getPageWebPath());
+//        if (byPageNameAndSiteIdAndPageWebPath == null){
+//            cmsPage.setPageId(null);  // 数据库会自动创建pageId
+//            cmsPageRepository.save(cmsPage);
+//            CmsPageResult cmsPageResult = new CmsPageResult(CommonCode.SUCCESS, cmsPage);
+//            return cmsPageResult;
+//        }else {
+//            // 如果有重复索引，就不能新增，返回失败code
+//            CmsPageResult cmsPageResult = new CmsPageResult(CommonCode.FAIL, null);
+//            return cmsPageResult;
+//        }
+//    }
+
+    // find cmsPage by id
+    public CmsPage findCmsPageByID(String id) {
+        Optional<CmsPage> cmsPageOptional = cmsPageRepository.findById(id);
+        if (cmsPageOptional.isPresent()){
+            return cmsPageOptional.get();
+        }
+        return null;
+    }
+
+    // modify page data
+    public CmsPageResult modifyCmsPage(String id, CmsPage cmsPage) {
+        // 根据id从数据库查询页面信息
+        CmsPage cmsPageByID = this.findCmsPageByID(id);
+        if (cmsPageByID != null) {
+            //更新模板id
+            cmsPageByID.setTemplateId(cmsPage.getTemplateId());
+            //更新所属站点
+            cmsPageByID.setSiteId(cmsPage.getSiteId());
+            //更新页面别名
+            cmsPageByID.setPageAliase(cmsPage.getPageAliase());
+            //更新页面名称
+            cmsPageByID.setPageName(cmsPage.getPageName());
+            //更新访问路径
+            cmsPageByID.setPageWebPath(cmsPage.getPageWebPath());
+            //更新物理路径
+            cmsPageByID.setPagePhysicalPath(cmsPage.getPagePhysicalPath());
+            // 提交修改
+            cmsPageRepository.save(cmsPageByID);
+            return new CmsPageResult(CommonCode.SUCCESS, cmsPageByID);
+        }
+        return new CmsPageResult(CommonCode.FAIL, null);
+    }
+
+    // 根据ID删除页面
+    public ResponseResult delCmsPage(String id) {
+        // 先查询一下
+        Optional<CmsPage> cmsPageOptional = cmsPageRepository.findById(id);
+        if (cmsPageOptional.isPresent()){
+            cmsPageRepository.deleteById(id);
+            return new ResponseResult(CommonCode.SUCCESS );
+        }
+        return new ResponseResult(CommonCode.FAIL);
     }
 
 }
