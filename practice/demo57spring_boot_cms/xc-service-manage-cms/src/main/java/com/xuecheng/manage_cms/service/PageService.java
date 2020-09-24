@@ -32,21 +32,6 @@ public class PageService {
      * @return
      */
     public QueryResponseResult findList(int page, int size, QueryPageRequest queryPageRequest){
-
-        //分页参数
-        if(page <=0){
-            page = 1;
-        }
-        page = page -1;
-        if(size<=0){
-            size = 10;
-        }
-        Pageable pageable = PageRequest.of(page,size);
-        Page<CmsPage> all = cmsPageRepository.findAll(pageable);
-        QueryResult queryResult = new QueryResult();
-        queryResult.setList(all.getContent());//数据列表
-        queryResult.setTotal(all.getTotalElements());//数据总记录数
-        QueryResponseResult queryResponseResult = new QueryResponseResult(CommonCode.SUCCESS,queryResult);
-        return queryResponseResult;
+        return null;
     }
 }
