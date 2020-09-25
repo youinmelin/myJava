@@ -24,21 +24,13 @@ public class CmsPageController implements CmsPageControllerApi {
 
     @Override
     @GetMapping("/list/{page}/{size}")
-    public QueryResponseResult findList(@PathVariable("page") int page, @PathVariable("size")int size, QueryPageRequest queryPageRequest) {
+    public QueryResponseResult findAllCmsPageByPage(@PathVariable("page") int page, @PathVariable("size")int size, QueryPageRequest queryPageRequest) {
+        return pageService.findAllCmsPageByPage(page, size, queryPageRequest);
+    }
 
-/*        //暂时用静态数据
-        //定义queryResult
-        QueryResult<CmsPage> queryResult =new QueryResult<>();
-        List<CmsPage> list = new ArrayList<>();
-        CmsPage cmsPage = new CmsPage();
-        cmsPage.setPageName("测试页面");
-        list.add(cmsPage);
-        queryResult.setList(list);
-        queryResult.setTotal(1);
-
-        QueryResponseResult queryResponseResult = new QueryResponseResult(CommonCode.SUCCESS,queryResult);
-        return queryResponseResult;*/
-        //调用service
-        return pageService.findList(page,size,queryPageRequest);
+    @Override
+    @GetMapping("/list/all")
+    public QueryResponseResult findAllCmsPage() {
+        return pageService.findAllCmsPage();
     }
 }
