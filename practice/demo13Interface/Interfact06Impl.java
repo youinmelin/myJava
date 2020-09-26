@@ -1,5 +1,3 @@
-package demo13Interface;
-
 public class Interfact06Impl implements Interface06One, Interface06Two{
 
     @Override

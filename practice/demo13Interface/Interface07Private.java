@@ -1,5 +1,4 @@
-package src.demo13Interface;
-public interface Interface07Private {	
+public interface Interface07Private {
 	default void methodDefault(){
 		System.out.println("This is a default method.");
 		commonMethod();

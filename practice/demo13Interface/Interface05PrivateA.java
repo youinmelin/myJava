@@ -1,4 +1,3 @@
-package demo13Interface;
 public interface Interface05PrivateA {
     public static void methodDefault1() {
         System.out.println("default method 1");
