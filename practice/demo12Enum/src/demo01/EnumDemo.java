@@ -26,8 +26,15 @@ public class EnumDemo {
         System.out.println(colorEnum.toString());
         Color[] values = Color.values();
         System.out.println(Arrays.toString(values));
+    }
 
-
+    @Test
+    public void test3() {
+        // 测试枚举实现接口
+        String color = Color.RED.colorStr();
+        System.out.println(color);
+        System.out.println(Color.BLUE.colorStr());
+        System.out.println(Color.BLUE.colorValue());
 
     }
 }

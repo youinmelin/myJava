@@ -24,7 +24,7 @@ public class PageService {
 
 
     /**
-     * 页面查询方法
+     * 页面查询,分页查询
      * @param page 页码，从1开始记数
      * @param size 每页记录数
      * @param queryPageRequest 查询条件
@@ -62,6 +62,10 @@ public class PageService {
         return new QueryResponseResult(resultCode, queryResult);
     }
 
+    /**
+     * 查询所有页面信息
+     * @return
+     */
     public QueryResponseResult findAllCmsPage() {
         List<CmsPage> cmsPages = cmsPageRepository.findAll();
         long total = cmsPages.size();
@@ -70,5 +74,44 @@ public class PageService {
         queryResult.setTotal(total);
         ResultCode resultCode = CommonCode.SUCCESS;
         return new QueryResponseResult(resultCode, queryResult);
+    }
+
+    /**
+     *
+     * @param page
+     * @param size
+     * @param queryPageRequest
+     * @return
+     */
+    public QueryResponseResult findCmsPageByExample(int page, int size, QueryPageRequest queryPageRequest) {
+        page = page <= 0 ? 1 : page;
+        size = size <= 0 ? 10 : size;
+        Pageable pageable = PageRequest.of(page, size);
+
+        if (queryPageRequest == null) {
+           queryPageRequest = new QueryPageRequest();
+        }
+        CmsPage cmsPage = new CmsPage();
+        if  (StringUtils.isNotEmpty(queryPageRequest.getTemplateId())){
+            cmsPage.setTemplateId(queryPageRequest.getTemplateId()); }
+        if  (StringUtils.isNotEmpty(queryPageRequest.getSiteId())){
+            cmsPage.setSiteId(queryPageRequest.getSiteId()); }
+        if  (StringUtils.isNotEmpty(queryPageRequest.getPageId())){
+            cmsPage.setPageId(queryPageRequest.getPageId()); }
+        if  (StringUtils.isNotEmpty(queryPageRequest.getPageName())){
+            cmsPage.setPageName(queryPageRequest.getPageName()); }
+        ExampleMatcher exampleMatcher = ExampleMatcher.matching();
+        exampleMatcher = exampleMatcher.withMatcher("pageAliase", ExampleMatcher.GenericPropertyMatchers.contains());
+        Example<CmsPage> example = Example.of(cmsPage, exampleMatcher);
+        Page<CmsPage> pages = cmsPageRepository.findAll(example, pageable);
+        List<CmsPage> cmspages = pages.getContent();
+        long total = pages.getTotalElements();
+
+
+
+
+        return null;
+
+
     }
 }
