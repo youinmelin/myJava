@@ -18,4 +18,7 @@ public interface CmsPageControllerApi {
     QueryResponseResult findAllCmsPageByPage(int page, int size, QueryPageRequest queryPageRequest);
 
     QueryResponseResult findAllCmsPage();
+
+    @ApiOperation("分页查询+模糊查询列表")
+    QueryResponseResult findCmsPageByExample(int page, int size, QueryPageRequest queryPageRequest);
 }

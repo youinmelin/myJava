@@ -86,6 +86,7 @@ public class PageService {
     public QueryResponseResult findCmsPageByExample(int page, int size, QueryPageRequest queryPageRequest) {
         page = page <= 0 ? 1 : page;
         size = size <= 0 ? 10 : size;
+        page -= 1;
         Pageable pageable = PageRequest.of(page, size);
 
         if (queryPageRequest == null) {
@@ -100,18 +101,19 @@ public class PageService {
             cmsPage.setPageId(queryPageRequest.getPageId()); }
         if  (StringUtils.isNotEmpty(queryPageRequest.getPageName())){
             cmsPage.setPageName(queryPageRequest.getPageName()); }
+        if  (StringUtils.isNotEmpty(queryPageRequest.getPageAliase())){
+            cmsPage.setPageAliase(queryPageRequest.getPageAliase()); }
         ExampleMatcher exampleMatcher = ExampleMatcher.matching();
+        // 设置模糊查询
         exampleMatcher = exampleMatcher.withMatcher("pageAliase", ExampleMatcher.GenericPropertyMatchers.contains());
         Example<CmsPage> example = Example.of(cmsPage, exampleMatcher);
         Page<CmsPage> pages = cmsPageRepository.findAll(example, pageable);
         List<CmsPage> cmspages = pages.getContent();
         long total = pages.getTotalElements();
-
-
-
-
-        return null;
-
+        QueryResult queryResult = new QueryResult(cmspages, total);
+        ResultCode resultCode = CommonCode.SUCCESS;
+        QueryResponseResult queryResponseResult = new QueryResponseResult(resultCode, queryResult);
+        return queryResponseResult;
 
     }
 }

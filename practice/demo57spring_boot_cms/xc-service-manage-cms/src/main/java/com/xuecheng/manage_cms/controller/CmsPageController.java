@@ -29,6 +29,12 @@ public class CmsPageController implements CmsPageControllerApi {
     }
 
     @Override
+    @GetMapping("/listExample/{page}/{size}")
+    public QueryResponseResult findCmsPageByExample(@PathVariable("page") int page,@PathVariable("size") int size, QueryPageRequest queryPageRequest) {
+        return pageService.findCmsPageByExample(page, size, queryPageRequest);
+    }
+
+    @Override
     @GetMapping("/list/all")
     public QueryResponseResult findAllCmsPage() {
         return pageService.findAllCmsPage();
