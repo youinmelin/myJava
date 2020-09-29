@@ -1,7 +1,10 @@
 package com.xuecheng.manage_cms.service;
 
+import com.xuecheng.framework.Exception.CustomException;
+import com.xuecheng.framework.Exception.ExceptionCast;
 import com.xuecheng.framework.domain.cms.CmsPage;
 import com.xuecheng.framework.domain.cms.request.QueryPageRequest;
+import com.xuecheng.framework.domain.cms.response.CmsPageResult;
 import com.xuecheng.framework.model.response.*;
 import com.xuecheng.manage_cms.dao.CmsPageRepository;
 import org.apache.commons.lang3.StringUtils;
@@ -10,6 +13,7 @@ import org.springframework.data.domain.*;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 
 /**
  * @author Administrator
@@ -114,6 +118,68 @@ public class PageService {
         ResultCode resultCode = CommonCode.SUCCESS;
         QueryResponseResult queryResponseResult = new QueryResponseResult(resultCode, queryResult);
         return queryResponseResult;
-
     }
+
+    /**
+     * 新增页面
+     * @param cmsPage
+     * @return
+     */
+    public CmsPageResult addCmsPage(CmsPage cmsPage) {
+        if (cmsPage == null) {
+            // 抛出自定义异常
+            ExceptionCast.cast(CommonCode.FAIL);
+//            throw new CustomException(CommonCode.FAIL);
+//            ResultCode resultCode = CommonCode.FAIL;
+//            System.out.println("empty argument");
+//            return new CmsPageResult(resultCode, null);
+        }
+        CmsPage cmsPage1 = cmsPageRepository.findByPageNameAndSiteIdAndPageWebPath(cmsPage.getPageName(), cmsPage.getSiteId(), cmsPage.getPageWebPath());
+        if (cmsPage1 != null) {
+            // 页面数据已存在,抛出自定义异常
+            ExceptionCast.cast(CommonCode.FAIL);
+//            ResultCode resultCode = CommonCode.FAIL;
+//            System.out.println("cmspage existed");
+//            return new CmsPageResult(resultCode, null);
+        }
+        cmsPage.setPageId(null);
+        cmsPageRepository.insert(cmsPage);
+        ResultCode resultCode = CommonCode.SUCCESS;
+        return new CmsPageResult(resultCode, cmsPage );
+    }
+
+    public CmsPageResult editCmsPage(String id, CmsPage cmsPage) {
+        // 查id,如果存在就修改,不存在就返回错误码
+        Optional<CmsPage> byId = cmsPageRepository.findById(id);
+        CmsPage one = null;
+        if (byId.isPresent()) {
+            one = byId.get();
+        }
+        if (one == null) {
+            ResultCode resultCode = CommonCode.FAIL;
+            System.out.println("not found");
+            return new CmsPageResult(resultCode, null);
+        }
+        one.setTemplateId(cmsPage.getTemplateId());
+        one.setSiteId(cmsPage.getSiteId());
+        one.setPageAliase(cmsPage.getPageAliase());
+        one.setPageName(cmsPage.getPageName());
+        one.setPageWebPath(cmsPage.getPageWebPath());
+        one.setPagePhysicalPath(cmsPage.getPagePhysicalPath());
+        cmsPageRepository.save(one);
+        return new CmsPageResult(CommonCode.SUCCESS,one);
+    }
+
+    public ResponseResult delCmsPage(String id) {
+        Optional<CmsPage> byId = cmsPageRepository.findById(id);
+        CmsPage cmsPage = null;
+        if (byId.isPresent()) {
+            cmsPage = byId.get();
+            cmsPageRepository.deleteById(id);
+            return new ResponseResult(CommonCode.SUCCESS);
+        }
+        System.out.println("not existed");
+        return new ResponseResult(CommonCode.FAIL);
+    }
+
 }

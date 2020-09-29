@@ -1,14 +1,14 @@
 package com.xuecheng.manage_cms.controller;
 
 import com.xuecheng.api.cms.CmsPageControllerApi;
+import com.xuecheng.framework.domain.cms.CmsPage;
 import com.xuecheng.framework.domain.cms.request.QueryPageRequest;
+import com.xuecheng.framework.domain.cms.response.CmsPageResult;
 import com.xuecheng.framework.model.response.QueryResponseResult;
+import com.xuecheng.framework.model.response.ResponseResult;
 import com.xuecheng.manage_cms.service.PageService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * @author Administrator
@@ -38,5 +38,23 @@ public class CmsPageController implements CmsPageControllerApi {
     @GetMapping("/list/all")
     public QueryResponseResult findAllCmsPage() {
         return pageService.findAllCmsPage();
+    }
+
+    @Override
+    @PostMapping("/add")
+    public CmsPageResult addCmsPage(@RequestBody CmsPage cmsPage) {
+        return pageService.addCmsPage(cmsPage);
+    }
+
+    @Override
+    @PutMapping("/edit/{id}")
+    public CmsPageResult editCmsPage(@PathVariable("id") String id, @RequestBody CmsPage cmsPage) {
+        return pageService.editCmsPage(id, cmsPage);
+    }
+
+    @Override
+    @DeleteMapping("/del/{id}")
+    public ResponseResult delCmsPage(@PathVariable String id) {
+        return pageService.delCmsPage(id);
     }
 }
