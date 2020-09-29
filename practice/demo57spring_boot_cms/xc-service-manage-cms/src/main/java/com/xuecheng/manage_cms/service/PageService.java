@@ -1,7 +1,8 @@
 package com.xuecheng.manage_cms.service;
 
-import com.xuecheng.framework.Exception.CustomException;
-import com.xuecheng.framework.Exception.ExceptionCast;
+import com.xuecheng.framework.domain.cms.response.CmsCode;
+import com.xuecheng.framework.exception.CustomException;
+import com.xuecheng.framework.exception.ExceptionCast;
 import com.xuecheng.framework.domain.cms.CmsPage;
 import com.xuecheng.framework.domain.cms.request.QueryPageRequest;
 import com.xuecheng.framework.domain.cms.response.CmsPageResult;
@@ -137,7 +138,7 @@ public class PageService {
         CmsPage cmsPage1 = cmsPageRepository.findByPageNameAndSiteIdAndPageWebPath(cmsPage.getPageName(), cmsPage.getSiteId(), cmsPage.getPageWebPath());
         if (cmsPage1 != null) {
             // 页面数据已存在,抛出自定义异常
-            ExceptionCast.cast(CommonCode.FAIL);
+            ExceptionCast.cast(CmsCode.CMS_ADDPAGE_EXISTSNAME);
 //            ResultCode resultCode = CommonCode.FAIL;
 //            System.out.println("cmspage existed");
 //            return new CmsPageResult(resultCode, null);
