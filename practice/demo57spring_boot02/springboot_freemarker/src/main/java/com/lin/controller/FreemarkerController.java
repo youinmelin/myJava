@@ -15,6 +15,11 @@ public class FreemarkerController {
     @Autowired
     FreemarkerService freemarkerService;
 
+    @RequestMapping("/banner")
+    public String bannerFreemarker(Map<String,Object> map) {
+        return "index_banner";
+    }
+
     // 测试1
     @RequestMapping("/test1")
     public String test1(Map<String,Object> map) {
