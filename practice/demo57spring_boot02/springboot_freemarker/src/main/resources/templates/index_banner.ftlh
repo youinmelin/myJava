@@ -12,12 +12,17 @@
 <body>
 <div class="banner-roll">
     <div class="banner-item">
-        <div class="item" style="background-image: url(http://localhost:8080/img/widget-bannerB.jpg);"></div>
-        <div class="item" style="background-image: url(http://localhost:8080/img/widget-bannerA.jpg);"></div>
-        <div class="item" style="background-image: url(http://localhost:8080/img/widget-banner3.png);"></div>
-        <div class="item" style="background-image: url(http://localhost:8080/img/widget-bannerB.jpg);"></div>
-        <div class="item" style="background-image: url(http://localhost:8080/img/widget-bannerA.jpg);"></div>
-        <div class="item" style="background-image: url(http://localhost:8080/img/widget-banner3.png);"></div>
+        <#--<div class="item" style="background-image: url(http://localhost:8080/img/widget-bannerB.jpg);"></div>-->
+        <#--<div class="item" style="background-image: url(http://localhost:8080/img/widget-bannerA.jpg);"></div>-->
+        <#--<div class="item" style="background-image: url(http://localhost:8080/img/widget-banner3.png);"></div>-->
+        <#--<div class="iem" style="background-image: url(http://localhost:8080/img/widget-bannerB.jpg);"></div>-->
+        <#--<div class="item" style="background-image: url(http://localhost:8080/img/widget-bannerA.jpg);"></div>-->
+        <#--<div class="item" style="background-image: url(http://localhost:8080/img/widget-banner3.png);"></div>-->
+        <#if model??>
+            <#list model as item>
+                <div class="item" style="background-image: url(${item.value});"></div>
+            </#list>
+        </#if>
     </div>
     <div class="indicators"></div>
 </div>

@@ -5,7 +5,9 @@ import com.lin.service.FreemarkerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.client.RestTemplate;
 
+import java.util.Collection;
 import java.util.List;
 import java.util.Map;
 
@@ -14,9 +16,16 @@ import java.util.Map;
 public class FreemarkerController {
     @Autowired
     FreemarkerService freemarkerService;
+    @Autowired
+    RestTemplate restTemplate;
 
     @RequestMapping("/banner")
     public String bannerFreemarker(Map<String,Object> map) {
+        String url = "http://localhost:31001/cms/config/getmodel/5a791725dd573c3574ee333f";
+        // 使用RestTemplate请求数据
+        Map body = restTemplate.getForEntity(url, Map.class).getBody();
+        System.out.println(body);
+        map.putAll(body);
         return "index_banner";
     }
 
@@ -33,6 +42,7 @@ public class FreemarkerController {
     @RequestMapping("/allusers")
     public String queryAllUser(Map<String, Object> map) {
         List<User> users = freemarkerService.queryAllUsers();
+        System.out.println(users);
         map.put("users",users);
         return "freemarker_test2";
     }
@@ -40,6 +50,7 @@ public class FreemarkerController {
     @RequestMapping("/oneuser")
     public String queryOneUser(Map<String, Object> map) {
         List<User> users = freemarkerService.queryAllUsers();
+        System.out.println(users);
         for (User user: users) {
             map.put("user", user);
         }

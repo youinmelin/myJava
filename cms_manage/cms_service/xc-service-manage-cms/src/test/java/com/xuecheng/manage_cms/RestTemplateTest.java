@@ -22,6 +22,7 @@ public class RestTemplateTest {
     @Test
     public void testRestTemplate() {
         String url = "http://localhost:31001/cms/config/getmodel/5a791725dd573c3574ee333f";
+        // 从url获取数据,保存成map类型
         ResponseEntity<Map> forEntity = restTemplate.getForEntity(url, Map.class);
         Map body = forEntity.getBody();
         System.out.println(body);

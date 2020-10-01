@@ -9,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class CmsTemplateService {
@@ -23,5 +24,13 @@ public class CmsTemplateService {
         queryResult.setTotal(cmsTemplates.size());
         QueryResponseResult queryResponseResult = new QueryResponseResult(CommonCode.SUCCESS, queryResult);
         return queryResponseResult;
+    }
+
+    public CmsTemplate queryCmsTemplateById(String id) {
+        Optional<CmsTemplate> byId = cmsTemplateRepository.findById(id);
+        if (byId.isPresent()) {
+            return byId.get();
+        }
+        return null;
     }
 }
