@@ -12,7 +12,15 @@
         <option value="$PROJECT_DIR$/cms_service/xc-framework-utils/pom.xml" />
         <option value="$PROJECT_DIR$/cms_service/xc-service-api/pom.xml" />
         <option value="$PROJECT_DIR$/cms_service/xc-service-manage-cms/pom.xml" />
+        <option value="$PROJECT_DIR$/xc-service-manage-cms-client/pom.xml" />
+        <option value="$PROJECT_DIR$/../practice/demo57spring_boot_cms/xc_service_manage_cms_client/pom.xml" />
+        <option value="$PROJECT_DIR$/cms_service/xc-service-manage-cms-client/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/cms_service/xc_service_manage_cms_client/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="9.0" project-jdk-type="JavaSDK" />

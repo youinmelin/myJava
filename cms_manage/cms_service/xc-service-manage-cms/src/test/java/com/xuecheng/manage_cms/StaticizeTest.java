@@ -4,6 +4,8 @@ import com.mongodb.client.gridfs.GridFSBucket;
 import com.mongodb.client.gridfs.GridFSDownloadStream;
 import com.mongodb.client.gridfs.model.GridFSFile;
 import com.xuecheng.framework.domain.cms.CmsPage;
+import com.xuecheng.manage_cms.dao.CmsPageRepository;
+import com.xuecheng.manage_cms.dao.CmsSiteRepository;
 import com.xuecheng.manage_cms.service.CmsConfigService;
 import com.xuecheng.manage_cms.service.CmsTemplateService;
 import com.xuecheng.manage_cms.service.PageService;
@@ -48,11 +50,16 @@ public class StaticizeTest {
     GridFsTemplate gridFsTemplate;
     @Autowired
     GridFSBucket gridFSBucket;
+    @Autowired
+    CmsPageRepository cmsPageRepository;
+    @Autowired
+    CmsSiteRepository cmsSiteRepository;
 
     @Test
     public void staticizeTest() throws IOException, TemplateException {
         // get DataUrl by cmspageId
-        CmsPage cmsPageByID = pageService.findCmsPageByID("5f74846775c01809c0246684");
+        String pageId = "5f74846775c01809c0246684";
+        CmsPage cmsPageByID = pageService.findCmsPageByID(pageId);
         String dataUrl = cmsPageByID.getDataUrl();
         String templateId = cmsPageByID.getTemplateId();
         String pagePhysicalPath = cmsPageByID.getPagePhysicalPath();
@@ -81,7 +88,9 @@ public class StaticizeTest {
         // staticize
         String staticContent = FreeMarkerTemplateUtils.processTemplateIntoString(template, model);
         InputStream inputStream = IOUtils.toInputStream(staticContent);
-        String staticFileName = pagePhysicalPath + htmlFileId + ".html";
+        // 要保存的文件位置
+        String sitePhysicalPath = cmsSiteRepository.findById("5a751fab6abb5044e0d19ea1").get().getSitePhysicalPath();
+        String staticFileName = sitePhysicalPath + cmsPageByID.getPagePhysicalPath() + cmsPageByID.getPageName();
         FileOutputStream fileOutputStream = new FileOutputStream(new File(staticFileName));
         IOUtils.copy(inputStream, fileOutputStream);
         inputStream.close();

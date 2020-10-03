@@ -58,9 +58,5 @@ public class GridFsTest {
             System.out.println(s);
 
         }
-
-
     }
-
-
 }

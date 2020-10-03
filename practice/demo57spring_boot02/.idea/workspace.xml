@@ -2,169 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a5d5882-64fd-47fb-b92c-759137b538ba" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../cms_manage/cms_service/todo.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../cms_manage/cms_service/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/config/MongoConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../cms_manage/cms_service/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/controller/CmsPagePreviewController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../cms_manage/cms_service/xc-service-manage-cms/src/test/java/com/xuecheng/manage_cms/GridFsTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../cms_manage/cms_service/xc-service-manage-cms/src/test/java/com/xuecheng/manage_cms/StaticizeTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/cms_service/xc-framework-model/target/classes/com/xuecheng/framework/domain/cms/response/CmsCode.class" afterPath="$PROJECT_DIR$/../../cms_manage/cms_service/xc-framework-model/target/classes/com/xuecheng/framework/domain/cms/response/CmsCode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/cms_service/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/service/CmsTemplateService.class" afterPath="$PROJECT_DIR$/../../cms_manage/cms_service/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/service/CmsTemplateService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/cms_service/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/service/PageService.class" afterPath="$PROJECT_DIR$/../../cms_manage/cms_service/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/service/PageService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/cms_service/xc-service-manage-cms/target/test-classes/com/xuecheng/manage_cms/RestTemplateTest.class" afterPath="$PROJECT_DIR$/../../cms_manage/cms_service/xc-service-manage-cms/target/test-classes/com/xuecheng/manage_cms/RestTemplateTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/cms_service/xc-service-manage-cms/target/test-classes/com/xuecheng/manage_cms/service/CmsPageServiceTest.class" afterPath="$PROJECT_DIR$/../../cms_manage/cms_service/xc-service-manage-cms/target/test-classes/com/xuecheng/manage_cms/service/CmsPageServiceTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__com_alibaba_fastjson_1_2_30.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__com_alibaba_fastjson_1_2_30.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_5.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_5.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_5.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_5.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_5.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__com_google_guava_guava_24_0_jre.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__com_google_guava_guava_24_0_jre.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__com_rabbitmq_amqp_client_5_1_2.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__com_rabbitmq_amqp_client_5_1_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__com_rabbitmq_http_client_2_0_1_RELEASE.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__com_rabbitmq_http_client_2_0_1_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_9_1.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_9_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__com_squareup_okio_okio_1_13_0.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__com_squareup_okio_okio_1_13_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_3.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__io_netty_netty_buffer_4_1_23_Final.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__io_netty_netty_buffer_4_1_23_Final.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__io_netty_netty_codec_4_1_23_Final.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__io_netty_netty_codec_4_1_23_Final.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_23_Final.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_23_Final.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_23_Final.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_23_Final.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__io_netty_netty_common_4_1_23_Final.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__io_netty_netty_common_4_1_23_Final.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__io_netty_netty_handler_4_1_23_Final.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__io_netty_netty_handler_4_1_23_Final.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_23_Final.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_23_Final.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__io_netty_netty_resolver_4_1_23_Final.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__io_netty_netty_resolver_4_1_23_Final.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__io_netty_netty_transport_4_1_23_Final.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__io_netty_netty_transport_4_1_23_Final.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_4_1_23_Final.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_4_1_23_Final.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_23_Final.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_23_Final.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__io_projectreactor_ipc_reactor_netty_0_7_6_RELEASE.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__io_projectreactor_ipc_reactor_netty_0_7_6_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__io_projectreactor_reactor_core_3_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__io_projectreactor_reactor_core_3_1_6_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__io_springfox_springfox_core_2_7_0.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__io_springfox_springfox_core_2_7_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__io_springfox_springfox_schema_2_7_0.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__io_springfox_springfox_schema_2_7_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__io_springfox_springfox_spi_2_7_0.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__io_springfox_springfox_spi_2_7_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_7_0.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_7_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_7_0.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_7_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_7_0.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_7_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_7_0.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_7_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_13.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_13.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__io_swagger_swagger_models_1_5_13.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__io_swagger_swagger_models_1_5_13.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_11.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_11.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_11.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_11.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__net_lingala_zip4j_zip4j_1_3_1.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__net_lingala_zip4j_zip4j_1_3_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_6.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_6.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jta_1_1_spec_1_1_1.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jta_1_1_spec_1_1_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_5.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_9.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_9.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_28.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_28.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_28.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_28.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_28.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_28.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_assertj_assertj_core_3_9_1.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_assertj_assertj_core_3_9_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_56.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_56.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_56.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_56.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_0_0.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_0_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_freemarker_freemarker_2_3_28.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_freemarker_freemarker_2_3_28.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_hibernate_hibernate_core_5_0_12_Final.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_hibernate_hibernate_core_5_0_12_Final.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_hibernate_hibernate_core_5_2_16_Final.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_hibernate_hibernate_core_5_2_16_Final.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_9_Final.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_9_Final.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_javassist_javassist_3_22_0_GA.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_javassist_javassist_3_22_0_GA.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_jboss_jandex_2_0_0_Final.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_jboss_jandex_2_0_0_Final.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_jboss_jandex_2_0_3_Final.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_jboss_jandex_2_0_3_Final.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_0_1_Final.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_0_1_Final.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_mapstruct_mapstruct_1_1_0_Final.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_mapstruct_mapstruct_1_1_0_Final.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_mockito_mockito_core_2_15_0.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_mockito_mockito_core_2_15_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_mongodb_bson_3_6_3.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_mongodb_bson_3_6_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_mongodb_mongo_java_driver_3_6_3.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_mongodb_mongo_java_driver_3_6_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_6_3.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_6_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_6_3.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_6_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_projectlombok_lombok_1_16_16.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_projectlombok_lombok_1_16_16.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_reflections_reflections_0_9_11.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_reflections_reflections_0_9_11.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_amqp_spring_amqp_2_0_3_RELEASE.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_amqp_spring_amqp_2_0_3_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_2_0_3_RELEASE.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_2_0_3_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_1_RELEASE.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_1_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_1_RELEASE.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_1_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_1_RELEASE.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_1_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_amqp_2_0_1_RELEASE.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_amqp_2_0_1_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_mongodb_2_0_1_RELEASE.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_mongodb_2_0_1_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_0_1_RELEASE.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_0_1_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_0_1_RELEASE.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_0_1_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_1_RELEASE.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_1_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_1_RELEASE.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_1_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_1_RELEASE.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_1_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_1_RELEASE.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_1_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_1_RELEASE.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_1_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_1_RELEASE.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_1_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_13_9_RELEASE.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_13_9_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_0_6_RELEASE.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_0_6_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_data_spring_data_mongodb_1_10_9_RELEASE.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_data_spring_data_mongodb_1_10_9_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_data_spring_data_mongodb_2_0_6_RELEASE.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_data_spring_data_mongodb_2_0_6_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_2_RELEASE.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_2_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_4_2_3_RELEASE.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_4_2_3_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_0_4_RELEASE.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_0_4_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_security_spring_security_jwt_1_0_8_RELEASE.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_security_spring_security_jwt_1_0_8_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_spring_aop_5_0_5_RELEASE.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_spring_aop_5_0_5_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_spring_beans_5_0_5_RELEASE.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_spring_beans_5_0_5_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_spring_context_5_0_5_RELEASE.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_spring_context_5_0_5_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_spring_context_support_5_0_5_RELEASE.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_spring_context_support_5_0_5_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_spring_core_5_0_5_RELEASE.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_spring_core_5_0_5_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_spring_expression_5_0_5_RELEASE.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_spring_expression_5_0_5_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_5_RELEASE.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_5_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_spring_messaging_5_0_5_RELEASE.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_spring_messaging_5_0_5_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_spring_test_5_0_5_RELEASE.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_spring_test_5_0_5_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_spring_tx_5_0_5_RELEASE.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_spring_tx_5_0_5_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_spring_web_5_0_5_RELEASE.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_spring_web_5_0_5_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_spring_webflux_5_0_5_RELEASE.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_spring_webflux_5_0_5_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_5_RELEASE.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_5_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_5_1.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_5_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" afterPath="$PROJECT_DIR$/../../cms_manage/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/cms_service/xc-framework-model/src/main/java/com/xuecheng/framework/domain/cms/response/CmsCode.java" afterPath="$PROJECT_DIR$/../../cms_manage/cms_service/xc-framework-model/src/main/java/com/xuecheng/framework/domain/cms/response/CmsCode.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/cms_service/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/ManageCmsApplication.java" afterPath="$PROJECT_DIR$/../../cms_manage/cms_service/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/ManageCmsApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/cms_service/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/service/CmsTemplateService.java" afterPath="$PROJECT_DIR$/../../cms_manage/cms_service/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/service/CmsTemplateService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/cms_service/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/service/PageService.java" afterPath="$PROJECT_DIR$/../../cms_manage/cms_service/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/service/PageService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/cms_service/xc-service-manage-cms/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/../../cms_manage/cms_service/xc-service-manage-cms/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/cms_service/xc-service-manage-cms/src/test/java/com/xuecheng/manage_cms/RestTemplateTest.java" afterPath="$PROJECT_DIR$/../../cms_manage/cms_service/xc-service-manage-cms/src/test/java/com/xuecheng/manage_cms/RestTemplateTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/cms_service/xc-service-manage-cms/src/test/java/com/xuecheng/manage_cms/service/CmsPageServiceTest.java" afterPath="$PROJECT_DIR$/../../cms_manage/cms_service/xc-service-manage-cms/src/test/java/com/xuecheng/manage_cms/service/CmsPageServiceTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cms_manage/cms_service/xc-service-manage-cms/target/classes/application.yml" afterPath="$PROJECT_DIR$/../../cms_manage/cms_service/xc-service-manage-cms/target/classes/application.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../demo57spring_boot_cms/test_rabbitmq_consummer/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../demo57spring_boot_cms/test_rabbitmq_consummer/src/main/resources/application.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../demo57spring_boot_cms/test_rabbitmq_consummer/src/main/resources/logback-spring.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../demo57spring_boot_cms/test_rabbitmq_consummer/test_rabbitmq_consummer.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../demo57spring_boot_cms/test_rabbitmq_producer/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../demo57spring_boot_cms/test_rabbitmq_producer/src/main/java/com/xuecheng/test/rabbitmq/config/RabbitmqConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../demo57spring_boot_cms/test_rabbitmq_producer/src/main/resources/application.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../demo57spring_boot_cms/test_rabbitmq_producer/src/main/resources/logback-spring.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../demo57spring_boot_cms/test_rabbitmq_producer/test_rabbitmq_producer.iml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../demo57spring_boot_cms/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../demo57spring_boot_cms/xc-service-manage-cms/src/test/java/com/xuecheng/manage_cms/dao/CmsPageRepositoryTest.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot_freemarker/src/main/java/com/lin/SpringbootFreemarkerApplication.java" afterPath="$PROJECT_DIR$/springboot_freemarker/src/main/java/com/lin/SpringbootFreemarkerApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot_freemarker/src/main/java/com/lin/controller/FreemarkerController.java" afterPath="$PROJECT_DIR$/springboot_freemarker/src/main/java/com/lin/controller/FreemarkerController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot_freemarker/src/main/resources/templates/index_banner.ftlh" afterPath="$PROJECT_DIR$/springboot_freemarker/src/main/resources/templates/index_banner.ftlh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../demo57spring_boot_cms/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../demo57spring_boot_cms/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../demo57spring_boot_cms/.idea/demo57spring_boot_cms.iml" afterPath="$PROJECT_DIR$/../demo57spring_boot_cms/.idea/demo57spring_boot_cms.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../demo57spring_boot_cms/.idea/encodings.xml" afterPath="$PROJECT_DIR$/../demo57spring_boot_cms/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../demo57spring_boot_cms/.idea/misc.xml" afterPath="$PROJECT_DIR$/../demo57spring_boot_cms/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../demo57spring_boot_cms/.idea/modules.xml" afterPath="$PROJECT_DIR$/../demo57spring_boot_cms/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../demo57spring_boot_cms/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../demo57spring_boot_cms/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../demo57spring_boot_cms/xc-framework-model/xc-framework-model.iml" afterPath="$PROJECT_DIR$/../demo57spring_boot_cms/xc-framework-model/xc-framework-model.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../demo57spring_boot_cms/xc-service-api/xc-service-api.iml" afterPath="$PROJECT_DIR$/../demo57spring_boot_cms/xc-service-api/xc-service-api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../demo57spring_boot_cms/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/ManageCmsApplication.java" afterPath="$PROJECT_DIR$/../demo57spring_boot_cms/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/ManageCmsApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../demo57spring_boot_cms/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/service/PageService.java" afterPath="$PROJECT_DIR$/../demo57spring_boot_cms/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/service/PageService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../demo57spring_boot_cms/xc-service-manage-cms/xc-service-manage-cms.iml" afterPath="$PROJECT_DIR$/../demo57spring_boot_cms/xc-service-manage-cms/xc-service-manage-cms.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/springboot_quickstart/target/" />
     <ignored path="$PROJECT_DIR$/springboot_quickstart2/target/" />
@@ -210,8 +70,8 @@
       <file leaf-file-name="SpringbootFreemarkerApplicationTests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/springboot_freemarker/src/test/java/com/lin/SpringbootFreemarkerApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="64" column="58" lean-forward="true" selection-start-line="64" selection-start-column="58" selection-end-line="64" selection-end-column="58" />
+            <state relative-caret-position="775">
+              <caret line="94" column="36" lean-forward="false" selection-start-line="94" selection-start-column="36" selection-end-line="94" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -230,7 +90,7 @@
       <file leaf-file-name="FileMsgService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springboot_freemarker/src/main/java/com/lin/service/FileMsgService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
+            <state relative-caret-position="250">
               <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
               <folding>
                 <element signature="e#367#368#0" expanded="true" />
@@ -396,17 +256,17 @@
   <component name="MavenRunner">
     <option name="jreName" value="9.0" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-908" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="916" />
-    <option name="height" value="1616" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -419,157 +279,7 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="demo57spring_boot02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_freemarker" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo57spring_boot02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_freemarker" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo57spring_boot02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_freemarker" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo57spring_boot02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_freemarker" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo57spring_boot02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_freemarker" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo57spring_boot02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_freemarker" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lin" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo57spring_boot02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_freemarker" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lin" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo57spring_boot02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_freemarker" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lin" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo57spring_boot02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_freemarker" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo57spring_boot02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_freemarker" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo57spring_boot02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_freemarker" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo57spring_boot02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_freemarker" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo57spring_boot02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_freemarker" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo57spring_boot02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_freemarker" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo57spring_boot02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_freemarker" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo57spring_boot02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_quickstart" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo57spring_boot02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_quickstart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo57spring_boot02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_quickstart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo57spring_boot02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_quickstart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo57spring_boot02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_quickstart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lin" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path" value="$PROJECT_DIR$/../../../../dev/nodejs/node" />
@@ -906,6 +616,8 @@
       <workItem from="1601454689740" duration="9868000" />
       <workItem from="1601515550625" duration="1364000" />
       <workItem from="1601529723347" duration="1686000" />
+      <workItem from="1601599823446" duration="853000" />
+      <workItem from="1601693060773" duration="85000" />
     </task>
     <servers />
   </component>
@@ -942,10 +654,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142224000" />
+    <option name="totallyTimeSpent" value="143162000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-908" y="-8" width="916" height="1616" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4356589" sideWeight="0.23426062" order="7" side_tool="true" content_ui="tabs" />
@@ -966,8 +679,8 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37555555" sideWeight="0.4883721" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1220,9 +933,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1265,7 +975,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1281,6 +990,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_freemarker/src/main/java/com/lin/mapper/FreemarkerMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="51" lean-forward="false" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -1300,10 +1016,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_freemarker/src/main/java/com/lin/mapper/FreemarkerMapper.java">
+    <entry file="file://$PROJECT_DIR$/springboot_freemarker/src/main/java/com/lin/service/FreemarkerService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
-          <caret line="7" column="51" lean-forward="false" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_freemarker/src/main/java/com/lin/service/FileMsgService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+          <folding>
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1319,29 +1047,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_freemarker/src/main/java/com/lin/service/FileMsgService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-          <folding>
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_freemarker/src/main/java/com/lin/service/FreemarkerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot_freemarker/src/test/java/com/lin/SpringbootFreemarkerApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="64" column="58" lean-forward="true" selection-start-line="64" selection-start-column="58" selection-end-line="64" selection-end-column="58" />
+        <state relative-caret-position="775">
+          <caret line="94" column="36" lean-forward="false" selection-start-line="94" selection-start-column="36" selection-end-line="94" selection-end-column="36" />
           <folding />
         </state>
       </provider>

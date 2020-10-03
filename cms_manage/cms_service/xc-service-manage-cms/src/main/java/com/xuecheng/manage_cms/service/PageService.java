@@ -1,5 +1,6 @@
 package com.xuecheng.manage_cms.service;
 
+import com.alibaba.fastjson.JSON;
 import com.mongodb.client.gridfs.GridFSBucket;
 import com.mongodb.client.gridfs.GridFSDownloadStream;
 import com.mongodb.client.gridfs.model.GridFSFile;
@@ -12,13 +13,17 @@ import com.xuecheng.framework.model.response.CommonCode;
 import com.xuecheng.framework.model.response.QueryResponseResult;
 import com.xuecheng.framework.model.response.QueryResult;
 import com.xuecheng.framework.model.response.ResponseResult;
+import com.xuecheng.manage_cms.config.RabbitmqConfig;
 import com.xuecheng.manage_cms.dao.CmsPageRepository;
+import com.xuecheng.manage_cms.dao.CmsSiteRepository;
 import freemarker.cache.StringTemplateLoader;
 import freemarker.template.Configuration;
 import freemarker.template.Template;
 import freemarker.template.TemplateException;
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang3.StringUtils;
+import org.bson.types.ObjectId;
+import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.*;
 import org.springframework.data.mongodb.core.query.Criteria;
@@ -35,16 +40,15 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-import java.util.Optional;
+import java.util.*;
 
 @Service
 public class PageService {
 
     @Autowired
     CmsPageRepository cmsPageRepository;
+    @Autowired
+    CmsSiteRepository cmsSiteRepository;
     @Autowired
     RestTemplate restTemplate;
     @Autowired
@@ -55,6 +59,8 @@ public class PageService {
     GridFsTemplate gridFsTemplate;
     @Autowired
     GridFSBucket gridFSBucket;
+    @Autowired
+    RabbitTemplate rabbitTemplate;
 
     /**
      * 页面查询方法
@@ -248,12 +254,51 @@ public class PageService {
         // staticize
         String staticContent = FreeMarkerTemplateUtils.processTemplateIntoString(template, model);
         return staticContent;
-//        InputStream inputStream = IOUtils.toInputStream(staticContent);
-//        String staticFileName = pagePhysicalPath + htmlFileId + ".html";
-//        FileOutputStream fileOutputStream = new FileOutputStream(new File(staticFileName));
-//        IOUtils.copy(inputStream, fileOutputStream);
-//        inputStream.close();
-//        fileOutputStream.close();
+    }
+
+    // 页面发布
+    public ResponseResult post(String pageId) {
+        CmsPage cmsPage = this.findCmsPageByID(pageId);
+        if (cmsPage == null) {
+            ExceptionCast.cast(CmsCode.CMS_PAGE_NOTEXISTS);
+        }
+        // 1.1执行静态化
+        String staticContent = null;
+        try {
+            staticContent = this.getPageHtml(pageId);
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (TemplateException e) {
+            e.printStackTrace();
+        }
+        // 1.2将静态化文件存储到GridFS中
+        InputStream inputStream = null;
+        try {
+            inputStream = IOUtils.toInputStream(staticContent, "utf-8");
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                inputStream.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+        ObjectId objectId = gridFsTemplate.store(inputStream, cmsPage.getPageName());
+        // 1.3将html文件id更新到cmsPage中
+        cmsPage.setHtmlFileId(objectId.toHexString());
+        CmsPage cmsPage1 = cmsPageRepository.save(cmsPage);
+
+        // 2.向MQ发消息
+        // 2.1 创建消息对象
+        Map<String, String> msg = new HashMap<>();
+        msg.put("pageId", cmsPage1.getPageId());
+        String jsonString = JSON.toJSONString(msg);
+        // 2.2 发送给MQ
+        String exRoutingCmsPostpage = RabbitmqConfig.EX_ROUTING_CMS_POSTPAGE; // 交换机
+        String routingKey = cmsPage1.getSiteId(); // routingKey
+        rabbitTemplate.convertAndSend(exRoutingCmsPostpage, routingKey, jsonString);
+        return new ResponseResult(CommonCode.SUCCESS);
     }
 
 }

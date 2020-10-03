@@ -1,7 +1,6 @@
 package com.xuecheng.manage_cms.service;
 
 import com.xuecheng.framework.domain.cms.response.CmsCode;
-import com.xuecheng.framework.exception.CustomException;
 import com.xuecheng.framework.exception.ExceptionCast;
 import com.xuecheng.framework.domain.cms.CmsPage;
 import com.xuecheng.framework.domain.cms.request.QueryPageRequest;
