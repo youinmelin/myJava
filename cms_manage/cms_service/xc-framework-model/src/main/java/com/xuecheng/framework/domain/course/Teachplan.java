@@ -8,12 +8,13 @@ import javax.persistence.*;
 import java.io.Serializable;
 
 /**
+ * 课程计划表, 对应Spring Data JPA
  * Created by admin on 2018/2/7.
  */
 @Data
 @ToString
-@Entity
-@Table(name="teachplan")
+@Entity  // 标识模型类
+@Table(name="teachplan") // 指定表名 in mysql
 @GenericGenerator(name = "jpa-uuid", strategy = "uuid")
 public class Teachplan implements Serializable {
     private static final long serialVersionUID = -916357110051689485L;
@@ -28,7 +29,7 @@ public class Teachplan implements Serializable {
     private String description;
     private String courseid;
     private String status;
-    private Integer orderby;
+    private String orderby;
     private Double timelength;
     private String trylearn;
 
