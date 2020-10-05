@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.xuecheng.manage_course.dao.CategoryNodeMapper">
+    <resultMap id="categoryNodeMap" type="com.xuecheng.framework.domain.course.ext.CategoryNode">
+        <!--一级节点-->
+        <id column="a_id" property="id"></id>
+        <result column="a_name" property="name"></result>
+        <result column="_label" property="label"></result>
+        <result column="_parendid" property="parendid"></result>
+        <result column="_isshow" property="isshow"></result>
+        <result column="_orderby" property="orderby"></result>
+        <result column="_isleaf" property="isleaf"></result>
+        <!--二级节点-->
+        <collection property="children" ofType="com.xuecheng.framework.domain.course.ext.CategoryNode">
+            <id column="b_id" property="id"></id>
+            <result column="b_name" property="name"></result>
+            <result column="b_label" property="label"></result>
+            <result column="b_parendid" property="parendid"></result>
+            <result column="b_isshow" property="isshow"></result>
+            <result column="b_orderby" property="orderby"></result>
+            <result column="b_isleaf" property="isleaf"></result>
+            <!--三级节点-->
+            <collection property="children" ofType="com.xuecheng.framework.domain.course.ext.CategoryNode">
+                <id column="c_id" property="id"></id>
+                <result column="c_name" property="name"></result>
+                <result column="c_label" property="label"></result>
+                <result column="c_parendid" property="parendid"></result>
+                <result column="c_isshow" property="isshow"></result>
+                <result column="c_orderby" property="orderby"></result>
+                <result column="c_isleaf" property="isleaf"></result>
+            </collection>
+        </collection>
+    </resultMap>
+    <select id="findAllCategoryNode" parameterType="java.lang.String" resultMap ="categoryNodeMap">
+        --         按照树形模式自连接查询表
+        SELECT
+          a.id a_id, a.name a_name, a.label a_label, a.parentid a_parentid, a.isshow a_isshow, a.orderby a_orderby, a.isleaf a_isleaf,
+          b.id b_id, b.name b_name, b.label b_label, b.parentid b_parentid, b.isshow b_isshow, b.orderby b_orderby, b.isleaf b_isleaf,
+          c.id c_id, c.name c_name, c.label c_label, c.parentid c_parentid, c.isshow c_isshow, c.orderby c_orderby, c.isleaf c_isleaf
+        FROM category a
+          LEFT JOIN category b ON b.parentid = a.id
+            LEFT JOIN category c ON c.parentid = b.id
+        WHERE a.id = '1'
+        ORDER BY a.orderby, b.orderby, c.orderby
+    </select>
+</mapper>

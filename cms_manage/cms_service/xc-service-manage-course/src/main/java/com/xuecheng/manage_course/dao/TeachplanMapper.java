@@ -6,6 +6,6 @@ import org.apache.ibatis.annotations.Mapper;
 @Mapper
 public interface TeachplanMapper {
 
-    // 课程计划查询
+    // 课程计划查询 // 单表自连接查询 使用TeachplanMapper.xml
     public TeachplanNode selectTeachplanList (String courseId);
 }

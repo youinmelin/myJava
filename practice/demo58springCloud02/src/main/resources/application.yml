@@ -4,7 +4,7 @@ spring:
   datasource:
 #    driver-class-name: com.mysql.jdbc.Driver
     driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql:///test
+    url: jdbc:mysql:///test?characterEncoding=utf-8
     username: root
     password: aaaaaa
   redis:

@@ -3,12 +3,10 @@ package com.xuecheng.manage_course.Service;
 import com.xuecheng.framework.domain.course.CourseBase;
 import com.xuecheng.framework.domain.course.Teachplan;
 import com.xuecheng.framework.domain.course.ext.TeachplanNode;
+import com.xuecheng.framework.domain.course.request.CourseListRequest;
 import com.xuecheng.framework.exception.ExceptionCast;
-import com.xuecheng.framework.model.response.CommonCode;
-import com.xuecheng.framework.model.response.ResponseResult;
-import com.xuecheng.manage_course.dao.CourseBaseRepository;
-import com.xuecheng.manage_course.dao.TeachplanMapper;
-import com.xuecheng.manage_course.dao.TeachplanRepository;
+import com.xuecheng.framework.model.response.*;
+import com.xuecheng.manage_course.dao.*;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,6 +24,10 @@ public class CourseService {
     TeachplanRepository teachplanRepository;
     @Autowired
     CourseBaseRepository courseBaseRepository;
+    @Autowired
+    CourseMapper courseMapper;
+    @Autowired
+    CourseInfoMapper courseInfoMapper;
     // 查询课程计划
     public TeachplanNode findTeachplanList(String courseId) {
         return teachplanMapper.selectTeachplanList(courseId);
@@ -83,4 +85,13 @@ public class CourseService {
         teachplanRepository.save(teachplanNew);
         return  new ResponseResult(CommonCode.SUCCESS);
     }
+
+    public QueryResponseResult fingAllCourseWithPic(int page, int size, CourseListRequest courseListRequest) {
+        List<CourseBase> courseBases = courseInfoMapper.findAllCourseInfo();
+        QueryResult<CourseBase> courseBaseQueryResult = new QueryResult<>();
+        courseBaseQueryResult.setList(courseBases);
+        courseBaseQueryResult.setTotal(courseBases.size());
+        return new QueryResponseResult(CommonCode.SUCCESS, courseBaseQueryResult);
+    }
+
 }

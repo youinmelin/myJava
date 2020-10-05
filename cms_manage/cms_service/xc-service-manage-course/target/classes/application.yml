@@ -17,3 +17,14 @@ spring:
       testOnReturn: false #归还连接时检测连接是否有效
       timeBetweenEvictionRunsMillis: 60000 #配置间隔检测连接是否有效的时间（单位是毫秒）
       minEvictableIdleTimeMillis: 300000  #连接在连接池的最小生存时间（毫秒）
+#pagehelper:
+#  helperDialect: mysql
+#  reasonable: true # 启用分页合理化，当pagenum<1时，会自动查询第一页的数据，当pagenum>pages时，自动查询最后一页数据
+hengboy:
+  pageable:
+    dialect: mysql
+
+
+
+#mybatis:
+#  type-aliases-package: com.xuecheng.framework.domain
