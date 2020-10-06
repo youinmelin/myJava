@@ -16,6 +16,7 @@
         <option value="$PROJECT_DIR$/../practice/demo57spring_boot_cms/xc_service_manage_cms_client/pom.xml" />
         <option value="$PROJECT_DIR$/cms_service/xc-service-manage-cms-client/pom.xml" />
         <option value="$PROJECT_DIR$/cms_service/xc-service-manage-course/pom.xml" />
+        <option value="$PROJECT_DIR$/test_fastdfs/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

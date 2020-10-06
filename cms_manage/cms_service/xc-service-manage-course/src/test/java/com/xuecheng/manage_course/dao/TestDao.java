@@ -1,10 +1,12 @@
 package com.xuecheng.manage_course.dao;
 
 import com.xuecheng.framework.domain.course.CourseBase;
+import com.xuecheng.framework.domain.course.CourseMarket;
 import com.xuecheng.framework.domain.course.CoursePic;
 import com.xuecheng.framework.domain.course.ext.CategoryNode;
 import com.xuecheng.framework.domain.course.ext.CourseInfo;
 import com.xuecheng.framework.domain.course.ext.TeachplanNode;
+import com.xuecheng.manage_course.Service.CourseService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -33,6 +35,11 @@ public class TestDao {
     CoursePicMapper coursePicMapper;
     @Autowired
     CategoryNodeMapper categoryNodeMapper;
+    @Autowired
+    CourseMarketRepository courseMarketRepository;
+    @Autowired
+    CourseService courseService;
+
 
 
     @Test
@@ -82,9 +89,11 @@ public class TestDao {
         System.out.println(allCategoryNodes);
     }
 
-//    @Test
-//    public void testFindCourseInfoWithPic() {
-//        List<CourseInfo> allCourseInfoWithPic = courseInfoMapper.findAllCourseInfoWithPic();
-//        System.out.println(allCourseInfoWithPic);
-//    }
+    @Test
+    public void testCourseMerket() {
+        CourseMarket courseMarket = courseService.findCourseMarketById("297e7c7c62b888f00162b8a7dec20000");
+//        Optional<CourseMarket> courseMarket = courseMarketRepository.findById("297e7c7c62b888f00162b8a7dec20000");
+        System.out.println(courseMarket);
+
+    }
 }

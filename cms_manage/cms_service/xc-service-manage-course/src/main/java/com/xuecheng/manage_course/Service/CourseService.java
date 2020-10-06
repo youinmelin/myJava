@@ -1,6 +1,7 @@
 package com.xuecheng.manage_course.Service;
 
 import com.xuecheng.framework.domain.course.CourseBase;
+import com.xuecheng.framework.domain.course.CourseMarket;
 import com.xuecheng.framework.domain.course.Teachplan;
 import com.xuecheng.framework.domain.course.ext.CourseInfo;
 import com.xuecheng.framework.domain.course.ext.TeachplanNode;
@@ -30,6 +31,8 @@ public class CourseService {
     CourseMapper courseMapper;
     @Autowired
     CourseInfoMapper courseInfoMapper;
+    @Autowired
+    CourseMarketRepository courseMarketRepository;
     // 查询课程计划
     public TeachplanNode findTeachplanList(String courseId) {
         return teachplanMapper.selectTeachplanList(courseId);
@@ -116,5 +119,14 @@ public class CourseService {
         courseBase.setStatus("202001"); //默认课程未发布
         courseBaseRepository.save(courseBase);
         return new AddCourseResult(CommonCode.SUCCESS, courseBase.getId());
+    }
+
+    // 查询课程营销信息
+    public CourseMarket findCourseMarketById(String courseId) {
+        Optional<CourseMarket> byId = courseMarketRepository.findById(courseId);
+        if (byId.isPresent()) {
+            return byId.get();
+        }
+        return null;
     }
 }
