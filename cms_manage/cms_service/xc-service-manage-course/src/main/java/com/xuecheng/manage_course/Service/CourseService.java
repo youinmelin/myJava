@@ -2,6 +2,7 @@ package com.xuecheng.manage_course.Service;
 
 import com.xuecheng.framework.domain.course.CourseBase;
 import com.xuecheng.framework.domain.course.Teachplan;
+import com.xuecheng.framework.domain.course.ext.CourseInfo;
 import com.xuecheng.framework.domain.course.ext.TeachplanNode;
 import com.xuecheng.framework.domain.course.request.CourseListRequest;
 import com.xuecheng.framework.domain.course.response.AddCourseResult;
@@ -88,8 +89,8 @@ public class CourseService {
     }
 
     public QueryResponseResult fingAllCourseWithPic(int page, int size, CourseListRequest courseListRequest) {
-        List<CourseBase> courseBases = courseInfoMapper.findAllCourseInfo();
-        QueryResult<CourseBase> courseBaseQueryResult = new QueryResult<>();
+        List<CourseInfo> courseBases = courseInfoMapper.findAllCourseInfoWithPic();
+        QueryResult<CourseInfo> courseBaseQueryResult = new QueryResult<>();
         courseBaseQueryResult.setList(courseBases);
         courseBaseQueryResult.setTotal(courseBases.size());
         return new QueryResponseResult(CommonCode.SUCCESS, courseBaseQueryResult);

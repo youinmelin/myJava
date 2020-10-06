@@ -66,7 +66,7 @@ public class TestDao {
 
     @Test
     public void testFindAllCourseWithPic() {
-        List<CourseBase> courseInfos = courseInfoMapper.findAllCourseInfo();
+        List<CourseInfo> courseInfos = courseInfoMapper.findAllCourseInfoWithPic();
         System.out.println("------------" + courseInfos);
     }
 
@@ -80,6 +80,11 @@ public class TestDao {
     public void testAllCategoryNode() {
         CategoryNode allCategoryNodes = categoryNodeMapper.findAllCategoryNode();
         System.out.println(allCategoryNodes);
-
     }
+
+//    @Test
+//    public void testFindCourseInfoWithPic() {
+//        List<CourseInfo> allCourseInfoWithPic = courseInfoMapper.findAllCourseInfoWithPic();
+//        System.out.println(allCourseInfoWithPic);
+//    }
 }

@@ -7,6 +7,7 @@ import org.apache.ibatis.annotations.One;
 import org.apache.ibatis.annotations.Result;
 import org.apache.ibatis.annotations.Results;
 import org.apache.ibatis.annotations.Select;
+import org.springframework.stereotype.Service;
 import tk.mybatis.mapper.common.Mapper;
 
 import java.util.List;
@@ -22,7 +23,9 @@ public interface CourseInfoMapper {
 //            @Result(property = "pic", column = "courseid",
 //                    one = @One(select = "com.xuecheng.manage_course.dao.CoursePicMapper.findCoursePicById"))
 //    })
-    @Select("select id, name, pic from course_base left join course_pic on course_base.id = course_pic.courseid")
-    List<CourseBase> findAllCourseInfo ();
+//    @Select("select id, name, pic from course_base left join course_pic on course_base.id = course_pic.courseid")
+//    List<CourseBase> findAllCourseInfo ();
 
+    @Select("select id, name, pic from course_base left join course_pic on course_base.id = course_pic.courseid")
+    List<CourseInfo> findAllCourseInfoWithPic ();
 }
