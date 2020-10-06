@@ -35,6 +35,6 @@ public class CourseBase implements Serializable {
     private String companyId;
     @Column(name="user_id")
     private String userId;
-    private String pic;
+//    private String pic;
 
 }

@@ -4,6 +4,7 @@ import com.xuecheng.framework.domain.course.CourseBase;
 import com.xuecheng.framework.domain.course.Teachplan;
 import com.xuecheng.framework.domain.course.ext.TeachplanNode;
 import com.xuecheng.framework.domain.course.request.CourseListRequest;
+import com.xuecheng.framework.domain.course.response.AddCourseResult;
 import com.xuecheng.framework.exception.ExceptionCast;
 import com.xuecheng.framework.model.response.*;
 import com.xuecheng.manage_course.dao.*;
@@ -94,4 +95,25 @@ public class CourseService {
         return new QueryResponseResult(CommonCode.SUCCESS, courseBaseQueryResult);
     }
 
+    public CourseBase findCourseBaseById(String courseId) {
+        return courseMapper.findCourseBaseById(courseId);
+    }
+
+    // 修改课程信息
+    public ResponseResult updateCourseBase (String courseId, CourseBase courseBase) {
+        CourseBase courseBaseOriginal = courseMapper.findCourseBaseById(courseId);
+        if (courseBaseOriginal == null) {
+            ExceptionCast.cast(CommonCode.INVALID_PARAM);
+        }
+        courseBase.setId(courseId);
+        courseBaseRepository.saveAndFlush(courseBase);
+        return new ResponseResult(CommonCode.SUCCESS);
+    }
+
+    // 新增课程信息
+    public AddCourseResult addCourseBase(CourseBase courseBase) {
+        courseBase.setStatus("202001"); //默认课程未发布
+        courseBaseRepository.save(courseBase);
+        return new AddCourseResult(CommonCode.SUCCESS, courseBase.getId());
+    }
 }
