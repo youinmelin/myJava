@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/springboot_jpa/pom.xml" />
         <option value="$PROJECT_DIR$/springboot_jdbc/pom.xml" />
         <option value="$PROJECT_DIR$/springboot_freemarker/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_redis/pom.xml" />
       </list>
     </option>
   </component>

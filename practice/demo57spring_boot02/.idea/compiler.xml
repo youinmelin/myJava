@@ -12,6 +12,8 @@
         <module name="springboot_mybatis" />
         <module name="springboot_quickstart" />
         <module name="springboot_quickstart2" />
+        <module name="springboot_redis" />
+        <module name="springboot_redis2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,6 +23,8 @@
       <module name="springboot_mybatis" target="1.9" />
       <module name="springboot_quickstart" target="1.8" />
       <module name="springboot_quickstart2" target="1.9" />
+      <module name="springboot_redis" target="1.8" />
+      <module name="springboot_redis2" target="9" />
     </bytecodeTargetLevel>
   </component>
 </project>
