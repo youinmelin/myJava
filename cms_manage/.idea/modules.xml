@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/cms_manage.iml" filepath="$PROJECT_DIR$/.idea/cms_manage.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cms_service/test_fastdfs/test_fastdfs.iml" filepath="$PROJECT_DIR$/cms_service/test_fastdfs/test_fastdfs.iml" />
       <module fileurl="file://$PROJECT_DIR$/cms_service/xc-framework-common/xc-framework-common.iml" filepath="$PROJECT_DIR$/cms_service/xc-framework-common/xc-framework-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/cms_service/xc-framework-model/xc-framework-model.iml" filepath="$PROJECT_DIR$/cms_service/xc-framework-model/xc-framework-model.iml" />
       <module fileurl="file://$PROJECT_DIR$/cms_service/xc-framework-parent/xc-framework-parent.iml" filepath="$PROJECT_DIR$/cms_service/xc-framework-parent/xc-framework-parent.iml" />
