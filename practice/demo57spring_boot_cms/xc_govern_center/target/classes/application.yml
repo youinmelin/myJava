@@ -1,0 +1,20 @@
+server:
+  port: ${PORT:50101}  # 设置变量PORT,如果找不到PORT的值,则为50101
+spring:
+  application:
+    name: xc-govern-center  # 指定服务器名
+eureka:
+  client:
+    registerWithEureka: true #服务注册，是否将自己注册到Eureka服务中,高可用环境中为true
+    fetchRegistry: true #服务发现，是否从Eureka中获取注册信息,高可用环境中为true
+    serviceUrl: #Eureka客户端与Eureka服务端的交互地址，高可用状态配置对方的地址，单机状态配置自己（如果 不配置则默认本机8761端口）
+      defaultZone: ${ERUEKA_SERVER:http://eureka02:50102/eureka/} # 上报状态要配置对方地址,必须用主机名或域名
+  server:
+    enable-self-preservation: false #是否开启自我保护模式
+    eviction-interval-timer-in-ms: 60000 #服务注册表清理间隔（单位毫秒，默认是60*1000）
+  instance:
+    hostname: ${EUREKA_DOMAIN:eureka01} #
+        #设置两个Eureka服务的主机名分别为 eureka01、eureka02,互相注册自己的地址
+        # 在IDEA中制作启动脚本,Run-Eidt Configurations 将当前副本改名为eureka01,
+        # 在VM options 设置参数值-DPORT=50102 -DERUEKA_SERVER=http://eureka01:50101/eureka/ -DEUREKA_DOMAIN=eureka02
+        # 复制出一个脚本改名叫eureka02 -DPORT=50101 -DERUEKA_SERVER=http://eureka02:50102/eureka/ -DEUREKA_DOMAIN=eureka01

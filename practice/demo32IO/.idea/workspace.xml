@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="31e0316a-b3ef-4326-ae7d-b2d2f158abaf" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="FileInputStream01.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/lin/FileInputStream01.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="12" column="34" lean-forward="false" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileInputStream02Copyfile.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/lin/FileInputStream02Copyfile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="day03-认识微服务2.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/files/day03-认识微服务2.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="250">
+                <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+                <folding>
+                  <marker date="1542351711301" expanded="true" signature="772:901" ph="..." />
+                  <marker date="1542351711301" expanded="true" signature="1280:1592" ph="{...}" />
+                  <marker date="1542351711301" expanded="true" signature="1640:1761" ph="{...}" />
+                  <marker date="1542351711301" expanded="true" signature="2107:2302" ph="{...}" />
+                  <marker date="1542351711301" expanded="true" signature="2181:2272" ph="{...}" />
+                  <marker date="1542351711301" expanded="true" signature="2513:2670" ph="{...}" />
+                  <marker date="1542351711301" expanded="true" signature="3217:3349" ph="hystrix: &lt;1 key&gt;" />
+                  <marker date="1542351711301" expanded="true" signature="3228:3349" ph="command: &lt;1 key&gt;" />
+                  <marker date="1542351711301" expanded="true" signature="3240:3349" ph="default: &lt;1 key&gt;" />
+                  <marker date="1542351711301" expanded="true" signature="3257:3349" ph="execution: &lt;1 key&gt;" />
+                  <marker date="1542351711301" expanded="true" signature="3278:3349" ph="isolation: &lt;1 key&gt;" />
+                  <marker date="1542351711301" expanded="true" signature="3301:3349" ph="thread: &lt;1 key&gt;" />
+                  <marker date="1542351711301" expanded="true" signature="3345:3349" ph="6000" />
+                  <marker date="1542351711301" expanded="true" signature="3948:4071" ph="..." />
+                  <marker date="1542351711301" expanded="true" signature="4620:4823" ph="{...}" />
+                  <marker date="1542351711301" expanded="true" signature="4694:4793" ph="{...}" />
+                  <marker date="1542351711301" expanded="true" signature="4884:4964" ph="@{...}" />
+                  <marker date="1542351711301" expanded="false" signature="5063:5074" ph=" { " />
+                  <marker date="1542351711301" expanded="false" signature="5137:5143" ph=" }" />
+                  <marker date="1542351711301" expanded="true" signature="5524:5736" ph="user-service: &lt;1 key&gt;" />
+                  <marker date="1542351711301" expanded="true" signature="5540:5736" ph="ribbon: &lt;5 keys&gt;" />
+                  <marker date="1542351711301" expanded="true" signature="5568:5571" ph="250" />
+                  <marker date="1542351711301" expanded="true" signature="5602:5606" ph="1000" />
+                  <marker date="1542351711301" expanded="true" signature="5650:5654" ph="true" />
+                  <marker date="1542351711301" expanded="true" signature="5878:5913" ph="feign: &lt;1 key&gt;" />
+                  <marker date="1542351711301" expanded="true" signature="5887:5913" ph="hystrix: &lt;1 key&gt;" />
+                  <marker date="1542351711301" expanded="true" signature="5909:5913" ph="true" />
+                  <marker date="1542351711301" expanded="true" signature="6162:6281" ph="{...}" />
+                  <marker date="1542351711301" expanded="true" signature="6719:6816" ph="feign: &lt;1 key&gt;" />
+                  <marker date="1542351711301" expanded="true" signature="6728:6816" ph="compression: &lt;2 keys&gt;" />
+                  <marker date="1542351711301" expanded="true" signature="6745:6773" ph="request: &lt;1 key&gt;" />
+                  <marker date="1542351711301" expanded="true" signature="6769:6773" ph="true" />
+                  <marker date="1542351711301" expanded="true" signature="6787:6816" ph="response: &lt;1 key&gt;" />
+                  <marker date="1542351711301" expanded="true" signature="6812:6816" ph="true" />
+                  <marker date="1542351711301" expanded="true" signature="6874:7039" ph="feign: &lt;1 key&gt;" />
+                  <marker date="1542351711301" expanded="true" signature="6883:7039" ph="compression: &lt;1 key&gt;" />
+                  <marker date="1542351711301" expanded="true" signature="6900:7039" ph="request: &lt;3 keys&gt;" />
+                  <marker date="1542351711301" expanded="true" signature="6924:6928" ph="true" />
+                  <marker date="1542351711301" expanded="true" signature="6956:6998" ph="text/html…ation/json" />
+                  <marker date="1542351711301" expanded="true" signature="7035:7039" ph="2048" />
+                  <marker date="1542351711301" expanded="true" signature="7274:7312" ph="logging: &lt;1 key&gt;" />
+                  <marker date="1542351711301" expanded="true" signature="7285:7312" ph="level: &lt;1 key&gt;" />
+                  <marker date="1542351711301" expanded="true" signature="7307:7312" ph="debug" />
+                  <marker date="1542351711301" expanded="false" signature="7429:7439" ph=" { " />
+                  <marker date="1542351711301" expanded="false" signature="7464:7470" ph=" }" />
+                  <marker date="1542351711301" expanded="true" signature="9672:9711" ph="@{...}" />
+                  <marker date="1542351711301" expanded="false" signature="9802:9807" ph=" { " />
+                  <marker date="1542351711301" expanded="false" signature="9862:9865" ph=" }" />
+                  <marker date="1542351711301" expanded="true" signature="9897:9918" ph="server: &lt;1 key&gt;" />
+                  <marker date="1542351711301" expanded="true" signature="9913:9918" ph="10010" />
+                  <marker date="1542351711301" expanded="true" signature="9925:9972" ph="spring: &lt;1 key&gt;" />
+                  <marker date="1542351711301" expanded="true" signature="9936:9972" ph="application: &lt;1 key&gt;" />
+                  <marker date="1542351711301" expanded="true" signature="9961:9972" ph="api-gateway" />
+                  <marker date="1542351711301" expanded="true" signature="10134:10253" ph="zuul: &lt;1 key&gt;" />
+                  <marker date="1542351711301" expanded="true" signature="10142:10253" ph="routes: &lt;1 key&gt;" />
+                  <marker date="1542351711301" expanded="true" signature="10154:10253" ph="user-service: &lt;2 keys&gt;" />
+                  <marker date="1542351711301" expanded="true" signature="10194:10210" ph="/user-service/**" />
+                  <marker date="1542351711301" expanded="true" signature="10232:10253" ph="http://12…0.0.1:8081" />
+                  <marker date="1542351711301" expanded="true" signature="10672:10807" ph="..." />
+                  <marker date="1542351711301" expanded="true" signature="10851:10928" ph="@{...}" />
+                  <marker date="1542351711301" expanded="false" signature="11004:11009" ph=" { " />
+                  <marker date="1542351711301" expanded="false" signature="11064:11067" ph=" }" />
+                  <marker date="1542351711301" expanded="true" signature="11112:11315" ph="eureka: &lt;2 keys&gt;" />
+                  <marker date="1542351711301" expanded="true" signature="11122:11249" ph="client: &lt;2 keys&gt;" />
+                  <marker date="1542351711301" expanded="true" signature="11188:11249" ph="service-url: &lt;1 key&gt;" />
+                  <marker date="1542351711301" expanded="true" signature="11220:11249" ph="http://12…086/eureka" />
+                  <marker date="1542351711301" expanded="true" signature="11252:11315" ph="instance: &lt;2 keys&gt;" />
+                  <marker date="1542351711301" expanded="true" signature="11285:11289" ph="true" />
+                  <marker date="1542351711301" expanded="true" signature="11306:11315" ph="127.0.0.1" />
+                  <marker date="1542351711301" expanded="true" signature="11446:11562" ph="zuul: &lt;1 key&gt;" />
+                  <marker date="1542351711301" expanded="true" signature="11454:11562" ph="routes: &lt;1 key&gt;" />
+                  <marker date="1542351711301" expanded="true" signature="11466:11562" ph="user-service: &lt;2 keys&gt;" />
+                  <marker date="1542351711301" expanded="true" signature="11506:11522" ph="/user-service/**" />
+                  <marker date="1542351711301" expanded="true" signature="11550:11562" ph="user-service" />
+                  <marker date="1542351711301" expanded="true" signature="12033:12083" ph="zuul: &lt;1 key&gt;" />
+                  <marker date="1542351711301" expanded="true" signature="12041:12083" ph="routes: &lt;1 key&gt;" />
+                  <marker date="1542351711301" expanded="true" signature="12067:12083" ph="/user-service/**" />
+                  <marker date="1542351711301" expanded="true" signature="12344:12491" ph="zuul: &lt;2 keys&gt;" />
+                  <marker date="1542351711301" expanded="true" signature="12360:12364" ph="/api" />
+                  <marker date="1542351711301" expanded="true" signature="12376:12491" ph="routes: &lt;1 key&gt;" />
+                  <marker date="1542351711301" expanded="true" signature="12390:12491" ph="user-service: &lt;2 keys&gt;" />
+                  <marker date="1542351711301" expanded="true" signature="12432:12448" ph="/user-service/**" />
+                  <marker date="1542351711301" expanded="true" signature="12479:12491" ph="user-service" />
+                  <marker date="1542351711301" expanded="true" signature="14073:14127" ph="{...}" />
+                  <marker date="1542351711301" expanded="true" signature="14172:14215" ph="{...}" />
+                  <marker date="1542351711301" expanded="true" signature="14265:14320" ph="{...}" />
+                  <marker date="1542351711301" expanded="true" signature="14381:14994" ph="{...}" />
+                  <marker date="1542351711301" expanded="true" signature="14391:14431" ph="//..." />
+                  <marker date="1542351711301" expanded="true" signature="15255:15278" ph="zuul: &lt;1 key&gt;" />
+                  <marker date="1542351711301" expanded="true" signature="15274:15278" ph="true" />
+                  <marker date="1542351711301" expanded="true" signature="15279:15465" ph="ribbon: &lt;5 keys&gt;" />
+                  <marker date="1542351711301" expanded="true" signature="15305:15308" ph="250" />
+                  <marker date="1542351711301" expanded="true" signature="15337:15341" ph="2000" />
+                  <marker date="1542351711301" expanded="true" signature="15383:15387" ph="true" />
+                  <marker date="1542351711301" expanded="true" signature="15478:15610" ph="hystrix: &lt;1 key&gt;" />
+                  <marker date="1542351711301" expanded="true" signature="15489:15610" ph="command: &lt;1 key&gt;" />
+                  <marker date="1542351711301" expanded="true" signature="15501:15610" ph="default: &lt;1 key&gt;" />
+                  <marker date="1542351711301" expanded="true" signature="15518:15610" ph="execution: &lt;1 key&gt;" />
+                  <marker date="1542351711301" expanded="true" signature="15539:15610" ph="isolation: &lt;1 key&gt;" />
+                  <marker date="1542351711301" expanded="true" signature="15562:15610" ph="thread: &lt;1 key&gt;" />
+                  <marker date="1542351711301" expanded="true" signature="15606:15610" ph="6000" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="read.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/files/read.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/files/read.txt" />
+        <option value="$PROJECT_DIR$/src/com/lin/FileInputStream01.java" />
+        <option value="$PROJECT_DIR$/src/com/lin/FileInputStream02Copyfile.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:/test/apache-maven-3.5.2\repository" />
+        <option name="mavenHome" value="D:/test/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="D:\test\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource ProjectPane="true" />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="demo32IO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo32IO" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo32IO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo32IO" type="462c0819:PsiDirectoryNode" />
+              <item name="files" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo32IO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo32IO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo32IO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo32IO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo32IO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo32IO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lin" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path" value="D:/Program Files/nodejs/node" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="last_opened_file_path" value="D:/test/jdk-9.0.4" />
+    <property name="settings.editor.splitter.proportion" value="0.2851711" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\knowledge\IT\my_git\myJava\practice\demo32IO\files" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.FileInputStream02Copyfile">
+    <configuration name="FileInputStream01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.lin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.lin.FileInputStream01" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="demo32IO" />
+      <envs />
+    </configuration>
+    <configuration name="FileInputStream02Copyfile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.lin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.lin.FileInputStream02Copyfile" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="demo32IO" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Application.FileInputStream01" />
+      <item index="1" class="java.lang.String" itemvalue="Application.FileInputStream02Copyfile" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Application.FileInputStream02Copyfile" />
+        <item index="1" class="java.lang.String" itemvalue="Application.FileInputStream01" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="31e0316a-b3ef-4326-ae7d-b2d2f158abaf" name="Default" comment="" />
+      <created>1602408486540</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602408486540</updated>
+      <workItem from="1602408488240" duration="4961000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4961000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32910052" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1578125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/lin/FileInputStream01.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="4" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/demo32IO.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CopyFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OutputStream02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/read.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/day03-认识微服务2.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="250">
+            <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <folding>
+              <marker date="1542351711301" expanded="true" signature="772:901" ph="..." />
+              <marker date="1542351711301" expanded="true" signature="1280:1592" ph="{...}" />
+              <marker date="1542351711301" expanded="true" signature="1640:1761" ph="{...}" />
+              <marker date="1542351711301" expanded="true" signature="2107:2302" ph="{...}" />
+              <marker date="1542351711301" expanded="true" signature="2181:2272" ph="{...}" />
+              <marker date="1542351711301" expanded="true" signature="2513:2670" ph="{...}" />
+              <marker date="1542351711301" expanded="true" signature="3217:3349" ph="hystrix: &lt;1 key&gt;" />
+              <marker date="1542351711301" expanded="true" signature="3228:3349" ph="command: &lt;1 key&gt;" />
+              <marker date="1542351711301" expanded="true" signature="3240:3349" ph="default: &lt;1 key&gt;" />
+              <marker date="1542351711301" expanded="true" signature="3257:3349" ph="execution: &lt;1 key&gt;" />
+              <marker date="1542351711301" expanded="true" signature="3278:3349" ph="isolation: &lt;1 key&gt;" />
+              <marker date="1542351711301" expanded="true" signature="3301:3349" ph="thread: &lt;1 key&gt;" />
+              <marker date="1542351711301" expanded="true" signature="3345:3349" ph="6000" />
+              <marker date="1542351711301" expanded="true" signature="3948:4071" ph="..." />
+              <marker date="1542351711301" expanded="true" signature="4620:4823" ph="{...}" />
+              <marker date="1542351711301" expanded="true" signature="4694:4793" ph="{...}" />
+              <marker date="1542351711301" expanded="true" signature="4884:4964" ph="@{...}" />
+              <marker date="1542351711301" expanded="false" signature="5063:5074" ph=" { " />
+              <marker date="1542351711301" expanded="false" signature="5137:5143" ph=" }" />
+              <marker date="1542351711301" expanded="true" signature="5524:5736" ph="user-service: &lt;1 key&gt;" />
+              <marker date="1542351711301" expanded="true" signature="5540:5736" ph="ribbon: &lt;5 keys&gt;" />
+              <marker date="1542351711301" expanded="true" signature="5568:5571" ph="250" />
+              <marker date="1542351711301" expanded="true" signature="5602:5606" ph="1000" />
+              <marker date="1542351711301" expanded="true" signature="5650:5654" ph="true" />
+              <marker date="1542351711301" expanded="true" signature="5878:5913" ph="feign: &lt;1 key&gt;" />
+              <marker date="1542351711301" expanded="true" signature="5887:5913" ph="hystrix: &lt;1 key&gt;" />
+              <marker date="1542351711301" expanded="true" signature="5909:5913" ph="true" />
+              <marker date="1542351711301" expanded="true" signature="6162:6281" ph="{...}" />
+              <marker date="1542351711301" expanded="true" signature="6719:6816" ph="feign: &lt;1 key&gt;" />
+              <marker date="1542351711301" expanded="true" signature="6728:6816" ph="compression: &lt;2 keys&gt;" />
+              <marker date="1542351711301" expanded="true" signature="6745:6773" ph="request: &lt;1 key&gt;" />
+              <marker date="1542351711301" expanded="true" signature="6769:6773" ph="true" />
+              <marker date="1542351711301" expanded="true" signature="6787:6816" ph="response: &lt;1 key&gt;" />
+              <marker date="1542351711301" expanded="true" signature="6812:6816" ph="true" />
+              <marker date="1542351711301" expanded="true" signature="6874:7039" ph="feign: &lt;1 key&gt;" />
+              <marker date="1542351711301" expanded="true" signature="6883:7039" ph="compression: &lt;1 key&gt;" />
+              <marker date="1542351711301" expanded="true" signature="6900:7039" ph="request: &lt;3 keys&gt;" />
+              <marker date="1542351711301" expanded="true" signature="6924:6928" ph="true" />
+              <marker date="1542351711301" expanded="true" signature="6956:6998" ph="text/html…ation/json" />
+              <marker date="1542351711301" expanded="true" signature="7035:7039" ph="2048" />
+              <marker date="1542351711301" expanded="true" signature="7274:7312" ph="logging: &lt;1 key&gt;" />
+              <marker date="1542351711301" expanded="true" signature="7285:7312" ph="level: &lt;1 key&gt;" />
+              <marker date="1542351711301" expanded="true" signature="7307:7312" ph="debug" />
+              <marker date="1542351711301" expanded="false" signature="7429:7439" ph=" { " />
+              <marker date="1542351711301" expanded="false" signature="7464:7470" ph=" }" />
+              <marker date="1542351711301" expanded="true" signature="9672:9711" ph="@{...}" />
+              <marker date="1542351711301" expanded="false" signature="9802:9807" ph=" { " />
+              <marker date="1542351711301" expanded="false" signature="9862:9865" ph=" }" />
+              <marker date="1542351711301" expanded="true" signature="9897:9918" ph="server: &lt;1 key&gt;" />
+              <marker date="1542351711301" expanded="true" signature="9913:9918" ph="10010" />
+              <marker date="1542351711301" expanded="true" signature="9925:9972" ph="spring: &lt;1 key&gt;" />
+              <marker date="1542351711301" expanded="true" signature="9936:9972" ph="application: &lt;1 key&gt;" />
+              <marker date="1542351711301" expanded="true" signature="9961:9972" ph="api-gateway" />
+              <marker date="1542351711301" expanded="true" signature="10134:10253" ph="zuul: &lt;1 key&gt;" />
+              <marker date="1542351711301" expanded="true" signature="10142:10253" ph="routes: &lt;1 key&gt;" />
+              <marker date="1542351711301" expanded="true" signature="10154:10253" ph="user-service: &lt;2 keys&gt;" />
+              <marker date="1542351711301" expanded="true" signature="10194:10210" ph="/user-service/**" />
+              <marker date="1542351711301" expanded="true" signature="10232:10253" ph="http://12…0.0.1:8081" />
+              <marker date="1542351711301" expanded="true" signature="10672:10807" ph="..." />
+              <marker date="1542351711301" expanded="true" signature="10851:10928" ph="@{...}" />
+              <marker date="1542351711301" expanded="false" signature="11004:11009" ph=" { " />
+              <marker date="1542351711301" expanded="false" signature="11064:11067" ph=" }" />
+              <marker date="1542351711301" expanded="true" signature="11112:11315" ph="eureka: &lt;2 keys&gt;" />
+              <marker date="1542351711301" expanded="true" signature="11122:11249" ph="client: &lt;2 keys&gt;" />
+              <marker date="1542351711301" expanded="true" signature="11188:11249" ph="service-url: &lt;1 key&gt;" />
+              <marker date="1542351711301" expanded="true" signature="11220:11249" ph="http://12…086/eureka" />
+              <marker date="1542351711301" expanded="true" signature="11252:11315" ph="instance: &lt;2 keys&gt;" />
+              <marker date="1542351711301" expanded="true" signature="11285:11289" ph="true" />
+              <marker date="1542351711301" expanded="true" signature="11306:11315" ph="127.0.0.1" />
+              <marker date="1542351711301" expanded="true" signature="11446:11562" ph="zuul: &lt;1 key&gt;" />
+              <marker date="1542351711301" expanded="true" signature="11454:11562" ph="routes: &lt;1 key&gt;" />
+              <marker date="1542351711301" expanded="true" signature="11466:11562" ph="user-service: &lt;2 keys&gt;" />
+              <marker date="1542351711301" expanded="true" signature="11506:11522" ph="/user-service/**" />
+              <marker date="1542351711301" expanded="true" signature="11550:11562" ph="user-service" />
+              <marker date="1542351711301" expanded="true" signature="12033:12083" ph="zuul: &lt;1 key&gt;" />
+              <marker date="1542351711301" expanded="true" signature="12041:12083" ph="routes: &lt;1 key&gt;" />
+              <marker date="1542351711301" expanded="true" signature="12067:12083" ph="/user-service/**" />
+              <marker date="1542351711301" expanded="true" signature="12344:12491" ph="zuul: &lt;2 keys&gt;" />
+              <marker date="1542351711301" expanded="true" signature="12360:12364" ph="/api" />
+              <marker date="1542351711301" expanded="true" signature="12376:12491" ph="routes: &lt;1 key&gt;" />
+              <marker date="1542351711301" expanded="true" signature="12390:12491" ph="user-service: &lt;2 keys&gt;" />
+              <marker date="1542351711301" expanded="true" signature="12432:12448" ph="/user-service/**" />
+              <marker date="1542351711301" expanded="true" signature="12479:12491" ph="user-service" />
+              <marker date="1542351711301" expanded="true" signature="14073:14127" ph="{...}" />
+              <marker date="1542351711301" expanded="true" signature="14172:14215" ph="{...}" />
+              <marker date="1542351711301" expanded="true" signature="14265:14320" ph="{...}" />
+              <marker date="1542351711301" expanded="true" signature="14381:14994" ph="{...}" />
+              <marker date="1542351711301" expanded="true" signature="14391:14431" ph="//..." />
+              <marker date="1542351711301" expanded="true" signature="15255:15278" ph="zuul: &lt;1 key&gt;" />
+              <marker date="1542351711301" expanded="true" signature="15274:15278" ph="true" />
+              <marker date="1542351711301" expanded="true" signature="15279:15465" ph="ribbon: &lt;5 keys&gt;" />
+              <marker date="1542351711301" expanded="true" signature="15305:15308" ph="250" />
+              <marker date="1542351711301" expanded="true" signature="15337:15341" ph="2000" />
+              <marker date="1542351711301" expanded="true" signature="15383:15387" ph="true" />
+              <marker date="1542351711301" expanded="true" signature="15478:15610" ph="hystrix: &lt;1 key&gt;" />
+              <marker date="1542351711301" expanded="true" signature="15489:15610" ph="command: &lt;1 key&gt;" />
+              <marker date="1542351711301" expanded="true" signature="15501:15610" ph="default: &lt;1 key&gt;" />
+              <marker date="1542351711301" expanded="true" signature="15518:15610" ph="execution: &lt;1 key&gt;" />
+              <marker date="1542351711301" expanded="true" signature="15539:15610" ph="isolation: &lt;1 key&gt;" />
+              <marker date="1542351711301" expanded="true" signature="15562:15610" ph="thread: &lt;1 key&gt;" />
+              <marker date="1542351711301" expanded="true" signature="15606:15610" ph="6000" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lin/FileInputStream01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="34" lean-forward="false" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/day03-认识微服务2_copy.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding>
+              <marker date="1602415350187" expanded="true" signature="772:901" ph="..." />
+              <marker date="1602415350187" expanded="true" signature="1280:1592" ph="{...}" />
+              <marker date="1602415350187" expanded="true" signature="1640:1761" ph="{...}" />
+              <marker date="1602415350187" expanded="true" signature="5524:5736" ph="user-service: &lt;1 key&gt;" />
+              <marker date="1602415350187" expanded="true" signature="5540:5736" ph="ribbon: &lt;5 keys&gt;" />
+              <marker date="1602415350187" expanded="true" signature="5568:5571" ph="250" />
+              <marker date="1602415350187" expanded="true" signature="5602:5606" ph="1000" />
+              <marker date="1602415350187" expanded="true" signature="5650:5654" ph="true" />
+              <marker date="1602415350187" expanded="true" signature="6162:6281" ph="{...}" />
+              <marker date="1602415350187" expanded="true" signature="10134:10253" ph="zuul: &lt;1 key&gt;" />
+              <marker date="1602415350187" expanded="true" signature="10142:10253" ph="routes: &lt;1 key&gt;" />
+              <marker date="1602415350187" expanded="true" signature="10154:10253" ph="user-service: &lt;2 keys&gt;" />
+              <marker date="1602415350187" expanded="true" signature="10194:10210" ph="/user-service/**" />
+              <marker date="1602415350187" expanded="true" signature="10232:10253" ph="http://12…0.0.1:8081" />
+              <marker date="1602415350187" expanded="true" signature="11446:11562" ph="zuul: &lt;1 key&gt;" />
+              <marker date="1602415350187" expanded="true" signature="11454:11562" ph="routes: &lt;1 key&gt;" />
+              <marker date="1602415350187" expanded="true" signature="11466:11562" ph="user-service: &lt;2 keys&gt;" />
+              <marker date="1602415350187" expanded="true" signature="11506:11522" ph="/user-service/**" />
+              <marker date="1602415350187" expanded="true" signature="11550:11562" ph="user-service" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lin/FileInputStream02Copyfile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>9.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
