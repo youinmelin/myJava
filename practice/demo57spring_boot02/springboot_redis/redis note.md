@@ -2,7 +2,7 @@
 
 # environment building in idea
 - 1. pom.xml
-'''
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -61,10 +61,11 @@
     </build>
 
 </project>
-'''
+
+```
 
 - 2. application.yml
-'''
+``` yaml
 spring:
   redis:
     database: 0
@@ -75,5 +76,5 @@ spring:
         max-active: 8
         max-wait: -1
         min-idle: 0
-'''
+```
 - 3. @Autowired RedisTemplate

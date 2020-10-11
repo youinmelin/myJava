@@ -18,8 +18,14 @@ public class LettuceRedisConfig {
     @Bean
     public RedisTemplate<String, Serializable> redisTemplate(LettuceConnectionFactory connectionFactory) {
         RedisTemplate<String, Serializable> redisTemplate = new RedisTemplate<>();
+        // key采用String的序列化方式
         redisTemplate.setKeySerializer(new StringRedisSerializer());
+        // hash的key也采用String的序列化方式
+        redisTemplate.setHashKeySerializer(new StringRedisSerializer());
+        // value序列化方式采用jackson
         redisTemplate.setValueSerializer(new GenericJackson2JsonRedisSerializer());
+        // hash的value序列化方式采用jackson
+        redisTemplate.setHashValueSerializer(new GenericJackson2JsonRedisSerializer());
         redisTemplate.setConnectionFactory(connectionFactory);
         return redisTemplate;
     }
