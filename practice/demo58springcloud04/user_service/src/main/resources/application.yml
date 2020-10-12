@@ -1,0 +1,17 @@
+server:
+  port: 9090
+spring:
+  datasource:
+    username: root
+    password: aaaaaa
+    url: jdbc:mysql:///test
+    driver-class-name: com.mysql.jdbc.Driver
+  application:
+    name: user_service
+mybatis:
+  type-aliases-package: com.lin.pojo
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10087/eureka
+
