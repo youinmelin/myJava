@@ -1,0 +1,12 @@
+server:
+  port: 9091
+spring:
+  application:
+    name: user_consumer
+mybatis:
+  type-aliases-package: com.lin.pojo
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10087/eureka,http://127.0.0.1:10086/eureka
+

@@ -8,7 +8,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="consumer_demo" />
         <module name="eureka_server" />
-        <module name="eureka_server02" />
         <module name="user_service" />
       </profile>
     </annotationProcessing>
