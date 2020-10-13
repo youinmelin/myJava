@@ -1,5 +1,5 @@
 server:
-  port: 9090
+  port: ${port:9090}
 spring:
   datasource:
     username: root
@@ -7,7 +7,7 @@ spring:
     url: jdbc:mysql:///test
     driver-class-name: com.mysql.jdbc.Driver
   application:
-    name: user_service
+    name: userService
 mybatis:
   type-aliases-package: com.lin.pojo
 eureka:

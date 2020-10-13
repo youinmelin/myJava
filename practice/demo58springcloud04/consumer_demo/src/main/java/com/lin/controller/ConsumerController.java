@@ -22,11 +22,13 @@ public class ConsumerController {
 
     @GetMapping("/byid/{id}")
     public UserEntity findById(@PathVariable Long id) {
-//        String url = "http://localhost:9091/user/byid/" + id;
+        String url;
+         url = "http://localhost:9091/user/byid/" + id;
         // 获取eureka中注册的user-service的实例
-        List<ServiceInstance> instances = discoveryClient.getInstances("user_service");
-        ServiceInstance serviceInstance = instances.get(0);
-        String url = "http://" + serviceInstance.getHost() + ":" + serviceInstance.getPort() + "/user/byid/" + id;
+//        List<ServiceInstance> instances = discoveryClient.getInstances("user_service");
+//        ServiceInstance serviceInstance = instances.get(0);
+//         url = "http://" + serviceInstance.getHost() + ":" + serviceInstance.getPort() + "/user/byid/" + id;
+        url = "http://userService/user/byid/" + id;
         UserEntity userEntity = restTemplate.getForObject(url, UserEntity.class);
         return userEntity;
 
