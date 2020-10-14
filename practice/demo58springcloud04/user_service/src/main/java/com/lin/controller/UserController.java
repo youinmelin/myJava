@@ -17,6 +17,11 @@ public class UserController {
 
     @GetMapping("/byid/{id}")
     public UserEntity findUserById(@PathVariable Long id) {
+        try {
+            Thread.sleep(900);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         UserEntity userById = userService.findUserById(id);
         System.out.println(port);
         return userById;
