@@ -1,8 +1,8 @@
 server:
-  port: 31001
+  port: ${port:31001}
 spring:
   application:
-    name: xc-service-manage-cms
+    name: XcServiceManageCms
   data:
     mongodb:
       uri: mongodb://localhost:27017
@@ -16,4 +16,8 @@ spring:
     cache: false # close cache
     settings:
       template_update_delay: 0
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:50101/eureka, http://localhost:50102/eureka
 

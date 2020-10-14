@@ -1,0 +1,11 @@
+server:
+  port: ${port:50101}
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: ${defaultZone:http://127.0.0.1:50102/eureka}
+spring:
+  application:
+    name: eurekaServer

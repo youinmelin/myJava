@@ -23,6 +23,17 @@ spring:
 hengboy:
   pageable:
     dialect: mysql
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:50101/eureka,http://localhost:50102/eureka
+ribbon:
+  MaxAutoRetries: 2
+  MaxAutoRetriesNextServer: 3
+  OkToRetryOnAllOperations: false
+  ConnectTimeOut: 5000
+  ReadTimeOut: 6000
+
 
 
 

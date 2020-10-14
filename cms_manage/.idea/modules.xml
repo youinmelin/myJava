@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/cms_service/xc-framework-model/xc-framework-model.iml" filepath="$PROJECT_DIR$/cms_service/xc-framework-model/xc-framework-model.iml" />
       <module fileurl="file://$PROJECT_DIR$/cms_service/xc-framework-parent/xc-framework-parent.iml" filepath="$PROJECT_DIR$/cms_service/xc-framework-parent/xc-framework-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/cms_service/xc-framework-utils/xc-framework-utils.iml" filepath="$PROJECT_DIR$/cms_service/xc-framework-utils/xc-framework-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cms_service/xc-govern-center/xc-govern-center.iml" filepath="$PROJECT_DIR$/cms_service/xc-govern-center/xc-govern-center.iml" />
       <module fileurl="file://$PROJECT_DIR$/cms_service/xc-service-api/xc-service-api.iml" filepath="$PROJECT_DIR$/cms_service/xc-service-api/xc-service-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/cms_service/xc-service-manage-cms/xc-service-manage-cms.iml" filepath="$PROJECT_DIR$/cms_service/xc-service-manage-cms/xc-service-manage-cms.iml" />
       <module fileurl="file://$PROJECT_DIR$/cms_service/xc-service-manage-cms-client/xc-service-manage-cms-client.iml" filepath="$PROJECT_DIR$/cms_service/xc-service-manage-cms-client/xc-service-manage-cms-client.iml" />
