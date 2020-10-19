@@ -1,4 +1,3 @@
-package demo01;
 public class Person {
 	String name;
 	private int age;

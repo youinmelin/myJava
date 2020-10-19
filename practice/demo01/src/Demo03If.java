@@ -1,4 +1,3 @@
-package demo01;
 class Demo03If {
     public static void main(String[] args) {
         int num = 9;

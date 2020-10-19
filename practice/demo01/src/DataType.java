@@ -1,4 +1,3 @@
-package demo01;
 class DataType {
 	public static void main(String[] args) {
 		byte b = 10;

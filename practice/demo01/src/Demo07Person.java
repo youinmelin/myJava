@@ -1,4 +1,3 @@
-package demo01;
 public class Demo07Person {
 	public static void main(String[] args) {
 		Person one = new Person();
