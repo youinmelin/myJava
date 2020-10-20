@@ -7,7 +7,7 @@ import java.util.List;
  * 递归查找所有文件
  * 参考：https://blog.csdn.net/weixin_37770023/article/details/80561854
  */
-public class File05FindFile {
+public class File05AFindAllFile {
 
     public static List<File> getFilename(File file) {
         ArrayList<File> files = new ArrayList<>();

@@ -3,17 +3,19 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/springboot_quickstart/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot_quickstart2/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot_mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/springboot_jpa/pom.xml" />
         <option value="$PROJECT_DIR$/springboot_jdbc/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot_freemarker/pom.xml" />
         <option value="$PROJECT_DIR$/springboot_redis/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_redis2/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_mybatis02/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_freemarker/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_quickstart/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_quickstart2/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="9.0" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_9" project-jdk-name="9.0" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

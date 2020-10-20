@@ -10,17 +10,19 @@
         <module name="springboot_jdbc" />
         <module name="springboot_jpa" />
         <module name="springboot_mybatis" />
+        <module name="springboot_mybatis02" />
         <module name="springboot_quickstart" />
         <module name="springboot_quickstart2" />
         <module name="springboot_redis" />
         <module name="springboot_redis2" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="9">
       <module name="springboot_freemarker" target="1.8" />
       <module name="springboot_jdbc" target="1.8" />
       <module name="springboot_jpa" target="1.9" />
       <module name="springboot_mybatis" target="1.9" />
+      <module name="springboot_mybatis02" target="1.8" />
       <module name="springboot_quickstart" target="1.8" />
       <module name="springboot_quickstart2" target="1.9" />
       <module name="springboot_redis" target="1.8" />

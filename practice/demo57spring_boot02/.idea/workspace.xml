@@ -1,38 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a5d5882-64fd-47fb-b92c-759137b538ba" name="Default" comment="">
-<<<<<<< HEAD
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../demo32Stream/CopyFile.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../demo32Stream/CopyFile02.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../demo32Stream/CopyFile03.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../demo32Stream/InputStream01.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../demo32Stream/InputStream02.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../demo32Stream/OutputStream01.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../demo32Stream/OutputStream02.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../demo32Stream/files/1.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../demo30File/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../demo30File/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-=======
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_cache_2_0_2_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot_redis/target/classes/com/lin/RedisApplication.class" afterPath="$PROJECT_DIR$/springboot_redis/target/classes/com/lin/RedisApplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot_redis/target/classes/com/lin/service/RedisService.class" afterPath="$PROJECT_DIR$/springboot_redis/target/classes/com/lin/service/RedisService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot_redis/pom.xml" afterPath="$PROJECT_DIR$/springboot_redis/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot_redis/redis note.md" afterPath="$PROJECT_DIR$/springboot_redis/redis note.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot_redis/springboot_redis.iml" afterPath="$PROJECT_DIR$/springboot_redis/springboot_redis.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot_redis/src/main/java/com/lin/RedisApplication.java" afterPath="$PROJECT_DIR$/springboot_redis/src/main/java/com/lin/RedisApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot_redis/src/main/java/com/lin/service/RedisService.java" afterPath="$PROJECT_DIR$/springboot_redis/src/main/java/com/lin/service/RedisService.java" />
->>>>>>> 816815855d3a850cf2c2109222712b4cbe9a77ec
-    </list>
-    <ignored path="$PROJECT_DIR$/springboot_quickstart/target/" />
-    <ignored path="$PROJECT_DIR$/springboot_quickstart2/target/" />
-    <ignored path="$PROJECT_DIR$/springboot_mybatis/target/" />
-    <ignored path="$PROJECT_DIR$/springboot_jpa/target/" />
-    <ignored path="$PROJECT_DIR$/springboot_jdbc/target/" />
+    <list default="true" id="fb3456fb-1816-4fb0-8d0d-7c9e97e4b31a" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/springboot_mybatis02/target/" />
+    <ignored path="$PROJECT_DIR$/springboot_redis2/target/" />
     <ignored path="$PROJECT_DIR$/springboot_freemarker/target/" />
     <ignored path="$PROJECT_DIR$/springboot_redis/target/" />
-    <ignored path="$PROJECT_DIR$/springboot_redis2/target/" />
+    <ignored path="$PROJECT_DIR$/springboot_jpa/target/" />
+    <ignored path="$PROJECT_DIR$/springboot_quickstart2/target/" />
+    <ignored path="$PROJECT_DIR$/springboot_mybatis/target/" />
+    <ignored path="$PROJECT_DIR$/springboot_jdbc/target/" />
+    <ignored path="$PROJECT_DIR$/springboot_quickstart/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,127 +18,108 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CompilerWorkspaceConfiguration">
-    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="demo57spring_boot02" />
-  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestRedis.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot_redis/src/test/java/com/lin/TestRedis.java">
-          <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="1150">
-              <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-=======
-            <state relative-caret-position="261">
-              <caret line="39" column="14" lean-forward="false" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
->>>>>>> 816815855d3a850cf2c2109222712b4cbe9a77ec
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot_redis/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="613">
-              <caret line="37" column="80" lean-forward="false" selection-start-line="37" selection-start-column="80" selection-end-line="37" selection-end-column="80" />
-=======
-            <state relative-caret-position="374">
-              <caret line="35" column="19" lean-forward="false" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RedisApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot_redis/src/main/java/com/lin/RedisApplication.java">
+    <leaf>
+      <file leaf-file-name="SpringbootMybatis02Application.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot_mybatis02/src/main/java/com/lin/SpringbootMybatis02Application.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="132">
-              <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="redis note.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/springboot_redis/redis note.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="502">
-                <caret line="40" column="33" lean-forward="false" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
-                <folding>
-                  <marker date="1602312351712" expanded="true" signature="175:2078" ph="..." />
-                  <marker date="1602312351712" expanded="true" signature="398:629" ph="..." />
-                  <marker date="1602312351712" expanded="true" signature="763:1834" ph="..." />
-                  <marker date="1602312351712" expanded="true" signature="785:924" ph="..." />
-                  <marker date="1602312351712" expanded="true" signature="946:1118" ph="..." />
-                  <marker date="1602312351712" expanded="true" signature="1163:1309" ph="..." />
-                  <marker date="1602312351712" expanded="true" signature="1330:1490" ph="..." />
-                  <marker date="1602312351712" expanded="true" signature="1511:1676" ph="..." />
-                  <marker date="1602312351712" expanded="true" signature="1697:1814" ph="..." />
-                  <marker date="1602312351712" expanded="true" signature="1847:2066" ph="..." />
-                  <marker date="1602312351712" expanded="true" signature="1865:2053" ph="..." />
-                  <marker date="1602312351712" expanded="true" signature="1886:2034" ph="..." />
-                </folding>
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RedisService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot_redis/src/main/java/com/lin/service/RedisService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="437" column="38" lean-forward="false" selection-start-line="437" selection-start-column="38" selection-end-line="437" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#4282#4283#0" expanded="true" />
-                <element signature="e#4346#4347#0" expanded="true" />
-                <element signature="e#6574#6575#0" expanded="true" />
-                <element signature="e#6634#6635#0" expanded="true" />
-                <element signature="e#6819#6820#0" expanded="true" />
-                <element signature="e#6886#6887#0" expanded="true" />
-                <element signature="method#lGet#0;class#RedisService#0" expanded="false" />
-                <element signature="method#lGetListSize#0;class#RedisService#0" expanded="false" />
-                <element signature="method#lGetIndex#0;class#RedisService#0" expanded="false" />
-                <element signature="method#lSet#0;class#RedisService#0" expanded="false" />
-                <element signature="method#lSet#1;class#RedisService#0" expanded="false" />
-                <element signature="method#lSet#2;class#RedisService#0" expanded="false" />
-                <element signature="method#lSet#3;class#RedisService#0" expanded="false" />
-                <element signature="method#lUpdateIndex#0;class#RedisService#0" expanded="false" />
-                <element signature="method#lRemove#0;class#RedisService#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot_redis/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/springboot_mybatis02/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+            <state relative-caret-position="66">
+              <caret line="3" column="27" lean-forward="false" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestRedisHuYiTeacher.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot_redis/src/test/java/com/lin/TestRedisHuYiTeacher.java">
+      <file leaf-file-name="SpringbootMybatisApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot_mybatis/src/main/java/com/lin/SpringbootMybatisApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
->>>>>>> 816815855d3a850cf2c2109222712b4cbe9a77ec
+            <state relative-caret-position="132">
+              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StuMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot_mybatis02/src/main/java/com/lin/mapper/StuMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StudentsService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot_mybatis02/src/main/java/com/lin/service/StudentsService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="12" column="15" lean-forward="false" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClassService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/springboot_mybatis02/src/main/java/com/lin/service/ClassService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#315#316#0" expanded="true" />
+                <element signature="e#360#361#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClassMaper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot_mybatis02/src/main/java/com/lin/mapper/ClassMaper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="74" lean-forward="false" selection-start-line="5" selection-start-column="74" selection-end-line="5" selection-end-column="74" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestTeachplan.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot_mybatis/src/test/java/com/lin/test/TestTeachplan.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot_mybatis02/src/test/java/com/lin/test/TestService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-22">
+              <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -170,16 +129,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
-        <option value="JUnit4 Test Class" />
-        <option value="Interface" />
-        <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -189,57 +141,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/springboot_mybatis/src/main/java/com/lin/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/springboot_mybatis/src/main/resources/static/signup.html" />
-        <option value="$PROJECT_DIR$/springboot_freemarker/src/main/java/com/lin/pojo/student.java" />
-        <option value="$PROJECT_DIR$/springboot_freemarker/src/main/java/com/lin/pojo/Student.java" />
-        <option value="$PROJECT_DIR$/springboot_freemarker/src/main/resources/templates/test.ftl" />
-        <option value="$PROJECT_DIR$/springboot_freemarker/src/main/java/com/lin/mapper/FreemarkerMapper.java" />
-        <option value="$PROJECT_DIR$/springboot_freemarker/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot_freemarker/src/main/java/com/lin/service/FreemarkerService.java" />
-        <option value="$PROJECT_DIR$/springboot_freemarker/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/springboot_freemarker/src/main/java/com/lin/pojo/User.java" />
-        <option value="$PROJECT_DIR$/springboot_freemarker/src/main/resources/templates/freemarker_test3.ftlh" />
-        <option value="$PROJECT_DIR$/springboot_mybatis/src/main/resources/static/allusers.html" />
-        <option value="$PROJECT_DIR$/springboot_mybatis/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot_mybatis/src/main/java/com/lin/controller/FreemarkerController.java" />
-        <option value="$PROJECT_DIR$/springboot_mybatis/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/springboot_mybatis/src/main/resources/templates/json_freemarker.ftlh" />
-        <option value="$PROJECT_DIR$/springboot_freemarker/src/main/resources/templates/freemarker_test2.ftlh" />
-        <option value="$PROJECT_DIR$/springboot_freemarker/src/test/java/com/lin/test/freemarker/FreemarkerTestTest.java" />
-        <option value="$PROJECT_DIR$/springboot_freemarker/src/test/java/com/lin/test/freemarker/FreemarkerTest.java" />
-        <option value="$PROJECT_DIR$/springboot_freemarker/src/test/java/com/lin/SpringbootFreemarkerApplicationTests.java" />
-        <option value="$PROJECT_DIR$/springboot_freemarker/src/test/resources/templates/file_msg.ftlh" />
-        <option value="$PROJECT_DIR$/springboot_freemarker/src/main/java/com/lin/pojo/show_file_msg.java" />
-        <option value="$PROJECT_DIR$/springboot_freemarker/src/main/java/com/lin/pojo/FileMsg.java" />
-        <option value="$PROJECT_DIR$/springboot_freemarker/src/main/java/com/lin/mapper/FileMsgMapp.java" />
-        <option value="$PROJECT_DIR$/springboot_freemarker/src/main/java/com/lin/mapper/FileMsgMapper.java" />
-        <option value="$PROJECT_DIR$/springboot_freemarker/src/main/java/com/lin/service/FileMsgService.java" />
-        <option value="$PROJECT_DIR$/springboot_freemarker/src/main/java/com/lin/controller/FileMsgController.java" />
-        <option value="$PROJECT_DIR$/springboot_freemarker/src/main/resources/templates/file_msg.ftlh" />
-        <option value="$PROJECT_DIR$/springboot_freemarker/src/main/java/com/lin/SpringbootFreemarkerApplication.java" />
-        <option value="$PROJECT_DIR$/springboot_freemarker/src/main/resources/templates/index_banner2.ftlh" />
-        <option value="$PROJECT_DIR$/springboot_freemarker/src/main/resources/templates/index_banner.ftlh" />
-        <option value="$PROJECT_DIR$/springboot_freemarker/src/main/java/com/lin/controller/FreemarkerController.java" />
-        <option value="$PROJECT_DIR$/springboot_mybatis/src/main/java/com/lin/domain/Teachplan.java" />
-        <option value="$PROJECT_DIR$/springboot_redis/src/main/java/com/lin/pojo/UserEntiry.java" />
-        <option value="$PROJECT_DIR$/springboot_redis/src/main/java/com/lin/mapper.java" />
-        <option value="$PROJECT_DIR$/springboot_redis/src/main/java/com/lin/mapper/userEntity.java" />
-        <option value="$PROJECT_DIR$/springboot_redis/src/main/java/com/lin/mapper/UserEntityMapper.java" />
-        <option value="$PROJECT_DIR$/springboot_redis/src/test/java/com/lin/TestMybatis.java" />
-        <option value="$PROJECT_DIR$/springboot_redis/src/main/java/com/lin/pojo/UserEntity.java" />
-        <option value="$PROJECT_DIR$/springboot_redis/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/springboot_redis/src/test/java/com/lin/TestRedis.java" />
-        <option value="$PROJECT_DIR$/springboot_redis2/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/springboot_redis2/src/test/java/com/lin/SpringbootRedis2ApplicationTests.java" />
-        <option value="$PROJECT_DIR$/springboot_redis2/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot_redis2/src/main/java/com/lin/TestRedis.java" />
-        <option value="$PROJECT_DIR$/springboot_redis/src/test/java/com/lin/TestRedisYiHuTeacher.java" />
-        <option value="$PROJECT_DIR$/springboot_redis/src/main/java/com/lin/config/LettuceRedisConfig.java" />
-        <option value="$PROJECT_DIR$/springboot_redis/src/main/java/com/lin/service/RedisService.java" />
-        <option value="$PROJECT_DIR$/springboot_redis/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot_redis/src/main/java/com/lin/RedisApplication.java" />
-        <option value="$PROJECT_DIR$/springboot_redis/redis note.md" />
+        <option value="$PROJECT_DIR$/springboot_mybatis02/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springboot_mybatis02/src/main/java/com/lin/mapper/ClassMap.java" />
+        <option value="$PROJECT_DIR$/springboot_mybatis02/src/main/java/com/lin/mapper/ClassMaper.java" />
+        <option value="$PROJECT_DIR$/springboot_mybatis02/src/main/java/com/lin/mapper/StuMapper.java" />
+        <option value="$PROJECT_DIR$/springboot_mybatis02/src/main/java/com/lin/service/ClassService.java" />
       </list>
     </option>
   </component>
@@ -252,73 +158,28 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="$PROJECT_DIR$/../../../../maven\repository" />
+        <option name="localRepository" value="D:\testing_tools\maven\repository" />
         <option name="mavenHome" value="$PROJECT_DIR$/../../../../maven" />
-        <option name="userSettingsFile" value="$PROJECT_DIR$/../../../../maven\conf\settings.xml" />
+        <option name="userSettingsFile" value="D:\testing_tools\maven\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
-  </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="springboot_freemarker" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="springboot_freemarker" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="springboot_jdbc" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="springboot_jdbc" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="springboot_jdbc" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework.boot:spring-boot-starter-jdbc:2.3.3.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="springboot_jdbc" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework.boot:spring-boot-starter-jdbc:2.3.3.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="com.zaxxer:HikariCP:3.4.5" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="springboot_mybatis" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="springboot_mybatis" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="lookForNested" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="MavenRunner">
     <option name="jreName" value="9.0" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="754" />
-  </component>
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
+    <option name="x" value="-188" />
+    <option name="y" value="-1088" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator currentView="PackagesPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -332,134 +193,59 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-<<<<<<< HEAD
-=======
-      <pane id="PackagesPane" />
->>>>>>> 816815855d3a850cf2c2109222712b4cbe9a77ec
+      <pane id="ProjectPane" />
       <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="ProjectPane">
+      <pane id="Scratches" />
+      <pane id="PackagesPane">
         <subPane>
           <expand>
             <path>
-              <item name="demo57spring_boot02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_redis" type="462c0819:PsiDirectoryNode" />
+              <item name="demo57spring_boot02" type="58d84e3e:PackageViewProjectNode" />
+              <item name="springboot_mybatis" type="616d4139:PackageViewModuleNode" />
             </path>
             <path>
-              <item name="demo57spring_boot02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="demo57spring_boot02" type="58d84e3e:PackageViewProjectNode" />
+              <item name="springboot_mybatis" type="616d4139:PackageViewModuleNode" />
+              <item name="com.lin" type="1f31426a:PackageElementNode" />
             </path>
             <path>
-              <item name="demo57spring_boot02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="demo57spring_boot02" type="58d84e3e:PackageViewProjectNode" />
+              <item name="springboot_mybatis02" type="616d4139:PackageViewModuleNode" />
             </path>
             <path>
-              <item name="demo57spring_boot02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo57spring_boot02" type="58d84e3e:PackageViewProjectNode" />
+              <item name="springboot_mybatis02" type="616d4139:PackageViewModuleNode" />
+              <item name="com.lin" type="1f31426a:PackageElementNode" />
             </path>
             <path>
-              <item name="demo57spring_boot02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="demo57spring_boot02" type="58d84e3e:PackageViewProjectNode" />
+              <item name="springboot_mybatis02" type="616d4139:PackageViewModuleNode" />
+              <item name="com.lin" type="1f31426a:PackageElementNode" />
+              <item name="mapper" type="1f31426a:PackageElementNode" />
             </path>
             <path>
-              <item name="demo57spring_boot02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="lin" type="462c0819:PsiDirectoryNode" />
+              <item name="demo57spring_boot02" type="58d84e3e:PackageViewProjectNode" />
+              <item name="springboot_mybatis02" type="616d4139:PackageViewModuleNode" />
+              <item name="com.lin" type="1f31426a:PackageElementNode" />
+              <item name="pojo" type="1f31426a:PackageElementNode" />
             </path>
             <path>
-              <item name="demo57spring_boot02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="lin" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="demo57spring_boot02" type="58d84e3e:PackageViewProjectNode" />
+              <item name="springboot_mybatis02" type="616d4139:PackageViewModuleNode" />
+              <item name="com.lin" type="1f31426a:PackageElementNode" />
+              <item name="service" type="1f31426a:PackageElementNode" />
             </path>
             <path>
-              <item name="demo57spring_boot02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="lin" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo57spring_boot02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="lin" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo57spring_boot02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo57spring_boot02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo57spring_boot02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo57spring_boot02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo57spring_boot02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="lin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo57spring_boot02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="demo57spring_boot02" type="58d84e3e:PackageViewProjectNode" />
+              <item name="springboot_mybatis02" type="616d4139:PackageViewModuleNode" />
+              <item name="com.lin" type="1f31426a:PackageElementNode" />
+              <item name="test" type="1f31426a:PackageElementNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-<<<<<<< HEAD
-      <pane id="PackagesPane" />
-=======
->>>>>>> 816815855d3a850cf2c2109222712b4cbe9a77ec
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -467,9 +253,9 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="jdk.selected.JAVA_MODULE" value="9.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springboot_mybatis02/src" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.proportion" value="0.15794307" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelOrder0" value="0" />
@@ -477,39 +263,6 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RequestMappingsPanelOrder2" value="2" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/springboot_jdbc/src/main/java" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="restartRequiresConfirmation" value="false" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.lin.test.freemarker" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.lin" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\knowledge\IT\my_git\myJava\practice\demo57spring_boot02\springboot_redis\src\main\resources" />
-      <recent name="E:\knowledge\IT\my_git\myJava\practice\demo57spring_boot02\springboot_freemarker\src\main\resources\templates" />
-      <recent name="D:\testing_tools\my_git\myJava\practice\demo57spring_boot02\springboot_freemarker\src\test\resources\templates" />
-      <recent name="D:\testing_tools\my_git\myJava\practice\demo57spring_boot02\springboot_freemarker\src\test" />
-      <recent name="D:\testing_tools\my_git\myJava\practice\demo57spring_boot02\springboot_freemarker\src\main\resources\templates" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.lin" />
-      <recent name="com.lin.pojo" />
-      <recent name="com.lin.controller" />
-      <recent name="domain" />
-      <recent name="com.lin.domain" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\testing_tools\my_git\myJava\practice\demo57spring_boot02\springboot_freemarker\src\main\resources\templates" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -523,56 +276,48 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestRedis.testRedisTemplate">
-    <configuration name="RedisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lin.RedisApplication" />
-      <module name="springboot_redis" />
+  <component name="RunManager" selected="JUnit.TestService.testStudent">
+    <configuration name="SpringbootMybatis02Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.lin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lin.SpringbootMybatis02Application" />
+      <module name="springboot_mybatis02" />
       <envs />
     </configuration>
-    <configuration name="SpringbootFreemarkerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lin.SpringbootFreemarkerApplication" />
-      <module name="springboot_freemarker" />
-      <envs />
-    </configuration>
-    <configuration name="SpringbootJdbcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lin.SpringbootJdbcApplication" />
-      <module name="springboot_jdbc" />
-      <envs />
-    </configuration>
-    <configuration name="SpringbootJpaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lin.SpringbootJpaApplication" />
-      <module name="springboot_jpa" />
-      <envs />
-    </configuration>
-    <configuration name="SpringbootMybatisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    <configuration name="SpringbootMybatisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.lin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lin.SpringbootMybatisApplication" />
       <module name="springboot_mybatis" />
       <envs />
     </configuration>
-    <configuration name="SpringbootQuickstart2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="SpringbootRedis2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lin.SpringbootQuickstart2Application" />
-      <module name="springboot_quickstart2" />
-      <envs />
-    </configuration>
-    <configuration name="SpringbootRedis2ApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.lin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lin.SpringbootRedis2Application" />
       <module name="springboot_redis2" />
+      <envs />
+    </configuration>
+    <configuration name="TestService.testStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.lin.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="springboot_mybatis02" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.lin" />
-      <option name="MAIN_CLASS_NAME" value="com.lin.SpringbootRedis2ApplicationTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="PACKAGE_NAME" value="com.lin.test" />
+      <option name="MAIN_CLASS_NAME" value="com.lin.test.TestService" />
+      <option name="METHOD_NAME" value="testStudent" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -585,94 +330,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="TestMybatis.testMapper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestTeachplan.testFindTeachplanById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.lin.*" />
+          <option name="PATTERN" value="com.lin.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="springboot_redis" />
+      <module name="springboot_mybatis" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.lin" />
-      <option name="MAIN_CLASS_NAME" value="com.lin.TestMybatis" />
-      <option name="METHOD_NAME" value="testMapper" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="TestRedisHuYiTeacher.testRedisTemplate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.lin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="springboot_redis" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.lin" />
-      <option name="MAIN_CLASS_NAME" value="com.lin.TestRedisHuYiTeacher" />
-      <option name="METHOD_NAME" value="testRedisTemplate" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="TestRedis.testRedisSerializeable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.lin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="springboot_redis" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.lin" />
-      <option name="MAIN_CLASS_NAME" value="com.lin.TestRedis" />
-      <option name="METHOD_NAME" value="testRedisSerializeable" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="TestRedis.testRedisTemplate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.lin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="springboot_redis" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.lin" />
-      <option name="MAIN_CLASS_NAME" value="com.lin.TestRedis" />
-      <option name="METHOD_NAME" value="testRedisTemplate" />
+      <option name="PACKAGE_NAME" value="com.lin.test" />
+      <option name="MAIN_CLASS_NAME" value="com.lin.test.TestTeachplan" />
+      <option name="METHOD_NAME" value="testFindTeachplanById" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -766,26 +436,19 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="11">
-      <item index="0" class="java.lang.String" itemvalue="Spring Boot.SpringbootQuickstart2Application" />
-      <item index="1" class="java.lang.String" itemvalue="Spring Boot.SpringbootMybatisApplication" />
-      <item index="2" class="java.lang.String" itemvalue="Spring Boot.SpringbootJdbcApplication" />
-      <item index="3" class="java.lang.String" itemvalue="Spring Boot.SpringbootFreemarkerApplication" />
-      <item index="4" class="java.lang.String" itemvalue="Spring Boot.SpringbootJpaApplication" />
-      <item index="5" class="java.lang.String" itemvalue="Spring Boot.RedisApplication" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.TestRedis.testRedisSerializeable" />
-      <item index="7" class="java.lang.String" itemvalue="JUnit.TestMybatis.testMapper" />
-      <item index="8" class="java.lang.String" itemvalue="JUnit.TestRedis.testRedisTemplate" />
-      <item index="9" class="java.lang.String" itemvalue="JUnit.SpringbootRedis2ApplicationTests.contextLoads" />
-      <item index="10" class="java.lang.String" itemvalue="JUnit.TestRedisHuYiTeacher.testRedisTemplate" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Spring Boot.SpringbootRedis2Application" />
+      <item index="1" class="java.lang.String" itemvalue="Spring Boot.SpringbootMybatis02Application" />
+      <item index="2" class="java.lang.String" itemvalue="Spring Boot.SpringbootMybatisApplication" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestTeachplan.testFindTeachplanById" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestService.testStudent" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestRedis.testRedisTemplate" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestRedisHuYiTeacher.testRedisTemplate" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.SpringbootRedis2ApplicationTests.contextLoads" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TestMybatis.testMapper" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TestRedis.testRedisSerializeable" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestService.testStudent" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestTeachplan.testFindTeachplanById" />
+        <item index="2" class="java.lang.String" itemvalue="Spring Boot.SpringbootMybatisApplication" />
+        <item index="3" class="java.lang.String" itemvalue="Spring Boot.SpringbootMybatis02Application" />
       </list>
     </recent_temporary>
   </component>
@@ -794,144 +457,66 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1a5d5882-64fd-47fb-b92c-759137b538ba" name="Default" comment="" />
-      <created>1598586405657</created>
+      <changelist id="fb3456fb-1816-4fb0-8d0d-7c9e97e4b31a" name="Default" comment="" />
+      <created>1603180927755</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1598586405657</updated>
-      <workItem from="1598586407019" duration="974000" />
-      <workItem from="1598831480360" duration="10080000" />
-      <workItem from="1598924801186" duration="47881000" />
-      <workItem from="1599540630351" duration="1795000" />
-      <workItem from="1599544488883" duration="19940000" />
-      <workItem from="1599630263235" duration="9490000" />
-      <workItem from="1599653275372" duration="36188000" />
-      <workItem from="1601382122724" duration="2958000" />
-      <workItem from="1601454689740" duration="9868000" />
-      <workItem from="1601515550625" duration="1364000" />
-      <workItem from="1601529723347" duration="1686000" />
-      <workItem from="1601599823446" duration="853000" />
-      <workItem from="1601693060773" duration="85000" />
-      <workItem from="1602081096830" duration="2961000" />
-      <workItem from="1602122365003" duration="17843000" />
-<<<<<<< HEAD
-      <workItem from="1602327116313" duration="594000" />
-      <workItem from="1602407776754" duration="577000" />
-=======
-      <workItem from="1602202224601" duration="19247000" />
->>>>>>> 816815855d3a850cf2c2109222712b4cbe9a77ec
+      <updated>1603180927755</updated>
+      <workItem from="1603180929097" duration="1994000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestRedisYiHuTeacher_testRedisTemplate - 2020.10.08 at 21h 51m 42s.xml">
-      <configuration name="TestRedisYiHuTeacher.testRedisTemplate" configurationId="JUnit" />
+    <history-entry file="TestService_testStudent - 2020.10.20 at 16h 19m 30s.xml">
+      <configuration name="TestService.testStudent" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRedisYiHuTeacher_testRedisTemplate - 2020.10.08 at 21h 52m 28s.xml">
-      <configuration name="TestRedisYiHuTeacher.testRedisTemplate" configurationId="JUnit" />
+    <history-entry file="TestService_testStudent - 2020.10.20 at 16h 21m 32s.xml">
+      <configuration name="TestService.testStudent" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRedisYiHuTeacher_testRedisTemplate - 2020.10.09 at 08h 16m 20s.xml">
-      <configuration name="TestRedisYiHuTeacher.testRedisTemplate" configurationId="JUnit" />
+    <history-entry file="TestService_testStudent - 2020.10.20 at 16h 22m 49s.xml">
+      <configuration name="TestService.testStudent" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRedis_testRedisTemplate - 2020.10.08 at 17h 08m 34s.xml">
-      <configuration name="TestRedis.testRedisTemplate" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestRedis_testRedisTemplate - 2020.10.08 at 17h 09m 15s.xml">
-      <configuration name="TestRedis.testRedisTemplate" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestRedis_testRedisTemplate - 2020.10.08 at 17h 10m 39s.xml">
-      <configuration name="TestRedis.testRedisTemplate" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestRedis_testRedisTemplate - 2020.10.09 at 08h 18m 17s.xml">
-      <configuration name="TestRedis.testRedisTemplate" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestRedis_testRedisTemplate - 2020.10.09 at 08h 22m 23s.xml">
-      <configuration name="TestRedis.testRedisTemplate" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestRedis_testRedisTemplate - 2020.10.09 at 08h 23m 24s.xml">
-      <configuration name="TestRedis.testRedisTemplate" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestRedis_testRedisTemplate - 2020.10.09 at 08h 24m 02s.xml">
-      <configuration name="TestRedis.testRedisTemplate" configurationId="JUnit" />
+    <history-entry file="TestTeachplan_testFindTeachplanById - 2020.10.20 at 16h 08m 42s.xml">
+      <configuration name="TestTeachplan.testFindTeachplanById" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< HEAD
-    <option name="totallyTimeSpent" value="165137000" />
-=======
-    <option name="totallyTimeSpent" value="183213000" />
->>>>>>> 816815855d3a850cf2c2109222712b4cbe9a77ec
+    <option name="totallyTimeSpent" value="1994000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-188" y="-1088" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4356589" sideWeight="0.23426062" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22986823" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3450106" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5124224" sideWeight="0.7657394" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24597365" sideWeight="0.4883721" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2569546" sideWeight="0.5116279" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30785564" sideWeight="0.49707174" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280255" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4356589" sideWeight="0.23426062" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22986823" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.503876" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30852714" sideWeight="0.49707174" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31472868" sideWeight="0.7657394" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21156661" sideWeight="0.4883721" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2569546" sideWeight="0.5116279" order="6" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -940,439 +525,91 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/springboot_redis/src/test/java/com/lin/TestMybatis.java</url>
-          <line>22</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="6" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../../../../jdk-9.0.4/lib/src.zip!/java.base/jdk/internal/reflect/DelegatingMethodAccessorImpl.java" />
-    <entry file="jar://$PROJECT_DIR$/../../../../jdk-9.0.4/lib/src.zip!/java.base/jdk/internal/reflect/NativeMethodAccessorImpl.java" />
-    <entry file="file://$PROJECT_DIR$/springboot_freemarker/src/main/java/com/lin/pojo/show_file_msg.java" />
-    <entry file="file://$PROJECT_DIR$/springboot_freemarker/src/main/java/com/lin/pojo/Student.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_freemarker/src/main/java/com/lin/pojo/FileMsg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_freemarker/src/main/java/com/lin/mapper/FileMsgMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_freemarker/src/main/resources/templates/freemarker_test2.ftlh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="925">
-          <caret line="37" column="28" lean-forward="false" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_freemarker/src/test/resources/templates/freemarker_test4.ftlh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_freemarker/src/main/java/com/lin/controller/FileMsgController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_freemarker/src/main/resources/templates/freemarker_test1.ftlh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_freemarker/src/main/resources/templates/freemarker_test3.ftlh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="27" column="35" lean-forward="false" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_freemarker/src/main/resources/templates/file_msg.ftlh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="30" column="6" lean-forward="false" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_freemarker/src/test/resources/templates/freemarker_test2.ftlh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_freemarker/src/test/resources/templates/freemarker_test1.ftlh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_freemarker/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
+        <state relative-caret-position="286">
           <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_freemarker/src/main/java/com/lin/pojo/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_freemarker/src/main/resources/templates/index_banner2.ftlh" />
-    <entry file="file://$PROJECT_DIR$/springboot_freemarker/src/test/resources/templates/freemarker_test3.ftlh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_freemarker/src/main/java/com/lin/mapper/FreemarkerMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="51" lean-forward="false" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_freemarker/src/main/resources/templates/index_banner.ftlh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="21" column="33" lean-forward="false" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_freemarker/src/main/java/com/lin/controller/FreemarkerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="27" column="25" lean-forward="false" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_freemarker/src/main/java/com/lin/service/FreemarkerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_freemarker/src/main/java/com/lin/service/FileMsgService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_redis/springboot_redis.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_redis/src/main/java/com/lin/config.java" />
-    <entry file="file://$PROJECT_DIR$/springboot_redis/src/test/java/com/lin.java" />
-    <entry file="file://$PROJECT_DIR$/springboot_quickstart2/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_freemarker/src/test/java/com/lin/SpringbootFreemarkerApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1950">
-          <caret line="94" column="36" lean-forward="false" selection-start-line="94" selection-start-column="36" selection-end-line="94" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_freemarker/src/main/java/com/lin/SpringbootFreemarkerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-<<<<<<< HEAD
-=======
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#547#548#0" expanded="false" />
-            <element signature="e#620#621#0" expanded="false" />
-          </folding>
->>>>>>> 816815855d3a850cf2c2109222712b4cbe9a77ec
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_redis/src/main/java/com/lin/mapper.java" />
-    <entry file="file://$PROJECT_DIR$/springboot_redis/src/main/java/com/lin/mapper/UserEntityMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="84" lean-forward="false" selection-start-line="7" selection-start-column="84" selection-end-line="7" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_mybatis/src/main/java/com/lin/domain/Teachplan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="15" column="40" lean-forward="false" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/test/apache-maven-3.5.2/repository/org/springframework/data/spring-data-redis/2.0.7.RELEASE/spring-data-redis-2.0.7.RELEASE.jar!/org/springframework/data/redis/core/BoundValueOperations.class" />
-    <entry file="jar://D:/test/apache-maven-3.5.2/repository/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java" />
-    <entry file="file://$PROJECT_DIR$/springboot_redis/src/test/java/com/lin/TestMybatis.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="350">
-          <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-=======
-        <state relative-caret-position="167">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
->>>>>>> 816815855d3a850cf2c2109222712b4cbe9a77ec
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_redis2/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="50">
-          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-=======
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
->>>>>>> 816815855d3a850cf2c2109222712b4cbe9a77ec
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_redis2/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="60">
-          <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-=======
-        <state relative-caret-position="850">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
->>>>>>> 816815855d3a850cf2c2109222712b4cbe9a77ec
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_redis2/src/test/java/com/lin/SpringbootRedis2ApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="195">
-          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-=======
-        <state relative-caret-position="125">
-          <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
->>>>>>> 816815855d3a850cf2c2109222712b4cbe9a77ec
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_redis2/src/main/java/com/lin/TestRedis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="13" column="11" lean-forward="false" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/test/apache-maven-3.5.2/repository/org/springframework/data/spring-data-redis/2.0.7.RELEASE/spring-data-redis-2.0.7.RELEASE.jar!/org/springframework/data/redis/core/RedisTemplate.class" />
-    <entry file="file://$PROJECT_DIR$/springboot_redis/src/main/java/com/lin/pojo/UserEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../../maven/repository/org/springframework/data/spring-data-redis/2.0.7.RELEASE/spring-data-redis-2.0.7.RELEASE.jar!/org/springframework/data/redis/core/RedisTemplate.class">
+    <entry file="file://$PROJECT_DIR$/springboot_mybatis02/src/main/java/com/lin/SpringbootMybatis02Application.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-=======
-        <state relative-caret-position="205">
-          <caret line="479" column="19" lean-forward="false" selection-start-line="479" selection-start-column="19" selection-end-line="479" selection-end-column="19" />
-          <folding />
->>>>>>> 816815855d3a850cf2c2109222712b4cbe9a77ec
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../../jdk-9.0.4/lib/src.zip!/java.base/java/util/concurrent/TimeUnit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="107" column="30" lean-forward="false" selection-start-line="107" selection-start-column="30" selection-end-line="107" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_redis/src/main/java/com/lin/config/LettuceRedisConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="250">
-          <caret line="21" column="10" lean-forward="false" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
-=======
-        <state relative-caret-position="110">
-          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-          <folding />
->>>>>>> 816815855d3a850cf2c2109222712b4cbe9a77ec
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_redis/src/test/java/com/lin/TestRedis.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="850">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-=======
-        <state relative-caret-position="261">
-          <caret line="39" column="14" lean-forward="false" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
->>>>>>> 816815855d3a850cf2c2109222712b4cbe9a77ec
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_redis/src/test/java/com/lin/TestRedisHuYiTeacher.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="125">
-          <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-=======
-        <state relative-caret-position="459">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
->>>>>>> 816815855d3a850cf2c2109222712b4cbe9a77ec
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_redis/src/main/java/com/lin/service/RedisService.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="324">
-          <caret line="13" column="11" lean-forward="false" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-=======
-        <state relative-caret-position="541">
-          <caret line="437" column="38" lean-forward="false" selection-start-line="437" selection-start-column="38" selection-end-line="437" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4282#4283#0" expanded="true" />
-            <element signature="e#4346#4347#0" expanded="true" />
-            <element signature="e#6574#6575#0" expanded="true" />
-            <element signature="e#6634#6635#0" expanded="true" />
-            <element signature="e#6819#6820#0" expanded="true" />
-            <element signature="e#6886#6887#0" expanded="true" />
-            <element signature="method#lGet#0;class#RedisService#0" expanded="false" />
-            <element signature="method#lGetListSize#0;class#RedisService#0" expanded="false" />
-            <element signature="method#lGetIndex#0;class#RedisService#0" expanded="false" />
-            <element signature="method#lSet#0;class#RedisService#0" expanded="false" />
-            <element signature="method#lSet#1;class#RedisService#0" expanded="false" />
-            <element signature="method#lSet#2;class#RedisService#0" expanded="false" />
-            <element signature="method#lSet#3;class#RedisService#0" expanded="false" />
-            <element signature="method#lUpdateIndex#0;class#RedisService#0" expanded="false" />
-            <element signature="method#lRemove#0;class#RedisService#0" expanded="false" />
-          </folding>
->>>>>>> 816815855d3a850cf2c2109222712b4cbe9a77ec
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_redis/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="148">
-          <caret line="775" column="33" lean-forward="false" selection-start-line="775" selection-start-column="33" selection-end-line="775" selection-end-column="33" />
-=======
-        <state relative-caret-position="308">
-          <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-          <folding />
->>>>>>> 816815855d3a850cf2c2109222712b4cbe9a77ec
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_redis/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="1150">
-          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-=======
-        <state relative-caret-position="374">
-          <caret line="35" column="19" lean-forward="false" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
-          <folding />
->>>>>>> 816815855d3a850cf2c2109222712b4cbe9a77ec
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_redis/src/main/java/com/lin/RedisApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="613">
-          <caret line="37" column="80" lean-forward="false" selection-start-line="37" selection-start-column="80" selection-end-line="37" selection-end-column="80" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-=======
         <state relative-caret-position="132">
-          <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_redis/redis note.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="502">
-            <caret line="40" column="33" lean-forward="false" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
-            <folding>
-              <marker date="1602312351712" expanded="true" signature="175:2078" ph="..." />
-              <marker date="1602312351712" expanded="true" signature="398:629" ph="..." />
-              <marker date="1602312351712" expanded="true" signature="763:1834" ph="..." />
-              <marker date="1602312351712" expanded="true" signature="785:924" ph="..." />
-              <marker date="1602312351712" expanded="true" signature="946:1118" ph="..." />
-              <marker date="1602312351712" expanded="true" signature="1163:1309" ph="..." />
-              <marker date="1602312351712" expanded="true" signature="1330:1490" ph="..." />
-              <marker date="1602312351712" expanded="true" signature="1511:1676" ph="..." />
-              <marker date="1602312351712" expanded="true" signature="1697:1814" ph="..." />
-              <marker date="1602312351712" expanded="true" signature="1847:2066" ph="..." />
-              <marker date="1602312351712" expanded="true" signature="1865:2053" ph="..." />
-              <marker date="1602312351712" expanded="true" signature="1886:2034" ph="..." />
-            </folding>
-          </first_editor>
-          <second_editor />
->>>>>>> 816815855d3a850cf2c2109222712b4cbe9a77ec
+    <entry file="file://$PROJECT_DIR$/springboot_mybatis/src/main/java/com/lin/SpringbootMybatisApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_mybatis/src/test/java/com/lin/test/TestTeachplan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_mybatis02/src/test/java/com/lin/test/TestService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_mybatis02/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="27" lean-forward="false" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_mybatis02/src/main/java/com/lin/mapper/ClassMaper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="74" lean-forward="false" selection-start-line="5" selection-start-column="74" selection-end-line="5" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_mybatis02/src/main/java/com/lin/mapper/StuMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_mybatis02/src/main/java/com/lin/service/StudentsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="12" column="15" lean-forward="false" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_mybatis02/src/main/java/com/lin/service/ClassService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1428,11 +665,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>springboot_redis</last-edited>
+          <last-edited>springboot_quickstart</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1452,7 +690,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
